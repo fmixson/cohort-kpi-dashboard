@@ -1,0 +1,1011 @@
+{
+  "generated_at": "2026-09-06T15:33:55",
+  "source": "student_data_tool (de-identified student-level extract)",
+  "cohorts": {
+    "Fall 2024": {
+      "n_students": 3633,
+      "overall": {
+        "english_attempted": {
+          "value": 85.8,
+          "target": 85.0,
+          "n": 3149,
+          "available": true,
+          "label": "Transfer-Level English Attempted",
+          "note": "Ever attempted, as of this data pull -- Transfer/Degree-Seeking students"
+        },
+        "math_attempted": {
+          "value": 76.7,
+          "target": 70.0,
+          "n": 3149,
+          "available": true,
+          "label": "Transfer-Level Math Attempted",
+          "note": "Ever attempted, as of this data pull -- Transfer/Degree-Seeking students"
+        },
+        "english_completed": {
+          "value": 61.4,
+          "target": 70.0,
+          "n": 3149,
+          "available": true,
+          "label": "Transfer-Level English Completed",
+          "note": "Ever completed, as of this data pull -- Transfer/Degree-Seeking students"
+        },
+        "math_completed": {
+          "value": 46.4,
+          "target": 55.0,
+          "n": 3149,
+          "available": true,
+          "label": "Transfer-Level Math Completed",
+          "note": "Ever completed, as of this data pull -- Transfer/Degree-Seeking students"
+        },
+        "cte_units_attempted": {
+          "value": 19.8,
+          "target": 20.0,
+          "n": 444,
+          "available": true,
+          "label": "CTE Units Attempted",
+          "note": "9+ CTE units, CTE Certificate students, as of AY2 (this cohort is in AY3, but this extract only tracks CTE through AY2 -- ask the analyst to add an AY3 CTE column)"
+        },
+        "cte_units_completed": {
+          "value": 15.8,
+          "target": 20.0,
+          "n": 444,
+          "available": true,
+          "label": "CTE Units Completed",
+          "note": "9+ CTE units, CTE Certificate students, as of AY2 (this cohort is in AY3, but this extract only tracks CTE through AY2 -- ask the analyst to add an AY3 CTE column)"
+        },
+        "any_award": {
+          "value": 14.0,
+          "target": null,
+          "n": 3633,
+          "available": true,
+          "label": "Any Award Earned (ever)",
+          "note": "Degree or certificate, as of this data pull"
+        },
+        "units_60_plus": {
+          "value": 14.6,
+          "target": null,
+          "n": 3633,
+          "available": true,
+          "label": "Earned 60+ Units",
+          "note": "Total completed units, as of this data pull"
+        },
+        "graduated": {
+          "value": 14.0,
+          "target": null,
+          "n": 3633,
+          "available": true,
+          "label": "Graduated",
+          "note": "As of this data pull"
+        }
+      },
+      "by_year": {
+        "1": {
+          "csep_dpp": {
+            "value": 85.8,
+            "target": 80.0,
+            "n": 3633,
+            "available": true,
+            "label": "CSEP/DPP Finalized",
+            "note": "By end of this year"
+          },
+          "units_attempted": {
+            "value": 74.9,
+            "target": null,
+            "n": 3149,
+            "available": true,
+            "label": "Units-Attempted Milestone",
+            "note": "15+ units attempted by end of Year 1 (includes summer before the start of the fall semester)"
+          },
+          "units_completed": {
+            "value": 48.0,
+            "target": 80.0,
+            "n": 3149,
+            "available": true,
+            "label": "Units-Completed Milestone",
+            "note": "15+ units completed by end of Year 1 (includes summer before the start of the fall semester)"
+          },
+          "persistence_fs": {
+            "value": 78.8,
+            "target": null,
+            "n": 3633,
+            "available": true,
+            "label": "Persistence, Fall-to-Spring",
+            "note": "Year 1"
+          }
+        },
+        "2": {
+          "csep_dpp": {
+            "value": 87.3,
+            "target": 80.0,
+            "n": 3633,
+            "available": true,
+            "label": "CSEP/DPP Finalized",
+            "note": "By end of this year"
+          },
+          "units_attempted": {
+            "value": 62.8,
+            "target": null,
+            "n": 3149,
+            "available": true,
+            "label": "Units-Attempted Milestone",
+            "note": "30+ units attempted by end of Year 2 (includes summer before the start of the fall semester)"
+          },
+          "units_completed": {
+            "value": 44.2,
+            "target": 80.0,
+            "n": 3149,
+            "available": true,
+            "label": "Units-Completed Milestone",
+            "note": "30+ units completed by end of Year 2 (includes summer before the start of the fall semester)"
+          },
+          "persistence_ff": {
+            "value": 64.8,
+            "target": null,
+            "n": 3633,
+            "available": true,
+            "label": "Persistence, Fall-to-Fall",
+            "note": "Year 1 to Year 2"
+          },
+          "persistence_s2": {
+            "value": 57.9,
+            "target": null,
+            "n": 3633,
+            "available": true,
+            "label": "Persistence, Fall-to-2nd-Spring",
+            "note": "Year 1 to Year 2"
+          }
+        },
+        "3": {
+          "csep_dpp": {
+            "value": 87.5,
+            "target": 80.0,
+            "n": 3633,
+            "available": true,
+            "label": "CSEP/DPP Finalized",
+            "note": "By end of this year"
+          },
+          "units_attempted": {
+            "value": 52.2,
+            "target": null,
+            "n": 3149,
+            "available": true,
+            "label": "Units-Attempted Milestone",
+            "note": "45+ units attempted by end of Year 3 (includes summer before the start of the fall semester)"
+          },
+          "units_completed": {
+            "value": 31.3,
+            "target": 80.0,
+            "n": 3149,
+            "available": true,
+            "label": "Units-Completed Milestone",
+            "note": "45+ units completed by end of Year 3 (includes summer before the start of the fall semester)"
+          },
+          "persistence_f3": {
+            "value": 43.9,
+            "target": null,
+            "n": 3632,
+            "available": true,
+            "label": "Persistence, Fall-to-3rd Fall (approx.)",
+            "note": "Approximated from unit-attempt growth AY2 to AY3 -- pending a confirmed Retained_f1_f3 flag from the analyst"
+          }
+        }
+      },
+      "breakdowns": {
+        "LCP / Division": [
+          {
+            "LCP_current": "AHC",
+            "N": 351,
+            "Transfer-Level English Completed": 62.6,
+            "Transfer-Level Math Completed": 38.0,
+            "CTE Units Completed": 0.0
+          },
+          {
+            "LCP_current": "ATST",
+            "N": 505,
+            "Transfer-Level English Completed": 49.5,
+            "Transfer-Level Math Completed": 31.5,
+            "CTE Units Completed": 20.1
+          },
+          {
+            "LCP_current": "BAL",
+            "N": 660,
+            "Transfer-Level English Completed": 56.3,
+            "Transfer-Level Math Completed": 41.7,
+            "CTE Units Completed": 12.8
+          },
+          {
+            "LCP_current": "ED",
+            "N": 366,
+            "Transfer-Level English Completed": 65.0,
+            "Transfer-Level Math Completed": 61.7,
+            "CTE Units Completed": NaN
+          },
+          {
+            "LCP_current": "EHS",
+            "N": 129,
+            "Transfer-Level English Completed": 62.8,
+            "Transfer-Level Math Completed": 33.1,
+            "CTE Units Completed": 0.0
+          },
+          {
+            "LCP_current": "HSW",
+            "N": 598,
+            "Transfer-Level English Completed": 59.8,
+            "Transfer-Level Math Completed": 41.8,
+            "CTE Units Completed": 14.6
+          },
+          {
+            "LCP_current": "SBS",
+            "N": 483,
+            "Transfer-Level English Completed": 63.6,
+            "Transfer-Level Math Completed": 49.1,
+            "CTE Units Completed": NaN
+          },
+          {
+            "LCP_current": "SEM",
+            "N": 539,
+            "Transfer-Level English Completed": 68.8,
+            "Transfer-Level Math Completed": 59.6,
+            "CTE Units Completed": 14.3
+          },
+          {
+            "LCP_current": NaN,
+            "N": 2,
+            "Transfer-Level English Completed": NaN,
+            "Transfer-Level Math Completed": NaN,
+            "CTE Units Completed": NaN
+          }
+        ],
+        "Major Classification": [
+          {
+            "major_classification_current": "CTE Certificate",
+            "N": 444,
+            "Transfer-Level English Completed": NaN,
+            "Transfer-Level Math Completed": NaN,
+            "CTE Units Completed": 15.8
+          },
+          {
+            "major_classification_current": "Non-CTE Certificate",
+            "N": 33,
+            "Transfer-Level English Completed": NaN,
+            "Transfer-Level Math Completed": NaN,
+            "CTE Units Completed": NaN
+          },
+          {
+            "major_classification_current": "Transfer/Degree-Seeking",
+            "N": 3149,
+            "Transfer-Level English Completed": 61.4,
+            "Transfer-Level Math Completed": 46.4,
+            "CTE Units Completed": NaN
+          },
+          {
+            "major_classification_current": "Unknown",
+            "N": 6,
+            "Transfer-Level English Completed": NaN,
+            "Transfer-Level Math Completed": NaN,
+            "CTE Units Completed": NaN
+          },
+          {
+            "major_classification_current": NaN,
+            "N": 1,
+            "Transfer-Level English Completed": NaN,
+            "Transfer-Level Math Completed": NaN,
+            "CTE Units Completed": NaN
+          }
+        ],
+        "Ethnicity": [
+          {
+            "Ethnicity": "American Indian or Alaska Native",
+            "N": 1,
+            "Transfer-Level English Completed": NaN,
+            "Transfer-Level Math Completed": NaN,
+            "CTE Units Completed": 0.0
+          },
+          {
+            "Ethnicity": "Asian",
+            "N": 217,
+            "Transfer-Level English Completed": 83.1,
+            "Transfer-Level Math Completed": 78.1,
+            "CTE Units Completed": 8.3
+          },
+          {
+            "Ethnicity": "Black or African American",
+            "N": 198,
+            "Transfer-Level English Completed": 50.3,
+            "Transfer-Level Math Completed": 33.0,
+            "CTE Units Completed": 17.6
+          },
+          {
+            "Ethnicity": "Hispanic/Latino",
+            "N": 2750,
+            "Transfer-Level English Completed": 62.9,
+            "Transfer-Level Math Completed": 46.5,
+            "CTE Units Completed": 17.6
+          },
+          {
+            "Ethnicity": "Native Hawaiian or Other Pacific Islander",
+            "N": 13,
+            "Transfer-Level English Completed": 16.7,
+            "Transfer-Level Math Completed": 8.3,
+            "CTE Units Completed": 0.0
+          },
+          {
+            "Ethnicity": "Race/Ethnicity Unknown",
+            "N": 30,
+            "Transfer-Level English Completed": 36.4,
+            "Transfer-Level Math Completed": 27.3,
+            "CTE Units Completed": 50.0
+          },
+          {
+            "Ethnicity": "Two or More Races",
+            "N": 70,
+            "Transfer-Level English Completed": 57.6,
+            "Transfer-Level Math Completed": 43.9,
+            "CTE Units Completed": 0.0
+          },
+          {
+            "Ethnicity": "White",
+            "N": 274,
+            "Transfer-Level English Completed": 39.2,
+            "Transfer-Level Math Completed": 31.0,
+            "CTE Units Completed": 7.3
+          },
+          {
+            "Ethnicity": NaN,
+            "N": 80,
+            "Transfer-Level English Completed": NaN,
+            "Transfer-Level Math Completed": NaN,
+            "CTE Units Completed": 13.8
+          }
+        ],
+        "Gender": [
+          {
+            "Gender": "Female",
+            "N": 1761,
+            "Transfer-Level English Completed": 64.8,
+            "Transfer-Level Math Completed": 48.6,
+            "CTE Units Completed": 17.2
+          },
+          {
+            "Gender": "Male",
+            "N": 1794,
+            "Transfer-Level English Completed": 57.7,
+            "Transfer-Level Math Completed": 44.5,
+            "CTE Units Completed": 14.9
+          },
+          {
+            "Gender": "Unknown",
+            "N": 78,
+            "Transfer-Level English Completed": 63.3,
+            "Transfer-Level Math Completed": 36.7,
+            "CTE Units Completed": 0.0
+          }
+        ]
+      }
+    },
+    "Fall 2025": {
+      "n_students": 3826,
+      "overall": {
+        "english_attempted": {
+          "value": 87.0,
+          "target": 85.0,
+          "n": 3338,
+          "available": true,
+          "label": "Transfer-Level English Attempted",
+          "note": "Ever attempted, as of this data pull -- Transfer/Degree-Seeking students"
+        },
+        "math_attempted": {
+          "value": 73.8,
+          "target": 70.0,
+          "n": 3338,
+          "available": true,
+          "label": "Transfer-Level Math Attempted",
+          "note": "Ever attempted, as of this data pull -- Transfer/Degree-Seeking students"
+        },
+        "english_completed": {
+          "value": 58.0,
+          "target": 70.0,
+          "n": 3338,
+          "available": true,
+          "label": "Transfer-Level English Completed",
+          "note": "Ever completed, as of this data pull -- Transfer/Degree-Seeking students"
+        },
+        "math_completed": {
+          "value": 38.1,
+          "target": 55.0,
+          "n": 3338,
+          "available": true,
+          "label": "Transfer-Level Math Completed",
+          "note": "Ever completed, as of this data pull -- Transfer/Degree-Seeking students"
+        },
+        "cte_units_attempted": {
+          "value": 24.6,
+          "target": 20.0,
+          "n": 476,
+          "available": true,
+          "label": "CTE Units Attempted",
+          "note": "9+ CTE units, CTE Certificate students, as of AY2, as of this data pull"
+        },
+        "cte_units_completed": {
+          "value": 12.0,
+          "target": 20.0,
+          "n": 476,
+          "available": true,
+          "label": "CTE Units Completed",
+          "note": "9+ CTE units, CTE Certificate students, as of AY2, as of this data pull"
+        },
+        "any_award": {
+          "value": 1.5,
+          "target": null,
+          "n": 3826,
+          "available": true,
+          "label": "Any Award Earned (ever)",
+          "note": "Degree or certificate, as of this data pull"
+        },
+        "units_60_plus": {
+          "value": 0.5,
+          "target": null,
+          "n": 3826,
+          "available": true,
+          "label": "Earned 60+ Units",
+          "note": "Total completed units, as of this data pull"
+        },
+        "graduated": {
+          "value": 1.5,
+          "target": null,
+          "n": 3826,
+          "available": true,
+          "label": "Graduated",
+          "note": "As of this data pull"
+        }
+      },
+      "by_year": {
+        "1": {
+          "csep_dpp": {
+            "value": 85.5,
+            "target": 80.0,
+            "n": 3826,
+            "available": true,
+            "label": "CSEP/DPP Finalized",
+            "note": "By end of this year"
+          },
+          "units_attempted": {
+            "value": 78.0,
+            "target": null,
+            "n": 3338,
+            "available": true,
+            "label": "Units-Attempted Milestone",
+            "note": "15+ units attempted by end of Year 1 (includes summer before the start of the fall semester)"
+          },
+          "units_completed": {
+            "value": 48.2,
+            "target": 80.0,
+            "n": 3338,
+            "available": true,
+            "label": "Units-Completed Milestone",
+            "note": "15+ units completed by end of Year 1 (includes summer before the start of the fall semester)"
+          },
+          "persistence_fs": {
+            "value": 78.5,
+            "target": null,
+            "n": 3826,
+            "available": true,
+            "label": "Persistence, Fall-to-Spring",
+            "note": "Year 1"
+          }
+        },
+        "2": {
+          "csep_dpp": {
+            "value": 86.5,
+            "target": 80.0,
+            "n": 3826,
+            "available": true,
+            "label": "CSEP/DPP Finalized",
+            "note": "By end of this year"
+          },
+          "units_attempted": {
+            "value": 58.0,
+            "target": null,
+            "n": 3338,
+            "available": true,
+            "label": "Units-Attempted Milestone",
+            "note": "30+ units attempted by end of Year 2 (includes summer before the start of the fall semester)"
+          },
+          "units_completed": {
+            "value": 22.6,
+            "target": 80.0,
+            "n": 3338,
+            "available": true,
+            "label": "Units-Completed Milestone",
+            "note": "30+ units completed by end of Year 2 (includes summer before the start of the fall semester)"
+          },
+          "persistence_ff": {
+            "value": 61.1,
+            "target": null,
+            "n": 3826,
+            "available": true,
+            "label": "Persistence, Fall-to-Fall",
+            "note": "Year 1 to Year 2"
+          },
+          "persistence_s2": {
+            "value": null,
+            "target": null,
+            "n": 3826,
+            "available": false,
+            "label": "Persistence, Fall-to-2nd-Spring",
+            "note": "Year 1 to Year 2"
+          }
+        }
+      },
+      "breakdowns": {
+        "LCP / Division": [
+          {
+            "LCP_current": "AHC",
+            "N": 325,
+            "Transfer-Level English Completed": 59.7,
+            "Transfer-Level Math Completed": 39.3,
+            "CTE Units Completed": 20.0
+          },
+          {
+            "LCP_current": "ATST",
+            "N": 587,
+            "Transfer-Level English Completed": 43.0,
+            "Transfer-Level Math Completed": 20.8,
+            "CTE Units Completed": 8.9
+          },
+          {
+            "LCP_current": "BAL",
+            "N": 807,
+            "Transfer-Level English Completed": 53.8,
+            "Transfer-Level Math Completed": 35.0,
+            "CTE Units Completed": 16.3
+          },
+          {
+            "LCP_current": "ED",
+            "N": 59,
+            "Transfer-Level English Completed": 35.3,
+            "Transfer-Level Math Completed": 9.8,
+            "CTE Units Completed": NaN
+          },
+          {
+            "LCP_current": "EHS",
+            "N": 153,
+            "Transfer-Level English Completed": 62.2,
+            "Transfer-Level Math Completed": 37.1,
+            "CTE Units Completed": 0.0
+          },
+          {
+            "LCP_current": "HSW",
+            "N": 748,
+            "Transfer-Level English Completed": 58.5,
+            "Transfer-Level Math Completed": 37.3,
+            "CTE Units Completed": 12.5
+          },
+          {
+            "LCP_current": "SBS",
+            "N": 534,
+            "Transfer-Level English Completed": 63.9,
+            "Transfer-Level Math Completed": 44.2,
+            "CTE Units Completed": 0.0
+          },
+          {
+            "LCP_current": "SEM",
+            "N": 613,
+            "Transfer-Level English Completed": 65.0,
+            "Transfer-Level Math Completed": 48.7,
+            "CTE Units Completed": 0.0
+          }
+        ],
+        "Major Classification": [
+          {
+            "major_classification_current": "CTE Certificate",
+            "N": 476,
+            "Transfer-Level English Completed": NaN,
+            "Transfer-Level Math Completed": NaN,
+            "CTE Units Completed": 12.0
+          },
+          {
+            "major_classification_current": "Non-CTE Certificate",
+            "N": 9,
+            "Transfer-Level English Completed": NaN,
+            "Transfer-Level Math Completed": NaN,
+            "CTE Units Completed": NaN
+          },
+          {
+            "major_classification_current": "Transfer/Degree-Seeking",
+            "N": 3338,
+            "Transfer-Level English Completed": 58.0,
+            "Transfer-Level Math Completed": 38.1,
+            "CTE Units Completed": NaN
+          },
+          {
+            "major_classification_current": "Unknown",
+            "N": 3,
+            "Transfer-Level English Completed": NaN,
+            "Transfer-Level Math Completed": NaN,
+            "CTE Units Completed": NaN
+          }
+        ],
+        "Ethnicity": [
+          {
+            "Ethnicity": "American Indian or Alaska Native",
+            "N": 4,
+            "Transfer-Level English Completed": 50.0,
+            "Transfer-Level Math Completed": 0.0,
+            "CTE Units Completed": 50.0
+          },
+          {
+            "Ethnicity": "Asian",
+            "N": 262,
+            "Transfer-Level English Completed": 75.9,
+            "Transfer-Level Math Completed": 65.1,
+            "CTE Units Completed": 15.4
+          },
+          {
+            "Ethnicity": "Black or African American",
+            "N": 269,
+            "Transfer-Level English Completed": 37.1,
+            "Transfer-Level Math Completed": 21.6,
+            "CTE Units Completed": 4.3
+          },
+          {
+            "Ethnicity": "Hispanic/Latino",
+            "N": 2910,
+            "Transfer-Level English Completed": 59.1,
+            "Transfer-Level Math Completed": 37.2,
+            "CTE Units Completed": 13.0
+          },
+          {
+            "Ethnicity": "Native Hawaiian or Other Pacific Islander",
+            "N": 20,
+            "Transfer-Level English Completed": 35.0,
+            "Transfer-Level Math Completed": 15.0,
+            "CTE Units Completed": NaN
+          },
+          {
+            "Ethnicity": "Race/Ethnicity Unknown",
+            "N": 33,
+            "Transfer-Level English Completed": 24.0,
+            "Transfer-Level Math Completed": 20.0,
+            "CTE Units Completed": 25.0
+          },
+          {
+            "Ethnicity": "Two or More Races",
+            "N": 82,
+            "Transfer-Level English Completed": 57.3,
+            "Transfer-Level Math Completed": 44.0,
+            "CTE Units Completed": 14.3
+          },
+          {
+            "Ethnicity": "White",
+            "N": 190,
+            "Transfer-Level English Completed": 50.7,
+            "Transfer-Level Math Completed": 38.4,
+            "CTE Units Completed": 15.7
+          },
+          {
+            "Ethnicity": NaN,
+            "N": 56,
+            "Transfer-Level English Completed": 70.0,
+            "Transfer-Level Math Completed": 40.0,
+            "CTE Units Completed": 0.0
+          }
+        ],
+        "Gender": [
+          {
+            "Gender": "Female",
+            "N": 1895,
+            "Transfer-Level English Completed": 60.6,
+            "Transfer-Level Math Completed": 38.6,
+            "CTE Units Completed": 15.6
+          },
+          {
+            "Gender": "Male",
+            "N": 1870,
+            "Transfer-Level English Completed": 54.9,
+            "Transfer-Level Math Completed": 37.4,
+            "CTE Units Completed": 10.0
+          },
+          {
+            "Gender": "Unknown",
+            "N": 61,
+            "Transfer-Level English Completed": 64.7,
+            "Transfer-Level Math Completed": 41.2,
+            "CTE Units Completed": 0.0
+          }
+        ]
+      }
+    },
+    "Fall 2026": {
+      "n_students": 3728,
+      "overall": {
+        "english_attempted": {
+          "value": 79.7,
+          "target": 85.0,
+          "n": 3417,
+          "available": true,
+          "label": "Transfer-Level English Attempted",
+          "note": "Ever attempted, as of this data pull -- Transfer/Degree-Seeking students"
+        },
+        "math_attempted": {
+          "value": 61.4,
+          "target": 70.0,
+          "n": 3417,
+          "available": true,
+          "label": "Transfer-Level Math Attempted",
+          "note": "Ever attempted, as of this data pull -- Transfer/Degree-Seeking students"
+        },
+        "english_completed": {
+          "value": null,
+          "target": 70.0,
+          "n": 0,
+          "available": false,
+          "label": "Transfer-Level English Completed",
+          "note": "Ever completed, as of this data pull -- Transfer/Degree-Seeking students -- not yet meaningful for this cohort"
+        },
+        "math_completed": {
+          "value": null,
+          "target": 55.0,
+          "n": 0,
+          "available": false,
+          "label": "Transfer-Level Math Completed",
+          "note": "Ever completed, as of this data pull -- Transfer/Degree-Seeking students -- not yet meaningful for this cohort"
+        },
+        "cte_units_attempted": {
+          "value": 23.1,
+          "target": 20.0,
+          "n": 307,
+          "available": true,
+          "label": "CTE Units Attempted",
+          "note": "9+ CTE units, CTE Certificate students, as of AY1, as of this data pull"
+        },
+        "cte_units_completed": {
+          "value": 0.7,
+          "target": 20.0,
+          "n": 307,
+          "available": true,
+          "label": "CTE Units Completed",
+          "note": "9+ CTE units, CTE Certificate students, as of AY1, as of this data pull"
+        },
+        "any_award": {
+          "value": 0.1,
+          "target": null,
+          "n": 3728,
+          "available": true,
+          "label": "Any Award Earned (ever)",
+          "note": "Degree or certificate, as of this data pull"
+        },
+        "units_60_plus": {
+          "value": 0.1,
+          "target": null,
+          "n": 3728,
+          "available": true,
+          "label": "Earned 60+ Units",
+          "note": "Total completed units, as of this data pull"
+        },
+        "graduated": {
+          "value": 0.1,
+          "target": null,
+          "n": 3728,
+          "available": true,
+          "label": "Graduated",
+          "note": "As of this data pull"
+        }
+      },
+      "by_year": {
+        "1": {
+          "csep_dpp": {
+            "value": 76.3,
+            "target": 80.0,
+            "n": 3728,
+            "available": true,
+            "label": "CSEP/DPP Finalized",
+            "note": "By end of this year"
+          },
+          "units_attempted": {
+            "value": 45.7,
+            "target": null,
+            "n": 3417,
+            "available": true,
+            "label": "Units-Attempted Milestone",
+            "note": "15+ units attempted by end of Year 1 (includes summer before the start of the fall semester)"
+          },
+          "units_completed": {
+            "value": 1.9,
+            "target": 80.0,
+            "n": 3417,
+            "available": true,
+            "label": "Units-Completed Milestone",
+            "note": "15+ units completed by end of Year 1 (includes summer before the start of the fall semester)"
+          },
+          "persistence_fs": {
+            "value": null,
+            "target": null,
+            "n": 3728,
+            "available": false,
+            "label": "Persistence, Fall-to-Spring",
+            "note": "Year 1"
+          }
+        }
+      },
+      "breakdowns": {
+        "LCP / Division": [
+          {
+            "LCP_current": "AHC",
+            "N": 334,
+            "Transfer-Level English Completed": 5.6,
+            "Transfer-Level Math Completed": 1.6,
+            "CTE Units Completed": 0.0
+          },
+          {
+            "LCP_current": "ATST",
+            "N": 522,
+            "Transfer-Level English Completed": 5.3,
+            "Transfer-Level Math Completed": 0.8,
+            "CTE Units Completed": 0.0
+          },
+          {
+            "LCP_current": "BAL",
+            "N": 714,
+            "Transfer-Level English Completed": 5.0,
+            "Transfer-Level Math Completed": 1.0,
+            "CTE Units Completed": 0.0
+          },
+          {
+            "LCP_current": "ED",
+            "N": 42,
+            "Transfer-Level English Completed": 2.4,
+            "Transfer-Level Math Completed": 0.0,
+            "CTE Units Completed": NaN
+          },
+          {
+            "LCP_current": "EHS",
+            "N": 164,
+            "Transfer-Level English Completed": 9.5,
+            "Transfer-Level Math Completed": 1.3,
+            "CTE Units Completed": 0.0
+          },
+          {
+            "LCP_current": "HSW",
+            "N": 844,
+            "Transfer-Level English Completed": 8.9,
+            "Transfer-Level Math Completed": 3.2,
+            "CTE Units Completed": 0.0
+          },
+          {
+            "LCP_current": "SBS",
+            "N": 442,
+            "Transfer-Level English Completed": 9.5,
+            "Transfer-Level Math Completed": 2.7,
+            "CTE Units Completed": 0.0
+          },
+          {
+            "LCP_current": "SEM",
+            "N": 666,
+            "Transfer-Level English Completed": 14.2,
+            "Transfer-Level Math Completed": 9.8,
+            "CTE Units Completed": 0.0
+          }
+        ],
+        "Major Classification": [
+          {
+            "major_classification_current": "CTE Certificate",
+            "N": 307,
+            "Transfer-Level English Completed": NaN,
+            "Transfer-Level Math Completed": NaN,
+            "CTE Units Completed": 0.0
+          },
+          {
+            "major_classification_current": "Non-CTE Certificate",
+            "N": 3,
+            "Transfer-Level English Completed": NaN,
+            "Transfer-Level Math Completed": NaN,
+            "CTE Units Completed": NaN
+          },
+          {
+            "major_classification_current": "Transfer/Degree-Seeking",
+            "N": 3417,
+            "Transfer-Level English Completed": 8.6,
+            "Transfer-Level Math Completed": 3.5,
+            "CTE Units Completed": NaN
+          },
+          {
+            "major_classification_current": "Unknown",
+            "N": 1,
+            "Transfer-Level English Completed": NaN,
+            "Transfer-Level Math Completed": NaN,
+            "CTE Units Completed": NaN
+          }
+        ],
+        "Ethnicity": [
+          {
+            "Ethnicity": "American Indian or Alaska Native",
+            "N": 5,
+            "Transfer-Level English Completed": 0.0,
+            "Transfer-Level Math Completed": 0.0,
+            "CTE Units Completed": NaN
+          },
+          {
+            "Ethnicity": "Asian",
+            "N": 233,
+            "Transfer-Level English Completed": 22.9,
+            "Transfer-Level Math Completed": 16.3,
+            "CTE Units Completed": 0.0
+          },
+          {
+            "Ethnicity": "Black or African American",
+            "N": 287,
+            "Transfer-Level English Completed": 3.3,
+            "Transfer-Level Math Completed": 1.5,
+            "CTE Units Completed": 0.0
+          },
+          {
+            "Ethnicity": "Hispanic/Latino",
+            "N": 2867,
+            "Transfer-Level English Completed": 7.9,
+            "Transfer-Level Math Completed": 2.6,
+            "CTE Units Completed": 0.0
+          },
+          {
+            "Ethnicity": "Native Hawaiian or Other Pacific Islander",
+            "N": 17,
+            "Transfer-Level English Completed": 0.0,
+            "Transfer-Level Math Completed": 0.0,
+            "CTE Units Completed": NaN
+          },
+          {
+            "Ethnicity": "Race/Ethnicity Unknown",
+            "N": 35,
+            "Transfer-Level English Completed": 0.0,
+            "Transfer-Level Math Completed": 0.0,
+            "CTE Units Completed": 0.0
+          },
+          {
+            "Ethnicity": "Two or More Races",
+            "N": 76,
+            "Transfer-Level English Completed": 11.8,
+            "Transfer-Level Math Completed": 8.8,
+            "CTE Units Completed": 0.0
+          },
+          {
+            "Ethnicity": "White",
+            "N": 200,
+            "Transfer-Level English Completed": 8.6,
+            "Transfer-Level Math Completed": 1.7,
+            "CTE Units Completed": 0.0
+          },
+          {
+            "Ethnicity": NaN,
+            "N": 8,
+            "Transfer-Level English Completed": 25.0,
+            "Transfer-Level Math Completed": 0.0,
+            "CTE Units Completed": NaN
+          }
+        ],
+        "Gender": [
+          {
+            "Gender": "Female",
+            "N": 1792,
+            "Transfer-Level English Completed": 10.1,
+            "Transfer-Level Math Completed": 2.8,
+            "CTE Units Completed": 0.0
+          },
+          {
+            "Gender": "Male",
+            "N": 1872,
+            "Transfer-Level English Completed": 7.1,
+            "Transfer-Level Math Completed": 4.2,
+            "CTE Units Completed": 0.0
+          },
+          {
+            "Gender": "Unknown",
+            "N": 64,
+            "Transfer-Level English Completed": 4.9,
+            "Transfer-Level Math Completed": 3.3,
+            "CTE Units Completed": 0.0
+          }
+        ]
+      }
+    }
+  }
+}

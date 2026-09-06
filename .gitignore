@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+.venv/
+.DS_Store
+
+# This project never handles raw/de-identified student-level files --
+# only aggregate_snapshot.json, which IS meant to be committed (it's
+# aggregate-only, no student rows). If a spreadsheet ever ends up in this
+# folder by mistake, don't let it get committed.
+*.xlsx
+*.csv
