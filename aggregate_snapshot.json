@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-16T09:10:29",
+  "generated_at": "2026-09-16T13:44:43",
   "source": "student_data_tool (de-identified student-level extract)",
   "cohorts": {
     "Fall 2024": {
@@ -21,22 +21,6 @@
           "label": "Transfer-Level Math Attempted",
           "note": "Ever attempted, as of this data pull -- Transfer/Degree-Seeking students"
         },
-        "critical_thinking_attempted": {
-          "value": null,
-          "target": null,
-          "n": 0,
-          "available": false,
-          "label": "Critical Thinking Attempted",
-          "note": "Ever attempted, as of this data pull -- Transfer/Degree-Seeking students -- part of the Golden Four -- NOT YET IN THE EXTRACT, pending the analyst adding this column"
-        },
-        "oral_comm_attempted": {
-          "value": 58.2,
-          "target": null,
-          "n": 3152,
-          "available": true,
-          "label": "Oral Communication Attempted",
-          "note": "Ever attempted, as of this data pull -- Transfer/Degree-Seeking students -- part of the Golden Four"
-        },
         "english_completed": {
           "value": 61.3,
           "target": 70.0,
@@ -52,22 +36,6 @@
           "available": true,
           "label": "Transfer-Level Math Completed",
           "note": "Ever completed, as of this data pull -- Transfer/Degree-Seeking students"
-        },
-        "critical_thinking_completed": {
-          "value": null,
-          "target": null,
-          "n": 0,
-          "available": false,
-          "label": "Critical Thinking Completed",
-          "note": "Ever completed, as of this data pull -- Transfer/Degree-Seeking students -- part of the Golden Four -- NOT YET IN THE EXTRACT, pending the analyst adding this column"
-        },
-        "oral_comm_completed": {
-          "value": 58.2,
-          "target": null,
-          "n": 3152,
-          "available": true,
-          "label": "Oral Communication Completed",
-          "note": "Ever completed, as of this data pull -- Transfer/Degree-Seeking students -- part of the Golden Four"
         },
         "cte_units_attempted": {
           "value": 19.5,
@@ -229,8 +197,6 @@
             "N": 350,
             "Transfer-Level English Completed": 62.1,
             "Transfer-Level Math Completed": 37.9,
-            "Critical Thinking Completed": null,
-            "Oral Communication Completed": 59.6,
             "CTE Units Completed": 0.0
           },
           {
@@ -238,8 +204,6 @@
             "N": 504,
             "Transfer-Level English Completed": 49.1,
             "Transfer-Level Math Completed": 31.5,
-            "Critical Thinking Completed": null,
-            "Oral Communication Completed": 30.1,
             "CTE Units Completed": 19.7
           },
           {
@@ -247,8 +211,6 @@
             "N": 661,
             "Transfer-Level English Completed": 56.4,
             "Transfer-Level Math Completed": 41.6,
-            "Critical Thinking Completed": null,
-            "Oral Communication Completed": 52.9,
             "CTE Units Completed": 12.8
           },
           {
@@ -256,8 +218,6 @@
             "N": 368,
             "Transfer-Level English Completed": 65.2,
             "Transfer-Level Math Completed": 61.9,
-            "Critical Thinking Completed": null,
-            "Oral Communication Completed": 61.4,
             "CTE Units Completed": null
           },
           {
@@ -265,8 +225,6 @@
             "N": 129,
             "Transfer-Level English Completed": 62.8,
             "Transfer-Level Math Completed": 33.1,
-            "Critical Thinking Completed": null,
-            "Oral Communication Completed": 59.5,
             "CTE Units Completed": 0.0
           },
           {
@@ -274,8 +232,6 @@
             "N": 601,
             "Transfer-Level English Completed": 59.8,
             "Transfer-Level Math Completed": 42.0,
-            "Critical Thinking Completed": null,
-            "Oral Communication Completed": 60.5,
             "CTE Units Completed": 14.6
           },
           {
@@ -283,8 +239,6 @@
             "N": 480,
             "Transfer-Level English Completed": 63.5,
             "Transfer-Level Math Completed": 48.8,
-            "Critical Thinking Completed": null,
-            "Oral Communication Completed": 70.2,
             "CTE Units Completed": null
           },
           {
@@ -292,8 +246,6 @@
             "N": 538,
             "Transfer-Level English Completed": 68.7,
             "Transfer-Level Math Completed": 59.5,
-            "Critical Thinking Completed": null,
-            "Oral Communication Completed": 61.8,
             "CTE Units Completed": 14.3
           },
           {
@@ -301,8 +253,6 @@
             "N": 2,
             "Transfer-Level English Completed": null,
             "Transfer-Level Math Completed": null,
-            "Critical Thinking Completed": null,
-            "Oral Communication Completed": null,
             "CTE Units Completed": null
           }
         ],
@@ -312,8 +262,6 @@
             "N": 442,
             "Transfer-Level English Completed": null,
             "Transfer-Level Math Completed": null,
-            "Critical Thinking Completed": null,
-            "Oral Communication Completed": null,
             "CTE Units Completed": 15.6
           },
           {
@@ -321,8 +269,6 @@
             "N": 32,
             "Transfer-Level English Completed": null,
             "Transfer-Level Math Completed": null,
-            "Critical Thinking Completed": null,
-            "Oral Communication Completed": null,
             "CTE Units Completed": null
           },
           {
@@ -330,8 +276,6 @@
             "N": 3152,
             "Transfer-Level English Completed": 61.3,
             "Transfer-Level Math Completed": 46.3,
-            "Critical Thinking Completed": null,
-            "Oral Communication Completed": 58.2,
             "CTE Units Completed": null
           },
           {
@@ -339,8 +283,6 @@
             "N": 6,
             "Transfer-Level English Completed": null,
             "Transfer-Level Math Completed": null,
-            "Critical Thinking Completed": null,
-            "Oral Communication Completed": null,
             "CTE Units Completed": null
           },
           {
@@ -348,8 +290,6 @@
             "N": 1,
             "Transfer-Level English Completed": null,
             "Transfer-Level Math Completed": null,
-            "Critical Thinking Completed": null,
-            "Oral Communication Completed": null,
             "CTE Units Completed": null
           }
         ],
@@ -359,8 +299,6 @@
             "N": 1,
             "Transfer-Level English Completed": null,
             "Transfer-Level Math Completed": null,
-            "Critical Thinking Completed": null,
-            "Oral Communication Completed": null,
             "CTE Units Completed": 0.0
           },
           {
@@ -368,8 +306,6 @@
             "N": 217,
             "Transfer-Level English Completed": 83.1,
             "Transfer-Level Math Completed": 78.1,
-            "Critical Thinking Completed": null,
-            "Oral Communication Completed": 75.6,
             "CTE Units Completed": 8.3
           },
           {
@@ -377,8 +313,6 @@
             "N": 198,
             "Transfer-Level English Completed": 49.7,
             "Transfer-Level Math Completed": 32.6,
-            "Critical Thinking Completed": null,
-            "Oral Communication Completed": 50.8,
             "CTE Units Completed": 18.8
           },
           {
@@ -386,8 +320,6 @@
             "N": 2750,
             "Transfer-Level English Completed": 62.9,
             "Transfer-Level Math Completed": 46.5,
-            "Critical Thinking Completed": null,
-            "Oral Communication Completed": 59.2,
             "CTE Units Completed": 17.3
           },
           {
@@ -395,8 +327,6 @@
             "N": 13,
             "Transfer-Level English Completed": 16.7,
             "Transfer-Level Math Completed": 8.3,
-            "Critical Thinking Completed": null,
-            "Oral Communication Completed": 33.3,
             "CTE Units Completed": 0.0
           },
           {
@@ -404,8 +334,6 @@
             "N": 30,
             "Transfer-Level English Completed": 36.4,
             "Transfer-Level Math Completed": 27.3,
-            "Critical Thinking Completed": null,
-            "Oral Communication Completed": 63.6,
             "CTE Units Completed": 50.0
           },
           {
@@ -413,8 +341,6 @@
             "N": 70,
             "Transfer-Level English Completed": 57.6,
             "Transfer-Level Math Completed": 43.9,
-            "Critical Thinking Completed": null,
-            "Oral Communication Completed": 62.1,
             "CTE Units Completed": 0.0
           },
           {
@@ -422,8 +348,6 @@
             "N": 274,
             "Transfer-Level English Completed": 39.2,
             "Transfer-Level Math Completed": 31.0,
-            "Critical Thinking Completed": null,
-            "Oral Communication Completed": 37.5,
             "CTE Units Completed": 7.3
           },
           {
@@ -431,8 +355,6 @@
             "N": 80,
             "Transfer-Level English Completed": null,
             "Transfer-Level Math Completed": null,
-            "Critical Thinking Completed": null,
-            "Oral Communication Completed": null,
             "CTE Units Completed": 13.8
           }
         ],
@@ -442,8 +364,6 @@
             "N": 1761,
             "Transfer-Level English Completed": 64.8,
             "Transfer-Level Math Completed": 48.5,
-            "Critical Thinking Completed": null,
-            "Oral Communication Completed": 62.0,
             "CTE Units Completed": 17.3
           },
           {
@@ -451,8 +371,6 @@
             "N": 1794,
             "Transfer-Level English Completed": 57.6,
             "Transfer-Level Math Completed": 44.4,
-            "Critical Thinking Completed": null,
-            "Oral Communication Completed": 54.1,
             "CTE Units Completed": 14.6
           },
           {
@@ -460,8 +378,6 @@
             "N": 78,
             "Transfer-Level English Completed": 63.3,
             "Transfer-Level Math Completed": 36.7,
-            "Critical Thinking Completed": null,
-            "Oral Communication Completed": 60.0,
             "CTE Units Completed": 0.0
           }
         ]
@@ -487,22 +403,6 @@
                 "label": "Transfer-Level Math Attempted",
                 "note": "Ever attempted, as of this data pull -- Transfer/Degree-Seeking students"
               },
-              "critical_thinking_attempted": {
-                "value": null,
-                "target": null,
-                "n": 0,
-                "available": false,
-                "label": "Critical Thinking Attempted",
-                "note": "Ever attempted, as of this data pull -- Transfer/Degree-Seeking students -- part of the Golden Four -- NOT YET IN THE EXTRACT, pending the analyst adding this column"
-              },
-              "oral_comm_attempted": {
-                "value": 59.6,
-                "target": null,
-                "n": 327,
-                "available": true,
-                "label": "Oral Communication Attempted",
-                "note": "Ever attempted, as of this data pull -- Transfer/Degree-Seeking students -- part of the Golden Four"
-              },
               "english_completed": {
                 "value": 62.1,
                 "target": 70.0,
@@ -518,22 +418,6 @@
                 "available": true,
                 "label": "Transfer-Level Math Completed",
                 "note": "Ever completed, as of this data pull -- Transfer/Degree-Seeking students"
-              },
-              "critical_thinking_completed": {
-                "value": null,
-                "target": null,
-                "n": 0,
-                "available": false,
-                "label": "Critical Thinking Completed",
-                "note": "Ever completed, as of this data pull -- Transfer/Degree-Seeking students -- part of the Golden Four -- NOT YET IN THE EXTRACT, pending the analyst adding this column"
-              },
-              "oral_comm_completed": {
-                "value": 59.6,
-                "target": null,
-                "n": 327,
-                "available": true,
-                "label": "Oral Communication Completed",
-                "note": "Ever completed, as of this data pull -- Transfer/Degree-Seeking students -- part of the Golden Four"
               },
               "cte_units_attempted": {
                 "value": null,
@@ -710,22 +594,6 @@
                 "label": "Transfer-Level Math Attempted",
                 "note": "Ever attempted, as of this data pull -- Transfer/Degree-Seeking students"
               },
-              "critical_thinking_attempted": {
-                "value": null,
-                "target": null,
-                "n": 0,
-                "available": false,
-                "label": "Critical Thinking Attempted",
-                "note": "Ever attempted, as of this data pull -- Transfer/Degree-Seeking students -- part of the Golden Four -- NOT YET IN THE EXTRACT, pending the analyst adding this column"
-              },
-              "oral_comm_attempted": {
-                "value": 30.1,
-                "target": null,
-                "n": 289,
-                "available": true,
-                "label": "Oral Communication Attempted",
-                "note": "Ever attempted, as of this data pull -- Transfer/Degree-Seeking students -- part of the Golden Four"
-              },
               "english_completed": {
                 "value": 49.1,
                 "target": 70.0,
@@ -741,22 +609,6 @@
                 "available": true,
                 "label": "Transfer-Level Math Completed",
                 "note": "Ever completed, as of this data pull -- Transfer/Degree-Seeking students"
-              },
-              "critical_thinking_completed": {
-                "value": null,
-                "target": null,
-                "n": 0,
-                "available": false,
-                "label": "Critical Thinking Completed",
-                "note": "Ever completed, as of this data pull -- Transfer/Degree-Seeking students -- part of the Golden Four -- NOT YET IN THE EXTRACT, pending the analyst adding this column"
-              },
-              "oral_comm_completed": {
-                "value": 30.1,
-                "target": null,
-                "n": 289,
-                "available": true,
-                "label": "Oral Communication Completed",
-                "note": "Ever completed, as of this data pull -- Transfer/Degree-Seeking students -- part of the Golden Four"
               },
               "cte_units_attempted": {
                 "value": 20.7,
@@ -931,22 +783,6 @@
                 "label": "Transfer-Level Math Attempted",
                 "note": "Ever attempted, as of this data pull -- Transfer/Degree-Seeking students"
               },
-              "critical_thinking_attempted": {
-                "value": null,
-                "target": null,
-                "n": 0,
-                "available": false,
-                "label": "Critical Thinking Attempted",
-                "note": "Ever attempted, as of this data pull -- Transfer/Degree-Seeking students -- part of the Golden Four -- NOT YET IN THE EXTRACT, pending the analyst adding this column"
-              },
-              "oral_comm_attempted": {
-                "value": 52.9,
-                "target": null,
-                "n": 505,
-                "available": true,
-                "label": "Oral Communication Attempted",
-                "note": "Ever attempted, as of this data pull -- Transfer/Degree-Seeking students -- part of the Golden Four"
-              },
               "english_completed": {
                 "value": 56.4,
                 "target": 70.0,
@@ -962,22 +798,6 @@
                 "available": true,
                 "label": "Transfer-Level Math Completed",
                 "note": "Ever completed, as of this data pull -- Transfer/Degree-Seeking students"
-              },
-              "critical_thinking_completed": {
-                "value": null,
-                "target": null,
-                "n": 0,
-                "available": false,
-                "label": "Critical Thinking Completed",
-                "note": "Ever completed, as of this data pull -- Transfer/Degree-Seeking students -- part of the Golden Four -- NOT YET IN THE EXTRACT, pending the analyst adding this column"
-              },
-              "oral_comm_completed": {
-                "value": 52.9,
-                "target": null,
-                "n": 505,
-                "available": true,
-                "label": "Oral Communication Completed",
-                "note": "Ever completed, as of this data pull -- Transfer/Degree-Seeking students -- part of the Golden Four"
               },
               "cte_units_attempted": {
                 "value": 21.2,
@@ -1152,22 +972,6 @@
                 "label": "Transfer-Level Math Attempted",
                 "note": "Ever attempted, as of this data pull -- Transfer/Degree-Seeking students"
               },
-              "critical_thinking_attempted": {
-                "value": null,
-                "target": null,
-                "n": 0,
-                "available": false,
-                "label": "Critical Thinking Attempted",
-                "note": "Ever attempted, as of this data pull -- Transfer/Degree-Seeking students -- part of the Golden Four -- NOT YET IN THE EXTRACT, pending the analyst adding this column"
-              },
-              "oral_comm_attempted": {
-                "value": 61.4,
-                "target": null,
-                "n": 339,
-                "available": true,
-                "label": "Oral Communication Attempted",
-                "note": "Ever attempted, as of this data pull -- Transfer/Degree-Seeking students -- part of the Golden Four"
-              },
               "english_completed": {
                 "value": 65.2,
                 "target": 70.0,
@@ -1183,22 +987,6 @@
                 "available": true,
                 "label": "Transfer-Level Math Completed",
                 "note": "Ever completed, as of this data pull -- Transfer/Degree-Seeking students"
-              },
-              "critical_thinking_completed": {
-                "value": null,
-                "target": null,
-                "n": 0,
-                "available": false,
-                "label": "Critical Thinking Completed",
-                "note": "Ever completed, as of this data pull -- Transfer/Degree-Seeking students -- part of the Golden Four -- NOT YET IN THE EXTRACT, pending the analyst adding this column"
-              },
-              "oral_comm_completed": {
-                "value": 61.4,
-                "target": null,
-                "n": 339,
-                "available": true,
-                "label": "Oral Communication Completed",
-                "note": "Ever completed, as of this data pull -- Transfer/Degree-Seeking students -- part of the Golden Four"
               },
               "cte_units_attempted": {
                 "value": null,
@@ -1373,22 +1161,6 @@
                 "label": "Transfer-Level Math Attempted",
                 "note": "Ever attempted, as of this data pull -- Transfer/Degree-Seeking students"
               },
-              "critical_thinking_attempted": {
-                "value": null,
-                "target": null,
-                "n": 0,
-                "available": false,
-                "label": "Critical Thinking Attempted",
-                "note": "Ever attempted, as of this data pull -- Transfer/Degree-Seeking students -- part of the Golden Four -- NOT YET IN THE EXTRACT, pending the analyst adding this column"
-              },
-              "oral_comm_attempted": {
-                "value": 59.5,
-                "target": null,
-                "n": 121,
-                "available": true,
-                "label": "Oral Communication Attempted",
-                "note": "Ever attempted, as of this data pull -- Transfer/Degree-Seeking students -- part of the Golden Four"
-              },
               "english_completed": {
                 "value": 62.8,
                 "target": 70.0,
@@ -1404,22 +1176,6 @@
                 "available": true,
                 "label": "Transfer-Level Math Completed",
                 "note": "Ever completed, as of this data pull -- Transfer/Degree-Seeking students"
-              },
-              "critical_thinking_completed": {
-                "value": null,
-                "target": null,
-                "n": 0,
-                "available": false,
-                "label": "Critical Thinking Completed",
-                "note": "Ever completed, as of this data pull -- Transfer/Degree-Seeking students -- part of the Golden Four -- NOT YET IN THE EXTRACT, pending the analyst adding this column"
-              },
-              "oral_comm_completed": {
-                "value": 59.5,
-                "target": null,
-                "n": 121,
-                "available": true,
-                "label": "Oral Communication Completed",
-                "note": "Ever completed, as of this data pull -- Transfer/Degree-Seeking students -- part of the Golden Four"
               },
               "cte_units_attempted": {
                 "value": null,
@@ -1596,22 +1352,6 @@
                 "label": "Transfer-Level Math Attempted",
                 "note": "Ever attempted, as of this data pull -- Transfer/Degree-Seeking students"
               },
-              "critical_thinking_attempted": {
-                "value": null,
-                "target": null,
-                "n": 0,
-                "available": false,
-                "label": "Critical Thinking Attempted",
-                "note": "Ever attempted, as of this data pull -- Transfer/Degree-Seeking students -- part of the Golden Four -- NOT YET IN THE EXTRACT, pending the analyst adding this column"
-              },
-              "oral_comm_attempted": {
-                "value": 60.5,
-                "target": null,
-                "n": 560,
-                "available": true,
-                "label": "Oral Communication Attempted",
-                "note": "Ever attempted, as of this data pull -- Transfer/Degree-Seeking students -- part of the Golden Four"
-              },
               "english_completed": {
                 "value": 59.8,
                 "target": 70.0,
@@ -1627,22 +1367,6 @@
                 "available": true,
                 "label": "Transfer-Level Math Completed",
                 "note": "Ever completed, as of this data pull -- Transfer/Degree-Seeking students"
-              },
-              "critical_thinking_completed": {
-                "value": null,
-                "target": null,
-                "n": 0,
-                "available": false,
-                "label": "Critical Thinking Completed",
-                "note": "Ever completed, as of this data pull -- Transfer/Degree-Seeking students -- part of the Golden Four -- NOT YET IN THE EXTRACT, pending the analyst adding this column"
-              },
-              "oral_comm_completed": {
-                "value": 60.5,
-                "target": null,
-                "n": 560,
-                "available": true,
-                "label": "Oral Communication Completed",
-                "note": "Ever completed, as of this data pull -- Transfer/Degree-Seeking students -- part of the Golden Four"
               },
               "cte_units_attempted": {
                 "value": 17.1,
@@ -1817,22 +1541,6 @@
                 "label": "Transfer-Level Math Attempted",
                 "note": "Ever attempted, as of this data pull -- Transfer/Degree-Seeking students"
               },
-              "critical_thinking_attempted": {
-                "value": null,
-                "target": null,
-                "n": 0,
-                "available": false,
-                "label": "Critical Thinking Attempted",
-                "note": "Ever attempted, as of this data pull -- Transfer/Degree-Seeking students -- part of the Golden Four -- NOT YET IN THE EXTRACT, pending the analyst adding this column"
-              },
-              "oral_comm_attempted": {
-                "value": 70.2,
-                "target": null,
-                "n": 480,
-                "available": true,
-                "label": "Oral Communication Attempted",
-                "note": "Ever attempted, as of this data pull -- Transfer/Degree-Seeking students -- part of the Golden Four"
-              },
               "english_completed": {
                 "value": 63.5,
                 "target": 70.0,
@@ -1848,22 +1556,6 @@
                 "available": true,
                 "label": "Transfer-Level Math Completed",
                 "note": "Ever completed, as of this data pull -- Transfer/Degree-Seeking students"
-              },
-              "critical_thinking_completed": {
-                "value": null,
-                "target": null,
-                "n": 0,
-                "available": false,
-                "label": "Critical Thinking Completed",
-                "note": "Ever completed, as of this data pull -- Transfer/Degree-Seeking students -- part of the Golden Four -- NOT YET IN THE EXTRACT, pending the analyst adding this column"
-              },
-              "oral_comm_completed": {
-                "value": 70.2,
-                "target": null,
-                "n": 480,
-                "available": true,
-                "label": "Oral Communication Completed",
-                "note": "Ever completed, as of this data pull -- Transfer/Degree-Seeking students -- part of the Golden Four"
               },
               "cte_units_attempted": {
                 "value": null,
@@ -2038,22 +1730,6 @@
                 "label": "Transfer-Level Math Attempted",
                 "note": "Ever attempted, as of this data pull -- Transfer/Degree-Seeking students"
               },
-              "critical_thinking_attempted": {
-                "value": null,
-                "target": null,
-                "n": 0,
-                "available": false,
-                "label": "Critical Thinking Attempted",
-                "note": "Ever attempted, as of this data pull -- Transfer/Degree-Seeking students -- part of the Golden Four -- NOT YET IN THE EXTRACT, pending the analyst adding this column"
-              },
-              "oral_comm_attempted": {
-                "value": 61.8,
-                "target": null,
-                "n": 531,
-                "available": true,
-                "label": "Oral Communication Attempted",
-                "note": "Ever attempted, as of this data pull -- Transfer/Degree-Seeking students -- part of the Golden Four"
-              },
               "english_completed": {
                 "value": 68.7,
                 "target": 70.0,
@@ -2069,22 +1745,6 @@
                 "available": true,
                 "label": "Transfer-Level Math Completed",
                 "note": "Ever completed, as of this data pull -- Transfer/Degree-Seeking students"
-              },
-              "critical_thinking_completed": {
-                "value": null,
-                "target": null,
-                "n": 0,
-                "available": false,
-                "label": "Critical Thinking Completed",
-                "note": "Ever completed, as of this data pull -- Transfer/Degree-Seeking students -- part of the Golden Four -- NOT YET IN THE EXTRACT, pending the analyst adding this column"
-              },
-              "oral_comm_completed": {
-                "value": 61.8,
-                "target": null,
-                "n": 531,
-                "available": true,
-                "label": "Oral Communication Completed",
-                "note": "Ever completed, as of this data pull -- Transfer/Degree-Seeking students -- part of the Golden Four"
               },
               "cte_units_attempted": {
                 "value": null,
@@ -2261,22 +1921,6 @@
                 "label": "Transfer-Level Math Attempted",
                 "note": "Ever attempted, as of this data pull -- Transfer/Degree-Seeking students"
               },
-              "critical_thinking_attempted": {
-                "value": null,
-                "target": null,
-                "n": 0,
-                "available": false,
-                "label": "Critical Thinking Attempted",
-                "note": "Ever attempted, as of this data pull -- Transfer/Degree-Seeking students -- part of the Golden Four -- NOT YET IN THE EXTRACT, pending the analyst adding this column"
-              },
-              "oral_comm_attempted": {
-                "value": null,
-                "target": null,
-                "n": 0,
-                "available": false,
-                "label": "Oral Communication Attempted",
-                "note": "Ever attempted, as of this data pull -- Transfer/Degree-Seeking students -- part of the Golden Four"
-              },
               "english_completed": {
                 "value": null,
                 "target": 70.0,
@@ -2292,22 +1936,6 @@
                 "available": false,
                 "label": "Transfer-Level Math Completed",
                 "note": "Ever completed, as of this data pull -- Transfer/Degree-Seeking students"
-              },
-              "critical_thinking_completed": {
-                "value": null,
-                "target": null,
-                "n": 0,
-                "available": false,
-                "label": "Critical Thinking Completed",
-                "note": "Ever completed, as of this data pull -- Transfer/Degree-Seeking students -- part of the Golden Four -- NOT YET IN THE EXTRACT, pending the analyst adding this column"
-              },
-              "oral_comm_completed": {
-                "value": null,
-                "target": null,
-                "n": 0,
-                "available": false,
-                "label": "Oral Communication Completed",
-                "note": "Ever completed, as of this data pull -- Transfer/Degree-Seeking students -- part of the Golden Four"
               },
               "cte_units_attempted": {
                 "value": null,
@@ -2491,22 +2119,6 @@
           "label": "Transfer-Level Math Attempted",
           "note": "Ever attempted, as of this data pull -- Transfer/Degree-Seeking students"
         },
-        "critical_thinking_attempted": {
-          "value": null,
-          "target": null,
-          "n": 0,
-          "available": false,
-          "label": "Critical Thinking Attempted",
-          "note": "Ever attempted, as of this data pull -- Transfer/Degree-Seeking students -- part of the Golden Four -- NOT YET IN THE EXTRACT, pending the analyst adding this column"
-        },
-        "oral_comm_attempted": {
-          "value": 55.7,
-          "target": null,
-          "n": 3337,
-          "available": true,
-          "label": "Oral Communication Attempted",
-          "note": "Ever attempted, as of this data pull -- Transfer/Degree-Seeking students -- part of the Golden Four"
-        },
         "english_completed": {
           "value": 58.0,
           "target": 70.0,
@@ -2522,22 +2134,6 @@
           "available": true,
           "label": "Transfer-Level Math Completed",
           "note": "Ever completed, as of this data pull -- Transfer/Degree-Seeking students"
-        },
-        "critical_thinking_completed": {
-          "value": null,
-          "target": null,
-          "n": 0,
-          "available": false,
-          "label": "Critical Thinking Completed",
-          "note": "Ever completed, as of this data pull -- Transfer/Degree-Seeking students -- part of the Golden Four -- NOT YET IN THE EXTRACT, pending the analyst adding this column"
-        },
-        "oral_comm_completed": {
-          "value": 55.7,
-          "target": null,
-          "n": 3337,
-          "available": true,
-          "label": "Oral Communication Completed",
-          "note": "Ever completed, as of this data pull -- Transfer/Degree-Seeking students -- part of the Golden Four"
         },
         "cte_units_attempted": {
           "value": 24.5,
@@ -2665,8 +2261,6 @@
             "N": 325,
             "Transfer-Level English Completed": 59.7,
             "Transfer-Level Math Completed": 39.3,
-            "Critical Thinking Completed": null,
-            "Oral Communication Completed": 55.3,
             "CTE Units Completed": 20.0
           },
           {
@@ -2674,8 +2268,6 @@
             "N": 585,
             "Transfer-Level English Completed": 42.7,
             "Transfer-Level Math Completed": 20.9,
-            "Critical Thinking Completed": null,
-            "Oral Communication Completed": 31.2,
             "CTE Units Completed": 8.9
           },
           {
@@ -2683,8 +2275,6 @@
             "N": 808,
             "Transfer-Level English Completed": 53.8,
             "Transfer-Level Math Completed": 35.0,
-            "Critical Thinking Completed": null,
-            "Oral Communication Completed": 49.1,
             "CTE Units Completed": 16.2
           },
           {
@@ -2692,8 +2282,6 @@
             "N": 59,
             "Transfer-Level English Completed": 35.3,
             "Transfer-Level Math Completed": 9.8,
-            "Critical Thinking Completed": null,
-            "Oral Communication Completed": 15.7,
             "CTE Units Completed": null
           },
           {
@@ -2701,8 +2289,6 @@
             "N": 154,
             "Transfer-Level English Completed": 62.5,
             "Transfer-Level Math Completed": 36.8,
-            "Critical Thinking Completed": null,
-            "Oral Communication Completed": 68.1,
             "CTE Units Completed": 0.0
           },
           {
@@ -2710,8 +2296,6 @@
             "N": 749,
             "Transfer-Level English Completed": 58.4,
             "Transfer-Level Math Completed": 37.2,
-            "Critical Thinking Completed": null,
-            "Oral Communication Completed": 62.1,
             "CTE Units Completed": 12.5
           },
           {
@@ -2719,8 +2303,6 @@
             "N": 532,
             "Transfer-Level English Completed": 64.0,
             "Transfer-Level Math Completed": 44.2,
-            "Critical Thinking Completed": null,
-            "Oral Communication Completed": 68.9,
             "CTE Units Completed": 0.0
           },
           {
@@ -2728,8 +2310,6 @@
             "N": 614,
             "Transfer-Level English Completed": 65.1,
             "Transfer-Level Math Completed": 48.8,
-            "Critical Thinking Completed": null,
-            "Oral Communication Completed": 58.4,
             "CTE Units Completed": 0.0
           }
         ],
@@ -2739,8 +2319,6 @@
             "N": 477,
             "Transfer-Level English Completed": null,
             "Transfer-Level Math Completed": null,
-            "Critical Thinking Completed": null,
-            "Oral Communication Completed": null,
             "CTE Units Completed": 11.9
           },
           {
@@ -2748,8 +2326,6 @@
             "N": 9,
             "Transfer-Level English Completed": null,
             "Transfer-Level Math Completed": null,
-            "Critical Thinking Completed": null,
-            "Oral Communication Completed": null,
             "CTE Units Completed": null
           },
           {
@@ -2757,8 +2333,6 @@
             "N": 3337,
             "Transfer-Level English Completed": 58.0,
             "Transfer-Level Math Completed": 38.1,
-            "Critical Thinking Completed": null,
-            "Oral Communication Completed": 55.7,
             "CTE Units Completed": null
           },
           {
@@ -2766,8 +2340,6 @@
             "N": 3,
             "Transfer-Level English Completed": null,
             "Transfer-Level Math Completed": null,
-            "Critical Thinking Completed": null,
-            "Oral Communication Completed": null,
             "CTE Units Completed": null
           }
         ],
@@ -2777,8 +2349,6 @@
             "N": 4,
             "Transfer-Level English Completed": 50.0,
             "Transfer-Level Math Completed": 0.0,
-            "Critical Thinking Completed": null,
-            "Oral Communication Completed": 50.0,
             "CTE Units Completed": 50.0
           },
           {
@@ -2786,8 +2356,6 @@
             "N": 262,
             "Transfer-Level English Completed": 75.9,
             "Transfer-Level Math Completed": 65.1,
-            "Critical Thinking Completed": null,
-            "Oral Communication Completed": 65.5,
             "CTE Units Completed": 15.4
           },
           {
@@ -2795,8 +2363,6 @@
             "N": 269,
             "Transfer-Level English Completed": 37.1,
             "Transfer-Level Math Completed": 21.6,
-            "Critical Thinking Completed": null,
-            "Oral Communication Completed": 43.3,
             "CTE Units Completed": 4.3
           },
           {
@@ -2804,8 +2370,6 @@
             "N": 2910,
             "Transfer-Level English Completed": 59.1,
             "Transfer-Level Math Completed": 37.2,
-            "Critical Thinking Completed": null,
-            "Oral Communication Completed": 56.9,
             "CTE Units Completed": 13.0
           },
           {
@@ -2813,8 +2377,6 @@
             "N": 20,
             "Transfer-Level English Completed": 35.0,
             "Transfer-Level Math Completed": 15.0,
-            "Critical Thinking Completed": null,
-            "Oral Communication Completed": 50.0,
             "CTE Units Completed": null
           },
           {
@@ -2822,8 +2384,6 @@
             "N": 33,
             "Transfer-Level English Completed": 24.0,
             "Transfer-Level Math Completed": 20.0,
-            "Critical Thinking Completed": null,
-            "Oral Communication Completed": 24.0,
             "CTE Units Completed": 25.0
           },
           {
@@ -2831,8 +2391,6 @@
             "N": 82,
             "Transfer-Level English Completed": 57.3,
             "Transfer-Level Math Completed": 44.0,
-            "Critical Thinking Completed": null,
-            "Oral Communication Completed": 56.0,
             "CTE Units Completed": 14.3
           },
           {
@@ -2840,8 +2398,6 @@
             "N": 190,
             "Transfer-Level English Completed": 50.7,
             "Transfer-Level Math Completed": 38.4,
-            "Critical Thinking Completed": null,
-            "Oral Communication Completed": 45.7,
             "CTE Units Completed": 15.7
           },
           {
@@ -2849,8 +2405,6 @@
             "N": 56,
             "Transfer-Level English Completed": 70.0,
             "Transfer-Level Math Completed": 40.0,
-            "Critical Thinking Completed": null,
-            "Oral Communication Completed": 50.0,
             "CTE Units Completed": 0.0
           }
         ],
@@ -2860,8 +2414,6 @@
             "N": 1895,
             "Transfer-Level English Completed": 60.5,
             "Transfer-Level Math Completed": 38.6,
-            "Critical Thinking Completed": null,
-            "Oral Communication Completed": 60.5,
             "CTE Units Completed": 15.5
           },
           {
@@ -2869,8 +2421,6 @@
             "N": 1870,
             "Transfer-Level English Completed": 54.9,
             "Transfer-Level Math Completed": 37.4,
-            "Critical Thinking Completed": null,
-            "Oral Communication Completed": 50.8,
             "CTE Units Completed": 10.0
           },
           {
@@ -2878,8 +2428,6 @@
             "N": 61,
             "Transfer-Level English Completed": 64.7,
             "Transfer-Level Math Completed": 41.2,
-            "Critical Thinking Completed": null,
-            "Oral Communication Completed": 49.0,
             "CTE Units Completed": 0.0
           }
         ]
@@ -2905,22 +2453,6 @@
                 "label": "Transfer-Level Math Attempted",
                 "note": "Ever attempted, as of this data pull -- Transfer/Degree-Seeking students"
               },
-              "critical_thinking_attempted": {
-                "value": null,
-                "target": null,
-                "n": 0,
-                "available": false,
-                "label": "Critical Thinking Attempted",
-                "note": "Ever attempted, as of this data pull -- Transfer/Degree-Seeking students -- part of the Golden Four -- NOT YET IN THE EXTRACT, pending the analyst adding this column"
-              },
-              "oral_comm_attempted": {
-                "value": 55.3,
-                "target": null,
-                "n": 318,
-                "available": true,
-                "label": "Oral Communication Attempted",
-                "note": "Ever attempted, as of this data pull -- Transfer/Degree-Seeking students -- part of the Golden Four"
-              },
               "english_completed": {
                 "value": 59.7,
                 "target": 70.0,
@@ -2936,22 +2468,6 @@
                 "available": true,
                 "label": "Transfer-Level Math Completed",
                 "note": "Ever completed, as of this data pull -- Transfer/Degree-Seeking students"
-              },
-              "critical_thinking_completed": {
-                "value": null,
-                "target": null,
-                "n": 0,
-                "available": false,
-                "label": "Critical Thinking Completed",
-                "note": "Ever completed, as of this data pull -- Transfer/Degree-Seeking students -- part of the Golden Four -- NOT YET IN THE EXTRACT, pending the analyst adding this column"
-              },
-              "oral_comm_completed": {
-                "value": 55.3,
-                "target": null,
-                "n": 318,
-                "available": true,
-                "label": "Oral Communication Completed",
-                "note": "Ever completed, as of this data pull -- Transfer/Degree-Seeking students -- part of the Golden Four"
               },
               "cte_units_attempted": {
                 "value": null,
@@ -3094,22 +2610,6 @@
                 "label": "Transfer-Level Math Attempted",
                 "note": "Ever attempted, as of this data pull -- Transfer/Degree-Seeking students"
               },
-              "critical_thinking_attempted": {
-                "value": null,
-                "target": null,
-                "n": 0,
-                "available": false,
-                "label": "Critical Thinking Attempted",
-                "note": "Ever attempted, as of this data pull -- Transfer/Degree-Seeking students -- part of the Golden Four -- NOT YET IN THE EXTRACT, pending the analyst adding this column"
-              },
-              "oral_comm_attempted": {
-                "value": 31.2,
-                "target": null,
-                "n": 349,
-                "available": true,
-                "label": "Oral Communication Attempted",
-                "note": "Ever attempted, as of this data pull -- Transfer/Degree-Seeking students -- part of the Golden Four"
-              },
               "english_completed": {
                 "value": 42.7,
                 "target": 70.0,
@@ -3125,22 +2625,6 @@
                 "available": true,
                 "label": "Transfer-Level Math Completed",
                 "note": "Ever completed, as of this data pull -- Transfer/Degree-Seeking students"
-              },
-              "critical_thinking_completed": {
-                "value": null,
-                "target": null,
-                "n": 0,
-                "available": false,
-                "label": "Critical Thinking Completed",
-                "note": "Ever completed, as of this data pull -- Transfer/Degree-Seeking students -- part of the Golden Four -- NOT YET IN THE EXTRACT, pending the analyst adding this column"
-              },
-              "oral_comm_completed": {
-                "value": 31.2,
-                "target": null,
-                "n": 349,
-                "available": true,
-                "label": "Oral Communication Completed",
-                "note": "Ever completed, as of this data pull -- Transfer/Degree-Seeking students -- part of the Golden Four"
               },
               "cte_units_attempted": {
                 "value": 14.0,
@@ -3281,22 +2765,6 @@
                 "label": "Transfer-Level Math Attempted",
                 "note": "Ever attempted, as of this data pull -- Transfer/Degree-Seeking students"
               },
-              "critical_thinking_attempted": {
-                "value": null,
-                "target": null,
-                "n": 0,
-                "available": false,
-                "label": "Critical Thinking Attempted",
-                "note": "Ever attempted, as of this data pull -- Transfer/Degree-Seeking students -- part of the Golden Four -- NOT YET IN THE EXTRACT, pending the analyst adding this column"
-              },
-              "oral_comm_attempted": {
-                "value": 49.1,
-                "target": null,
-                "n": 623,
-                "available": true,
-                "label": "Oral Communication Attempted",
-                "note": "Ever attempted, as of this data pull -- Transfer/Degree-Seeking students -- part of the Golden Four"
-              },
               "english_completed": {
                 "value": 53.8,
                 "target": 70.0,
@@ -3312,22 +2780,6 @@
                 "available": true,
                 "label": "Transfer-Level Math Completed",
                 "note": "Ever completed, as of this data pull -- Transfer/Degree-Seeking students"
-              },
-              "critical_thinking_completed": {
-                "value": null,
-                "target": null,
-                "n": 0,
-                "available": false,
-                "label": "Critical Thinking Completed",
-                "note": "Ever completed, as of this data pull -- Transfer/Degree-Seeking students -- part of the Golden Four -- NOT YET IN THE EXTRACT, pending the analyst adding this column"
-              },
-              "oral_comm_completed": {
-                "value": 49.1,
-                "target": null,
-                "n": 623,
-                "available": true,
-                "label": "Oral Communication Completed",
-                "note": "Ever completed, as of this data pull -- Transfer/Degree-Seeking students -- part of the Golden Four"
               },
               "cte_units_attempted": {
                 "value": 37.8,
@@ -3468,22 +2920,6 @@
                 "label": "Transfer-Level Math Attempted",
                 "note": "Ever attempted, as of this data pull -- Transfer/Degree-Seeking students"
               },
-              "critical_thinking_attempted": {
-                "value": null,
-                "target": null,
-                "n": 0,
-                "available": false,
-                "label": "Critical Thinking Attempted",
-                "note": "Ever attempted, as of this data pull -- Transfer/Degree-Seeking students -- part of the Golden Four -- NOT YET IN THE EXTRACT, pending the analyst adding this column"
-              },
-              "oral_comm_attempted": {
-                "value": 15.7,
-                "target": null,
-                "n": 51,
-                "available": true,
-                "label": "Oral Communication Attempted",
-                "note": "Ever attempted, as of this data pull -- Transfer/Degree-Seeking students -- part of the Golden Four"
-              },
               "english_completed": {
                 "value": 35.3,
                 "target": 70.0,
@@ -3499,22 +2935,6 @@
                 "available": true,
                 "label": "Transfer-Level Math Completed",
                 "note": "Ever completed, as of this data pull -- Transfer/Degree-Seeking students"
-              },
-              "critical_thinking_completed": {
-                "value": null,
-                "target": null,
-                "n": 0,
-                "available": false,
-                "label": "Critical Thinking Completed",
-                "note": "Ever completed, as of this data pull -- Transfer/Degree-Seeking students -- part of the Golden Four -- NOT YET IN THE EXTRACT, pending the analyst adding this column"
-              },
-              "oral_comm_completed": {
-                "value": 15.7,
-                "target": null,
-                "n": 51,
-                "available": true,
-                "label": "Oral Communication Completed",
-                "note": "Ever completed, as of this data pull -- Transfer/Degree-Seeking students -- part of the Golden Four"
               },
               "cte_units_attempted": {
                 "value": null,
@@ -3655,22 +3075,6 @@
                 "label": "Transfer-Level Math Attempted",
                 "note": "Ever attempted, as of this data pull -- Transfer/Degree-Seeking students"
               },
-              "critical_thinking_attempted": {
-                "value": null,
-                "target": null,
-                "n": 0,
-                "available": false,
-                "label": "Critical Thinking Attempted",
-                "note": "Ever attempted, as of this data pull -- Transfer/Degree-Seeking students -- part of the Golden Four -- NOT YET IN THE EXTRACT, pending the analyst adding this column"
-              },
-              "oral_comm_attempted": {
-                "value": 68.1,
-                "target": null,
-                "n": 144,
-                "available": true,
-                "label": "Oral Communication Attempted",
-                "note": "Ever attempted, as of this data pull -- Transfer/Degree-Seeking students -- part of the Golden Four"
-              },
               "english_completed": {
                 "value": 62.5,
                 "target": 70.0,
@@ -3686,22 +3090,6 @@
                 "available": true,
                 "label": "Transfer-Level Math Completed",
                 "note": "Ever completed, as of this data pull -- Transfer/Degree-Seeking students"
-              },
-              "critical_thinking_completed": {
-                "value": null,
-                "target": null,
-                "n": 0,
-                "available": false,
-                "label": "Critical Thinking Completed",
-                "note": "Ever completed, as of this data pull -- Transfer/Degree-Seeking students -- part of the Golden Four -- NOT YET IN THE EXTRACT, pending the analyst adding this column"
-              },
-              "oral_comm_completed": {
-                "value": 68.1,
-                "target": null,
-                "n": 144,
-                "available": true,
-                "label": "Oral Communication Completed",
-                "note": "Ever completed, as of this data pull -- Transfer/Degree-Seeking students -- part of the Golden Four"
               },
               "cte_units_attempted": {
                 "value": 20.0,
@@ -3843,22 +3231,6 @@
                 "label": "Transfer-Level Math Attempted",
                 "note": "Ever attempted, as of this data pull -- Transfer/Degree-Seeking students"
               },
-              "critical_thinking_attempted": {
-                "value": null,
-                "target": null,
-                "n": 0,
-                "available": false,
-                "label": "Critical Thinking Attempted",
-                "note": "Ever attempted, as of this data pull -- Transfer/Degree-Seeking students -- part of the Golden Four -- NOT YET IN THE EXTRACT, pending the analyst adding this column"
-              },
-              "oral_comm_attempted": {
-                "value": 62.1,
-                "target": null,
-                "n": 709,
-                "available": true,
-                "label": "Oral Communication Attempted",
-                "note": "Ever attempted, as of this data pull -- Transfer/Degree-Seeking students -- part of the Golden Four"
-              },
               "english_completed": {
                 "value": 58.4,
                 "target": 70.0,
@@ -3874,22 +3246,6 @@
                 "available": true,
                 "label": "Transfer-Level Math Completed",
                 "note": "Ever completed, as of this data pull -- Transfer/Degree-Seeking students"
-              },
-              "critical_thinking_completed": {
-                "value": null,
-                "target": null,
-                "n": 0,
-                "available": false,
-                "label": "Critical Thinking Completed",
-                "note": "Ever completed, as of this data pull -- Transfer/Degree-Seeking students -- part of the Golden Four -- NOT YET IN THE EXTRACT, pending the analyst adding this column"
-              },
-              "oral_comm_completed": {
-                "value": 62.1,
-                "target": null,
-                "n": 709,
-                "available": true,
-                "label": "Oral Communication Completed",
-                "note": "Ever completed, as of this data pull -- Transfer/Degree-Seeking students -- part of the Golden Four"
               },
               "cte_units_attempted": {
                 "value": 27.5,
@@ -4030,22 +3386,6 @@
                 "label": "Transfer-Level Math Attempted",
                 "note": "Ever attempted, as of this data pull -- Transfer/Degree-Seeking students"
               },
-              "critical_thinking_attempted": {
-                "value": null,
-                "target": null,
-                "n": 0,
-                "available": false,
-                "label": "Critical Thinking Attempted",
-                "note": "Ever attempted, as of this data pull -- Transfer/Degree-Seeking students -- part of the Golden Four -- NOT YET IN THE EXTRACT, pending the analyst adding this column"
-              },
-              "oral_comm_attempted": {
-                "value": 68.9,
-                "target": null,
-                "n": 530,
-                "available": true,
-                "label": "Oral Communication Attempted",
-                "note": "Ever attempted, as of this data pull -- Transfer/Degree-Seeking students -- part of the Golden Four"
-              },
               "english_completed": {
                 "value": 64.0,
                 "target": 70.0,
@@ -4061,22 +3401,6 @@
                 "available": true,
                 "label": "Transfer-Level Math Completed",
                 "note": "Ever completed, as of this data pull -- Transfer/Degree-Seeking students"
-              },
-              "critical_thinking_completed": {
-                "value": null,
-                "target": null,
-                "n": 0,
-                "available": false,
-                "label": "Critical Thinking Completed",
-                "note": "Ever completed, as of this data pull -- Transfer/Degree-Seeking students -- part of the Golden Four -- NOT YET IN THE EXTRACT, pending the analyst adding this column"
-              },
-              "oral_comm_completed": {
-                "value": 68.9,
-                "target": null,
-                "n": 530,
-                "available": true,
-                "label": "Oral Communication Completed",
-                "note": "Ever completed, as of this data pull -- Transfer/Degree-Seeking students -- part of the Golden Four"
               },
               "cte_units_attempted": {
                 "value": null,
@@ -4219,22 +3543,6 @@
                 "label": "Transfer-Level Math Attempted",
                 "note": "Ever attempted, as of this data pull -- Transfer/Degree-Seeking students"
               },
-              "critical_thinking_attempted": {
-                "value": null,
-                "target": null,
-                "n": 0,
-                "available": false,
-                "label": "Critical Thinking Attempted",
-                "note": "Ever attempted, as of this data pull -- Transfer/Degree-Seeking students -- part of the Golden Four -- NOT YET IN THE EXTRACT, pending the analyst adding this column"
-              },
-              "oral_comm_attempted": {
-                "value": 58.4,
-                "target": null,
-                "n": 613,
-                "available": true,
-                "label": "Oral Communication Attempted",
-                "note": "Ever attempted, as of this data pull -- Transfer/Degree-Seeking students -- part of the Golden Four"
-              },
               "english_completed": {
                 "value": 65.1,
                 "target": 70.0,
@@ -4250,22 +3558,6 @@
                 "available": true,
                 "label": "Transfer-Level Math Completed",
                 "note": "Ever completed, as of this data pull -- Transfer/Degree-Seeking students"
-              },
-              "critical_thinking_completed": {
-                "value": null,
-                "target": null,
-                "n": 0,
-                "available": false,
-                "label": "Critical Thinking Completed",
-                "note": "Ever completed, as of this data pull -- Transfer/Degree-Seeking students -- part of the Golden Four -- NOT YET IN THE EXTRACT, pending the analyst adding this column"
-              },
-              "oral_comm_completed": {
-                "value": 58.4,
-                "target": null,
-                "n": 613,
-                "available": true,
-                "label": "Oral Communication Completed",
-                "note": "Ever completed, as of this data pull -- Transfer/Degree-Seeking students -- part of the Golden Four"
               },
               "cte_units_attempted": {
                 "value": null,
@@ -4411,53 +3703,21 @@
           "label": "Transfer-Level Math Attempted",
           "note": "Ever attempted, as of this data pull -- Transfer/Degree-Seeking students"
         },
-        "critical_thinking_attempted": {
-          "value": null,
-          "target": null,
-          "n": 0,
-          "available": false,
-          "label": "Critical Thinking Attempted",
-          "note": "Ever attempted, as of this data pull -- Transfer/Degree-Seeking students -- part of the Golden Four -- NOT YET IN THE EXTRACT, pending the analyst adding this column"
-        },
-        "oral_comm_attempted": {
-          "value": 27.3,
+        "english_completed": {
+          "value": 8.6,
           "target": null,
           "n": 3422,
           "available": true,
-          "label": "Oral Communication Attempted",
-          "note": "Ever attempted, as of this data pull -- Transfer/Degree-Seeking students -- part of the Golden Four"
-        },
-        "english_completed": {
-          "value": null,
-          "target": 70.0,
-          "n": 0,
-          "available": false,
           "label": "Transfer-Level English Completed",
-          "note": "Ever completed, as of this data pull -- Transfer/Degree-Seeking students -- not yet meaningful for this cohort"
+          "note": "Ever completed, as of this data pull -- Transfer/Degree-Seeking students -- Year 1 in progress; includes summer entrants and prior dual-enrollment completions"
         },
         "math_completed": {
-          "value": null,
-          "target": 55.0,
-          "n": 0,
-          "available": false,
+          "value": 3.5,
+          "target": null,
+          "n": 3422,
+          "available": true,
           "label": "Transfer-Level Math Completed",
-          "note": "Ever completed, as of this data pull -- Transfer/Degree-Seeking students -- not yet meaningful for this cohort"
-        },
-        "critical_thinking_completed": {
-          "value": null,
-          "target": null,
-          "n": 0,
-          "available": false,
-          "label": "Critical Thinking Completed",
-          "note": "Ever completed, as of this data pull -- Transfer/Degree-Seeking students -- part of the Golden Four -- NOT YET IN THE EXTRACT, pending the analyst adding this column -- not yet meaningful for this cohort"
-        },
-        "oral_comm_completed": {
-          "value": null,
-          "target": null,
-          "n": 0,
-          "available": false,
-          "label": "Oral Communication Completed",
-          "note": "Ever completed, as of this data pull -- Transfer/Degree-Seeking students -- part of the Golden Four -- not yet meaningful for this cohort"
+          "note": "Ever completed, as of this data pull -- Transfer/Degree-Seeking students -- Year 1 in progress; includes summer entrants and prior dual-enrollment completions"
         },
         "cte_units_attempted": {
           "value": 23.2,
@@ -4543,8 +3803,6 @@
             "N": 332,
             "Transfer-Level English Completed": 5.6,
             "Transfer-Level Math Completed": 1.6,
-            "Critical Thinking Completed": null,
-            "Oral Communication Completed": 21.9,
             "CTE Units Completed": 0.0
           },
           {
@@ -4552,8 +3810,6 @@
             "N": 517,
             "Transfer-Level English Completed": 5.9,
             "Transfer-Level Math Completed": 0.8,
-            "Critical Thinking Completed": null,
-            "Oral Communication Completed": 17.9,
             "CTE Units Completed": 0.0
           },
           {
@@ -4561,8 +3817,6 @@
             "N": 720,
             "Transfer-Level English Completed": 5.1,
             "Transfer-Level Math Completed": 1.1,
-            "Critical Thinking Completed": null,
-            "Oral Communication Completed": 21.6,
             "CTE Units Completed": 0.0
           },
           {
@@ -4570,8 +3824,6 @@
             "N": 41,
             "Transfer-Level English Completed": 2.5,
             "Transfer-Level Math Completed": 0.0,
-            "Critical Thinking Completed": null,
-            "Oral Communication Completed": 35.0,
             "CTE Units Completed": null
           },
           {
@@ -4579,8 +3831,6 @@
             "N": 162,
             "Transfer-Level English Completed": 9.6,
             "Transfer-Level Math Completed": 1.3,
-            "Critical Thinking Completed": null,
-            "Oral Communication Completed": 29.9,
             "CTE Units Completed": 0.0
           },
           {
@@ -4588,8 +3838,6 @@
             "N": 843,
             "Transfer-Level English Completed": 8.9,
             "Transfer-Level Math Completed": 3.2,
-            "Critical Thinking Completed": null,
-            "Oral Communication Completed": 34.4,
             "CTE Units Completed": 0.0
           },
           {
@@ -4597,8 +3845,6 @@
             "N": 444,
             "Transfer-Level English Completed": 9.5,
             "Transfer-Level Math Completed": 2.7,
-            "Critical Thinking Completed": null,
-            "Oral Communication Completed": 32.3,
             "CTE Units Completed": 0.0
           },
           {
@@ -4606,8 +3852,6 @@
             "N": 669,
             "Transfer-Level English Completed": 14.0,
             "Transfer-Level Math Completed": 9.7,
-            "Critical Thinking Completed": null,
-            "Oral Communication Completed": 27.1,
             "CTE Units Completed": 0.0
           }
         ],
@@ -4617,8 +3861,6 @@
             "N": 302,
             "Transfer-Level English Completed": null,
             "Transfer-Level Math Completed": null,
-            "Critical Thinking Completed": null,
-            "Oral Communication Completed": null,
             "CTE Units Completed": 0.0
           },
           {
@@ -4626,8 +3868,6 @@
             "N": 3,
             "Transfer-Level English Completed": null,
             "Transfer-Level Math Completed": null,
-            "Critical Thinking Completed": null,
-            "Oral Communication Completed": null,
             "CTE Units Completed": null
           },
           {
@@ -4635,8 +3875,6 @@
             "N": 3422,
             "Transfer-Level English Completed": 8.6,
             "Transfer-Level Math Completed": 3.5,
-            "Critical Thinking Completed": null,
-            "Oral Communication Completed": 27.3,
             "CTE Units Completed": null
           },
           {
@@ -4644,8 +3882,6 @@
             "N": 1,
             "Transfer-Level English Completed": null,
             "Transfer-Level Math Completed": null,
-            "Critical Thinking Completed": null,
-            "Oral Communication Completed": null,
             "CTE Units Completed": null
           }
         ],
@@ -4655,8 +3891,6 @@
             "N": 4,
             "Transfer-Level English Completed": 0.0,
             "Transfer-Level Math Completed": 0.0,
-            "Critical Thinking Completed": null,
-            "Oral Communication Completed": 0.0,
             "CTE Units Completed": null
           },
           {
@@ -4664,8 +3898,6 @@
             "N": 233,
             "Transfer-Level English Completed": 22.9,
             "Transfer-Level Math Completed": 16.3,
-            "Critical Thinking Completed": null,
-            "Oral Communication Completed": 37.4,
             "CTE Units Completed": 0.0
           },
           {
@@ -4673,8 +3905,6 @@
             "N": 287,
             "Transfer-Level English Completed": 3.6,
             "Transfer-Level Math Completed": 1.1,
-            "Critical Thinking Completed": null,
-            "Oral Communication Completed": 21.5,
             "CTE Units Completed": 0.0
           },
           {
@@ -4682,8 +3912,6 @@
             "N": 2868,
             "Transfer-Level English Completed": 7.9,
             "Transfer-Level Math Completed": 2.6,
-            "Critical Thinking Completed": null,
-            "Oral Communication Completed": 27.1,
             "CTE Units Completed": 0.0
           },
           {
@@ -4691,8 +3919,6 @@
             "N": 17,
             "Transfer-Level English Completed": 0.0,
             "Transfer-Level Math Completed": 0.0,
-            "Critical Thinking Completed": null,
-            "Oral Communication Completed": 11.8,
             "CTE Units Completed": null
           },
           {
@@ -4700,8 +3926,6 @@
             "N": 36,
             "Transfer-Level English Completed": 0.0,
             "Transfer-Level Math Completed": 0.0,
-            "Critical Thinking Completed": null,
-            "Oral Communication Completed": 22.6,
             "CTE Units Completed": 0.0
           },
           {
@@ -4709,8 +3933,6 @@
             "N": 78,
             "Transfer-Level English Completed": 12.9,
             "Transfer-Level Math Completed": 10.0,
-            "Critical Thinking Completed": null,
-            "Oral Communication Completed": 24.3,
             "CTE Units Completed": 0.0
           },
           {
@@ -4718,8 +3940,6 @@
             "N": 197,
             "Transfer-Level English Completed": 8.7,
             "Transfer-Level Math Completed": 1.7,
-            "Critical Thinking Completed": null,
-            "Oral Communication Completed": 30.2,
             "CTE Units Completed": 0.0
           },
           {
@@ -4727,8 +3947,6 @@
             "N": 8,
             "Transfer-Level English Completed": 25.0,
             "Transfer-Level Math Completed": 0.0,
-            "Critical Thinking Completed": null,
-            "Oral Communication Completed": 37.5,
             "CTE Units Completed": null
           }
         ],
@@ -4738,8 +3956,6 @@
             "N": 1794,
             "Transfer-Level English Completed": 10.2,
             "Transfer-Level Math Completed": 2.8,
-            "Critical Thinking Completed": null,
-            "Oral Communication Completed": 30.7,
             "CTE Units Completed": 0.0
           },
           {
@@ -4747,8 +3963,6 @@
             "N": 1870,
             "Transfer-Level English Completed": 7.2,
             "Transfer-Level Math Completed": 4.2,
-            "Critical Thinking Completed": null,
-            "Oral Communication Completed": 24.1,
             "CTE Units Completed": 0.0
           },
           {
@@ -4756,8 +3970,6 @@
             "N": 64,
             "Transfer-Level English Completed": 4.9,
             "Transfer-Level Math Completed": 3.3,
-            "Critical Thinking Completed": null,
-            "Oral Communication Completed": 19.7,
             "CTE Units Completed": 0.0
           }
         ]
@@ -4783,53 +3995,21 @@
                 "label": "Transfer-Level Math Attempted",
                 "note": "Ever attempted, as of this data pull -- Transfer/Degree-Seeking students"
               },
-              "critical_thinking_attempted": {
-                "value": null,
-                "target": null,
-                "n": 0,
-                "available": false,
-                "label": "Critical Thinking Attempted",
-                "note": "Ever attempted, as of this data pull -- Transfer/Degree-Seeking students -- part of the Golden Four -- NOT YET IN THE EXTRACT, pending the analyst adding this column"
-              },
-              "oral_comm_attempted": {
-                "value": 21.9,
+              "english_completed": {
+                "value": 5.6,
                 "target": null,
                 "n": 319,
                 "available": true,
-                "label": "Oral Communication Attempted",
-                "note": "Ever attempted, as of this data pull -- Transfer/Degree-Seeking students -- part of the Golden Four"
-              },
-              "english_completed": {
-                "value": null,
-                "target": 70.0,
-                "n": 0,
-                "available": false,
                 "label": "Transfer-Level English Completed",
-                "note": "Ever completed, as of this data pull -- Transfer/Degree-Seeking students -- not yet meaningful for this cohort"
+                "note": "Ever completed, as of this data pull -- Transfer/Degree-Seeking students -- Year 1 in progress; includes summer entrants and prior dual-enrollment completions"
               },
               "math_completed": {
-                "value": null,
-                "target": 55.0,
-                "n": 0,
-                "available": false,
+                "value": 1.6,
+                "target": null,
+                "n": 319,
+                "available": true,
                 "label": "Transfer-Level Math Completed",
-                "note": "Ever completed, as of this data pull -- Transfer/Degree-Seeking students -- not yet meaningful for this cohort"
-              },
-              "critical_thinking_completed": {
-                "value": null,
-                "target": null,
-                "n": 0,
-                "available": false,
-                "label": "Critical Thinking Completed",
-                "note": "Ever completed, as of this data pull -- Transfer/Degree-Seeking students -- part of the Golden Four -- NOT YET IN THE EXTRACT, pending the analyst adding this column -- not yet meaningful for this cohort"
-              },
-              "oral_comm_completed": {
-                "value": null,
-                "target": null,
-                "n": 0,
-                "available": false,
-                "label": "Oral Communication Completed",
-                "note": "Ever completed, as of this data pull -- Transfer/Degree-Seeking students -- part of the Golden Four -- not yet meaningful for this cohort"
+                "note": "Ever completed, as of this data pull -- Transfer/Degree-Seeking students -- Year 1 in progress; includes summer entrants and prior dual-enrollment completions"
               },
               "cte_units_attempted": {
                 "value": null,
@@ -4930,53 +4110,21 @@
                 "label": "Transfer-Level Math Attempted",
                 "note": "Ever attempted, as of this data pull -- Transfer/Degree-Seeking students"
               },
-              "critical_thinking_attempted": {
-                "value": null,
-                "target": null,
-                "n": 0,
-                "available": false,
-                "label": "Critical Thinking Attempted",
-                "note": "Ever attempted, as of this data pull -- Transfer/Degree-Seeking students -- part of the Golden Four -- NOT YET IN THE EXTRACT, pending the analyst adding this column"
-              },
-              "oral_comm_attempted": {
-                "value": 17.9,
+              "english_completed": {
+                "value": 5.9,
                 "target": null,
                 "n": 358,
                 "available": true,
-                "label": "Oral Communication Attempted",
-                "note": "Ever attempted, as of this data pull -- Transfer/Degree-Seeking students -- part of the Golden Four"
-              },
-              "english_completed": {
-                "value": null,
-                "target": 70.0,
-                "n": 0,
-                "available": false,
                 "label": "Transfer-Level English Completed",
-                "note": "Ever completed, as of this data pull -- Transfer/Degree-Seeking students -- not yet meaningful for this cohort"
+                "note": "Ever completed, as of this data pull -- Transfer/Degree-Seeking students -- Year 1 in progress; includes summer entrants and prior dual-enrollment completions"
               },
               "math_completed": {
-                "value": null,
-                "target": 55.0,
-                "n": 0,
-                "available": false,
+                "value": 0.8,
+                "target": null,
+                "n": 358,
+                "available": true,
                 "label": "Transfer-Level Math Completed",
-                "note": "Ever completed, as of this data pull -- Transfer/Degree-Seeking students -- not yet meaningful for this cohort"
-              },
-              "critical_thinking_completed": {
-                "value": null,
-                "target": null,
-                "n": 0,
-                "available": false,
-                "label": "Critical Thinking Completed",
-                "note": "Ever completed, as of this data pull -- Transfer/Degree-Seeking students -- part of the Golden Four -- NOT YET IN THE EXTRACT, pending the analyst adding this column -- not yet meaningful for this cohort"
-              },
-              "oral_comm_completed": {
-                "value": null,
-                "target": null,
-                "n": 0,
-                "available": false,
-                "label": "Oral Communication Completed",
-                "note": "Ever completed, as of this data pull -- Transfer/Degree-Seeking students -- part of the Golden Four -- not yet meaningful for this cohort"
+                "note": "Ever completed, as of this data pull -- Transfer/Degree-Seeking students -- Year 1 in progress; includes summer entrants and prior dual-enrollment completions"
               },
               "cte_units_attempted": {
                 "value": 28.9,
@@ -5075,53 +4223,21 @@
                 "label": "Transfer-Level Math Attempted",
                 "note": "Ever attempted, as of this data pull -- Transfer/Degree-Seeking students"
               },
-              "critical_thinking_attempted": {
-                "value": null,
-                "target": null,
-                "n": 0,
-                "available": false,
-                "label": "Critical Thinking Attempted",
-                "note": "Ever attempted, as of this data pull -- Transfer/Degree-Seeking students -- part of the Golden Four -- NOT YET IN THE EXTRACT, pending the analyst adding this column"
-              },
-              "oral_comm_attempted": {
-                "value": 21.6,
+              "english_completed": {
+                "value": 5.1,
                 "target": null,
                 "n": 624,
                 "available": true,
-                "label": "Oral Communication Attempted",
-                "note": "Ever attempted, as of this data pull -- Transfer/Degree-Seeking students -- part of the Golden Four"
-              },
-              "english_completed": {
-                "value": null,
-                "target": 70.0,
-                "n": 0,
-                "available": false,
                 "label": "Transfer-Level English Completed",
-                "note": "Ever completed, as of this data pull -- Transfer/Degree-Seeking students -- not yet meaningful for this cohort"
+                "note": "Ever completed, as of this data pull -- Transfer/Degree-Seeking students -- Year 1 in progress; includes summer entrants and prior dual-enrollment completions"
               },
               "math_completed": {
-                "value": null,
-                "target": 55.0,
-                "n": 0,
-                "available": false,
+                "value": 1.1,
+                "target": null,
+                "n": 624,
+                "available": true,
                 "label": "Transfer-Level Math Completed",
-                "note": "Ever completed, as of this data pull -- Transfer/Degree-Seeking students -- not yet meaningful for this cohort"
-              },
-              "critical_thinking_completed": {
-                "value": null,
-                "target": null,
-                "n": 0,
-                "available": false,
-                "label": "Critical Thinking Completed",
-                "note": "Ever completed, as of this data pull -- Transfer/Degree-Seeking students -- part of the Golden Four -- NOT YET IN THE EXTRACT, pending the analyst adding this column -- not yet meaningful for this cohort"
-              },
-              "oral_comm_completed": {
-                "value": null,
-                "target": null,
-                "n": 0,
-                "available": false,
-                "label": "Oral Communication Completed",
-                "note": "Ever completed, as of this data pull -- Transfer/Degree-Seeking students -- part of the Golden Four -- not yet meaningful for this cohort"
+                "note": "Ever completed, as of this data pull -- Transfer/Degree-Seeking students -- Year 1 in progress; includes summer entrants and prior dual-enrollment completions"
               },
               "cte_units_attempted": {
                 "value": 21.9,
@@ -5220,53 +4336,21 @@
                 "label": "Transfer-Level Math Attempted",
                 "note": "Ever attempted, as of this data pull -- Transfer/Degree-Seeking students"
               },
-              "critical_thinking_attempted": {
-                "value": null,
-                "target": null,
-                "n": 0,
-                "available": false,
-                "label": "Critical Thinking Attempted",
-                "note": "Ever attempted, as of this data pull -- Transfer/Degree-Seeking students -- part of the Golden Four -- NOT YET IN THE EXTRACT, pending the analyst adding this column"
-              },
-              "oral_comm_attempted": {
-                "value": 35.0,
+              "english_completed": {
+                "value": 2.5,
                 "target": null,
                 "n": 40,
                 "available": true,
-                "label": "Oral Communication Attempted",
-                "note": "Ever attempted, as of this data pull -- Transfer/Degree-Seeking students -- part of the Golden Four"
-              },
-              "english_completed": {
-                "value": null,
-                "target": 70.0,
-                "n": 0,
-                "available": false,
                 "label": "Transfer-Level English Completed",
-                "note": "Ever completed, as of this data pull -- Transfer/Degree-Seeking students -- not yet meaningful for this cohort"
+                "note": "Ever completed, as of this data pull -- Transfer/Degree-Seeking students -- Year 1 in progress; includes summer entrants and prior dual-enrollment completions"
               },
               "math_completed": {
-                "value": null,
-                "target": 55.0,
-                "n": 0,
-                "available": false,
+                "value": 0.0,
+                "target": null,
+                "n": 40,
+                "available": true,
                 "label": "Transfer-Level Math Completed",
-                "note": "Ever completed, as of this data pull -- Transfer/Degree-Seeking students -- not yet meaningful for this cohort"
-              },
-              "critical_thinking_completed": {
-                "value": null,
-                "target": null,
-                "n": 0,
-                "available": false,
-                "label": "Critical Thinking Completed",
-                "note": "Ever completed, as of this data pull -- Transfer/Degree-Seeking students -- part of the Golden Four -- NOT YET IN THE EXTRACT, pending the analyst adding this column -- not yet meaningful for this cohort"
-              },
-              "oral_comm_completed": {
-                "value": null,
-                "target": null,
-                "n": 0,
-                "available": false,
-                "label": "Oral Communication Completed",
-                "note": "Ever completed, as of this data pull -- Transfer/Degree-Seeking students -- part of the Golden Four -- not yet meaningful for this cohort"
+                "note": "Ever completed, as of this data pull -- Transfer/Degree-Seeking students -- Year 1 in progress; includes summer entrants and prior dual-enrollment completions"
               },
               "cte_units_attempted": {
                 "value": null,
@@ -5365,53 +4449,21 @@
                 "label": "Transfer-Level Math Attempted",
                 "note": "Ever attempted, as of this data pull -- Transfer/Degree-Seeking students"
               },
-              "critical_thinking_attempted": {
-                "value": null,
-                "target": null,
-                "n": 0,
-                "available": false,
-                "label": "Critical Thinking Attempted",
-                "note": "Ever attempted, as of this data pull -- Transfer/Degree-Seeking students -- part of the Golden Four -- NOT YET IN THE EXTRACT, pending the analyst adding this column"
-              },
-              "oral_comm_attempted": {
-                "value": 29.9,
+              "english_completed": {
+                "value": 9.6,
                 "target": null,
                 "n": 157,
                 "available": true,
-                "label": "Oral Communication Attempted",
-                "note": "Ever attempted, as of this data pull -- Transfer/Degree-Seeking students -- part of the Golden Four"
-              },
-              "english_completed": {
-                "value": null,
-                "target": 70.0,
-                "n": 0,
-                "available": false,
                 "label": "Transfer-Level English Completed",
-                "note": "Ever completed, as of this data pull -- Transfer/Degree-Seeking students -- not yet meaningful for this cohort"
+                "note": "Ever completed, as of this data pull -- Transfer/Degree-Seeking students -- Year 1 in progress; includes summer entrants and prior dual-enrollment completions"
               },
               "math_completed": {
-                "value": null,
-                "target": 55.0,
-                "n": 0,
-                "available": false,
+                "value": 1.3,
+                "target": null,
+                "n": 157,
+                "available": true,
                 "label": "Transfer-Level Math Completed",
-                "note": "Ever completed, as of this data pull -- Transfer/Degree-Seeking students -- not yet meaningful for this cohort"
-              },
-              "critical_thinking_completed": {
-                "value": null,
-                "target": null,
-                "n": 0,
-                "available": false,
-                "label": "Critical Thinking Completed",
-                "note": "Ever completed, as of this data pull -- Transfer/Degree-Seeking students -- part of the Golden Four -- NOT YET IN THE EXTRACT, pending the analyst adding this column -- not yet meaningful for this cohort"
-              },
-              "oral_comm_completed": {
-                "value": null,
-                "target": null,
-                "n": 0,
-                "available": false,
-                "label": "Oral Communication Completed",
-                "note": "Ever completed, as of this data pull -- Transfer/Degree-Seeking students -- part of the Golden Four -- not yet meaningful for this cohort"
+                "note": "Ever completed, as of this data pull -- Transfer/Degree-Seeking students -- Year 1 in progress; includes summer entrants and prior dual-enrollment completions"
               },
               "cte_units_attempted": {
                 "value": null,
@@ -5512,53 +4564,21 @@
                 "label": "Transfer-Level Math Attempted",
                 "note": "Ever attempted, as of this data pull -- Transfer/Degree-Seeking students"
               },
-              "critical_thinking_attempted": {
-                "value": null,
-                "target": null,
-                "n": 0,
-                "available": false,
-                "label": "Critical Thinking Attempted",
-                "note": "Ever attempted, as of this data pull -- Transfer/Degree-Seeking students -- part of the Golden Four -- NOT YET IN THE EXTRACT, pending the analyst adding this column"
-              },
-              "oral_comm_attempted": {
-                "value": 34.4,
+              "english_completed": {
+                "value": 8.9,
                 "target": null,
                 "n": 818,
                 "available": true,
-                "label": "Oral Communication Attempted",
-                "note": "Ever attempted, as of this data pull -- Transfer/Degree-Seeking students -- part of the Golden Four"
-              },
-              "english_completed": {
-                "value": null,
-                "target": 70.0,
-                "n": 0,
-                "available": false,
                 "label": "Transfer-Level English Completed",
-                "note": "Ever completed, as of this data pull -- Transfer/Degree-Seeking students -- not yet meaningful for this cohort"
+                "note": "Ever completed, as of this data pull -- Transfer/Degree-Seeking students -- Year 1 in progress; includes summer entrants and prior dual-enrollment completions"
               },
               "math_completed": {
-                "value": null,
-                "target": 55.0,
-                "n": 0,
-                "available": false,
+                "value": 3.2,
+                "target": null,
+                "n": 818,
+                "available": true,
                 "label": "Transfer-Level Math Completed",
-                "note": "Ever completed, as of this data pull -- Transfer/Degree-Seeking students -- not yet meaningful for this cohort"
-              },
-              "critical_thinking_completed": {
-                "value": null,
-                "target": null,
-                "n": 0,
-                "available": false,
-                "label": "Critical Thinking Completed",
-                "note": "Ever completed, as of this data pull -- Transfer/Degree-Seeking students -- part of the Golden Four -- NOT YET IN THE EXTRACT, pending the analyst adding this column -- not yet meaningful for this cohort"
-              },
-              "oral_comm_completed": {
-                "value": null,
-                "target": null,
-                "n": 0,
-                "available": false,
-                "label": "Oral Communication Completed",
-                "note": "Ever completed, as of this data pull -- Transfer/Degree-Seeking students -- part of the Golden Four -- not yet meaningful for this cohort"
+                "note": "Ever completed, as of this data pull -- Transfer/Degree-Seeking students -- Year 1 in progress; includes summer entrants and prior dual-enrollment completions"
               },
               "cte_units_attempted": {
                 "value": 8.3,
@@ -5658,53 +4678,21 @@
                 "label": "Transfer-Level Math Attempted",
                 "note": "Ever attempted, as of this data pull -- Transfer/Degree-Seeking students"
               },
-              "critical_thinking_attempted": {
-                "value": null,
-                "target": null,
-                "n": 0,
-                "available": false,
-                "label": "Critical Thinking Attempted",
-                "note": "Ever attempted, as of this data pull -- Transfer/Degree-Seeking students -- part of the Golden Four -- NOT YET IN THE EXTRACT, pending the analyst adding this column"
-              },
-              "oral_comm_attempted": {
-                "value": 32.3,
+              "english_completed": {
+                "value": 9.5,
                 "target": null,
                 "n": 443,
                 "available": true,
-                "label": "Oral Communication Attempted",
-                "note": "Ever attempted, as of this data pull -- Transfer/Degree-Seeking students -- part of the Golden Four"
-              },
-              "english_completed": {
-                "value": null,
-                "target": 70.0,
-                "n": 0,
-                "available": false,
                 "label": "Transfer-Level English Completed",
-                "note": "Ever completed, as of this data pull -- Transfer/Degree-Seeking students -- not yet meaningful for this cohort"
+                "note": "Ever completed, as of this data pull -- Transfer/Degree-Seeking students -- Year 1 in progress; includes summer entrants and prior dual-enrollment completions"
               },
               "math_completed": {
-                "value": null,
-                "target": 55.0,
-                "n": 0,
-                "available": false,
+                "value": 2.7,
+                "target": null,
+                "n": 443,
+                "available": true,
                 "label": "Transfer-Level Math Completed",
-                "note": "Ever completed, as of this data pull -- Transfer/Degree-Seeking students -- not yet meaningful for this cohort"
-              },
-              "critical_thinking_completed": {
-                "value": null,
-                "target": null,
-                "n": 0,
-                "available": false,
-                "label": "Critical Thinking Completed",
-                "note": "Ever completed, as of this data pull -- Transfer/Degree-Seeking students -- part of the Golden Four -- NOT YET IN THE EXTRACT, pending the analyst adding this column -- not yet meaningful for this cohort"
-              },
-              "oral_comm_completed": {
-                "value": null,
-                "target": null,
-                "n": 0,
-                "available": false,
-                "label": "Oral Communication Completed",
-                "note": "Ever completed, as of this data pull -- Transfer/Degree-Seeking students -- part of the Golden Four -- not yet meaningful for this cohort"
+                "note": "Ever completed, as of this data pull -- Transfer/Degree-Seeking students -- Year 1 in progress; includes summer entrants and prior dual-enrollment completions"
               },
               "cte_units_attempted": {
                 "value": null,
@@ -5805,53 +4793,21 @@
                 "label": "Transfer-Level Math Attempted",
                 "note": "Ever attempted, as of this data pull -- Transfer/Degree-Seeking students"
               },
-              "critical_thinking_attempted": {
-                "value": null,
-                "target": null,
-                "n": 0,
-                "available": false,
-                "label": "Critical Thinking Attempted",
-                "note": "Ever attempted, as of this data pull -- Transfer/Degree-Seeking students -- part of the Golden Four -- NOT YET IN THE EXTRACT, pending the analyst adding this column"
-              },
-              "oral_comm_attempted": {
-                "value": 27.1,
+              "english_completed": {
+                "value": 14.0,
                 "target": null,
                 "n": 663,
                 "available": true,
-                "label": "Oral Communication Attempted",
-                "note": "Ever attempted, as of this data pull -- Transfer/Degree-Seeking students -- part of the Golden Four"
-              },
-              "english_completed": {
-                "value": null,
-                "target": 70.0,
-                "n": 0,
-                "available": false,
                 "label": "Transfer-Level English Completed",
-                "note": "Ever completed, as of this data pull -- Transfer/Degree-Seeking students -- not yet meaningful for this cohort"
+                "note": "Ever completed, as of this data pull -- Transfer/Degree-Seeking students -- Year 1 in progress; includes summer entrants and prior dual-enrollment completions"
               },
               "math_completed": {
-                "value": null,
-                "target": 55.0,
-                "n": 0,
-                "available": false,
+                "value": 9.7,
+                "target": null,
+                "n": 663,
+                "available": true,
                 "label": "Transfer-Level Math Completed",
-                "note": "Ever completed, as of this data pull -- Transfer/Degree-Seeking students -- not yet meaningful for this cohort"
-              },
-              "critical_thinking_completed": {
-                "value": null,
-                "target": null,
-                "n": 0,
-                "available": false,
-                "label": "Critical Thinking Completed",
-                "note": "Ever completed, as of this data pull -- Transfer/Degree-Seeking students -- part of the Golden Four -- NOT YET IN THE EXTRACT, pending the analyst adding this column -- not yet meaningful for this cohort"
-              },
-              "oral_comm_completed": {
-                "value": null,
-                "target": null,
-                "n": 0,
-                "available": false,
-                "label": "Oral Communication Completed",
-                "note": "Ever completed, as of this data pull -- Transfer/Degree-Seeking students -- part of the Golden Four -- not yet meaningful for this cohort"
+                "note": "Ever completed, as of this data pull -- Transfer/Degree-Seeking students -- Year 1 in progress; includes summer entrants and prior dual-enrollment completions"
               },
               "cte_units_attempted": {
                 "value": null,
