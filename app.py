@@ -45,9 +45,11 @@ def status_color(value, target):
     return NAVY
 
 
-def metric_card(label, note, value, target):
+def metric_card(label, note, value, target, suppressed=False):
     color = status_color(value, target)
     val_txt = f"{value:.0f}%" if value is not None else "N/A"
+    if value is None and suppressed:
+        note = (note or "") + " — withheld: too few students in this group to report safely"
     goal_line = (f"<div style='font-size:0.8rem;color:{GRAY};font-style:italic;'>Goal: {target:.0f}%</div>"
                  if target is not None else
                  f"<div style='font-size:0.8rem;color:{GRAY};'>No comparable annual goal</div>")
@@ -102,6 +104,15 @@ st.sidebar.caption(f"Data as of: {snapshot.get('generated_at', 'unknown')}")
 if use_sample:
     st.sidebar.info("Showing made-up sample data, not real Cerritos College figures.")
 
+_dc = snapshot.get("disclosure_control") or {}
+if _dc:
+    _n = _dc.get("segment_cells_suppressed", 0) + _dc.get("cells_suppressed", 0)
+    if _n:
+        st.sidebar.caption(
+            f"Disclosure control: {_n} figure(s) withheld where fewer than "
+            f"{_dc.get('min_n', 10)} students sit behind them."
+        )
+
 cohorts = snapshot.get("cohorts", {})
 if not cohorts:
     st.title("Cohort KPI Dashboard")
@@ -124,7 +135,10 @@ st.caption(
 )
 
 st.subheader("Institutional Overview — All Cohorts")
-st.caption("Current standing for every tracked cohort, side by side. Select a cohort below for the full year-by-year journey.")
+st.caption(
+    "Current standing for every tracked cohort, side by side — always institution-wide. "
+    "Select a cohort below for the full year-by-year journey, filterable by LCP."
+)
 
 # This table's row order follows the same general principle as the rest
 # of the dashboard: CSEP first, then each Attempted metric immediately
@@ -197,10 +211,28 @@ _default_cohort = "Fall 2024" if "Fall 2024" in cohort_labels else cohort_labels
 cohort_label = st.selectbox("Select a cohort", cohort_labels, index=cohort_labels.index(_default_cohort))
 data = cohorts[cohort_label]
 
+# ---- LCP scope selector -------------------------------------------------
+# `segments` carries the full metric set computed per LCP, produced by the
+# export in student_data_tool. Selecting one simply swaps which node feeds
+# every card below -- no other change is needed.
+segments = (data.get("segments") or {}).get("LCP", {})
+scope = "All LCPs"
+if segments:
+    scope = st.selectbox("LCP / Division", ["All LCPs"] + sorted(segments.keys()))
+    if scope != "All LCPs":
+        data = segments[scope]
+else:
+    st.caption(
+        "This snapshot has no per-LCP figures yet — rebuild it from student_data_tool "
+        "with the segments export to enable the LCP filter."
+    )
+
+_scope_suffix = "" if scope == "All LCPs" else f" · {scope}"
+
 st.markdown(
     f"""
     <div style="background:{NAVY};padding:1rem 1.5rem;border-radius:8px;margin-bottom:1rem;">
-        <div style="color:white;font-size:1.6rem;font-weight:700;">{cohort_label} — Cohort Journey</div>
+        <div style="color:white;font-size:1.6rem;font-weight:700;">{cohort_label}{_scope_suffix} — Cohort Journey</div>
         <div style="color:{ICE};font-size:0.9rem;">Cerritos College · {data['n_students']:,} students</div>
     </div>
     """,
@@ -223,7 +255,8 @@ if years:
                 m = year_metrics.get(key)
                 if m is None:
                     continue
-                metric_card(m["label"], m["note"], m["value"], m["target"])
+                metric_card(m["label"], m["note"], m["value"], m["target"],
+                            suppressed=m.get("suppressed", False))
                 st.write("")
 else:
     st.info("No year-by-year data in this snapshot for this cohort.")
@@ -236,9 +269,13 @@ for idx, key in enumerate(OVERALL_METRIC_ORDER):
     if m is None:
         continue
     with cols[idx % 3]:
-        metric_card(m["label"], m["note"], m["value"], m["target"])
+        metric_card(m["label"], m["note"], m["value"], m["target"],
+                    suppressed=m.get("suppressed", False))
         st.write("")
 
+# Breakdown tables are institution-wide only. A single LCP broken down by
+# LCP is meaningless, so the section hides itself when a scope is selected
+# (segment nodes carry no "breakdowns" key).
 breakdowns = data.get("breakdowns", {})
 if breakdowns:
     st.divider()
@@ -249,6 +286,9 @@ if breakdowns:
         st.dataframe(pd.DataFrame(rows), width="stretch", hide_index=True)
     else:
         st.info("No data for this breakdown.")
+elif scope != "All LCPs":
+    st.divider()
+    st.caption(f"Breakdown tables are institution-wide — switch back to All LCPs to see them.")
 
 st.write("")
 st.caption(
