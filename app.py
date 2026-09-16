@@ -23,6 +23,33 @@ from pathlib import Path
 import streamlit as st
 import pandas as pd
 
+# ---------------------------------------------------------------------------
+# FILL THESE IN -- full LCP / division names, shown in the dropdown and the
+# section title. Leave any one blank and the dashboard falls back to the code
+# on its own, so a missing entry is safe rather than broken.
+# ---------------------------------------------------------------------------
+LCP_NAMES = {
+    "AHC":  "Arts, Humanities, & Communication",
+    "ATST": "Applied Technology & Skilled Trades",
+    "BAL":  "Business, Accounting, & Law",
+    "ED":   "Exploration & Discovery",
+    "EHS":  "Education & Human Services",
+    "HSW":  "Health Sciences & Wellness",
+    "SBS":  "Social & Behavioral Sciences",
+    "SEM":  "Science, Engineering, & Mathematics",
+}
+
+ALL_LCPS = "All LCPs"
+
+
+def lcp_label(code: str) -> str:
+    """Full name with the code in parentheses; bare code if no name is set."""
+    if code == ALL_LCPS:
+        return ALL_LCPS
+    name = (LCP_NAMES.get(code) or "").strip()
+    return f"{name} ({code})" if name else code
+
+
 NAVY = "#1E2761"
 ICE = "#CADCFC"
 GREEN = "#1E7A46"
@@ -214,12 +241,14 @@ data = cohorts[cohort_label]
 # ---- LCP scope selector -------------------------------------------------
 # `segments` carries the full metric set computed per LCP, produced by the
 # export in student_data_tool. Selecting one simply swaps which node feeds
-# every card below -- no other change is needed.
+# every card below -- no other change is needed. The dropdown shows full
+# names via lcp_label() while the underlying value stays the code.
 segments = (data.get("segments") or {}).get("LCP", {})
-scope = "All LCPs"
+scope = ALL_LCPS
 if segments:
-    scope = st.selectbox("LCP / Division", ["All LCPs"] + sorted(segments.keys()))
-    if scope != "All LCPs":
+    options = [ALL_LCPS] + sorted(segments.keys(), key=lcp_label)
+    scope = st.selectbox("LCP / Division", options, format_func=lcp_label)
+    if scope != ALL_LCPS:
         data = segments[scope]
 else:
     st.caption(
@@ -227,7 +256,7 @@ else:
         "with the segments export to enable the LCP filter."
     )
 
-_scope_suffix = "" if scope == "All LCPs" else f" · {scope}"
+_scope_suffix = "" if scope == ALL_LCPS else f" · {lcp_label(scope)}"
 
 st.markdown(
     f"""
@@ -283,12 +312,17 @@ if breakdowns:
     dim = st.selectbox("Break down by", list(breakdowns.keys()))
     rows = breakdowns[dim]
     if rows:
-        st.dataframe(pd.DataFrame(rows), width="stretch", hide_index=True)
+        df_rows = pd.DataFrame(rows)
+        # Show full LCP names in the breakdown table too.
+        if "LCP_current" in df_rows.columns:
+            df_rows["LCP_current"] = df_rows["LCP_current"].map(
+                lambda v: lcp_label(v) if isinstance(v, str) else v)
+        st.dataframe(df_rows, width="stretch", hide_index=True)
     else:
         st.info("No data for this breakdown.")
-elif scope != "All LCPs":
+elif scope != ALL_LCPS:
     st.divider()
-    st.caption(f"Breakdown tables are institution-wide — switch back to All LCPs to see them.")
+    st.caption("Breakdown tables are institution-wide — switch back to All LCPs to see them.")
 
 st.write("")
 st.caption(
