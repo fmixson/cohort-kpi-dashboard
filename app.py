@@ -23,21 +23,13 @@ from pathlib import Path
 import streamlit as st
 import pandas as pd
 
-# ---------------------------------------------------------------------------
-# FILL THESE IN -- full LCP / division names, shown in the dropdown and the
-# section title. Leave any one blank and the dashboard falls back to the code
-# on its own, so a missing entry is safe rather than broken.
-# ---------------------------------------------------------------------------
-LCP_NAMES = {
-    "AHC":  "Arts, Humanities, & Communication",
-    "ATST": "Applied Technology & Skilled Trades",
-    "BAL":  "Business, Accounting, & Law",
-    "ED":   "Exploration & Discovery",
-    "EHS":  "Education & Human Services",
-    "HSW":  "Health Sciences & Wellness",
-    "SBS":  "Social & Behavioral Sciences",
-    "SEM":  "Science, Engineering, & Mathematics",
-}
+# LCP names live in their own module so this file can be replaced wholesale
+# without losing them. A missing lcp_names.py degrades to bare codes rather
+# than breaking the dashboard.
+try:
+    from lcp_names import LCP_NAMES
+except ImportError:
+    LCP_NAMES = {}
 
 ALL_LCPS = "All LCPs"
 
@@ -93,6 +85,68 @@ def metric_card(label, note, value, target, suppressed=False):
     )
 
 
+def reports_panel(snapshot: dict, cohort_label: str, scope: str) -> None:
+    """Render the approved takeaways and actions for the current selection.
+
+    Institution reports show when no LCP is selected; the pathway's own replace
+    them when one is. Silent when a snapshot carries no reports -- older
+    snapshots predate this feature and should simply look the way they always
+    did, not display an error.
+
+    This function renders fixed text and computes nothing. That is the point:
+    what appears here is byte-for-byte what was approved in student_data_tool.
+    """
+    reports = (snapshot.get("reports") or {}).get(cohort_label)
+    if not reports:
+        return
+
+    body = (reports.get("institution") if scope == ALL_LCPS
+            else (reports.get("LCP") or {}).get(scope))
+    if not body:
+        return
+
+    takeaways = body.get("takeaways") or []
+    actions = body.get("actions") or []
+    if not (takeaways or actions):
+        return
+
+    suffix = "" if scope == ALL_LCPS else f" -- {lcp_label(scope)}"
+
+    def _block(heading, items, accent):
+        if not items:
+            return ""
+        lis = "".join(
+            f"<li style='margin-bottom:0.45rem;line-height:1.45;'>{i}</li>"
+            for i in items
+        )
+        return (
+            f"<div style='flex:1 1 320px;border-left:4px solid {accent};"
+            f"background:white;border-radius:0 8px 8px 0;padding:0.9rem 1.2rem;'>"
+            f"<div style='font-size:0.95rem;font-weight:700;color:{accent};"
+            f"margin-bottom:0.5rem;'>{heading}</div>"
+            f"<ul style='margin:0;padding-left:1.2rem;font-size:0.9rem;"
+            f"color:#2A2A2A;'>{lis}</ul></div>"
+        )
+
+    st.markdown(
+        f"""
+        <div style="display:flex;gap:1rem;flex-wrap:wrap;background:{LIGHTBG};
+                    border-radius:8px;padding:1rem;margin-bottom:1rem;">
+            {_block("Key Takeaways" + suffix, takeaways, NAVY)}
+            {_block("Recommended Actions" + suffix, actions, GREEN)}
+        </div>
+        """,
+        unsafe_allow_html=True,
+    )
+
+    meta = snapshot.get("reports_meta") or {}
+    if meta.get("approved_by"):
+        st.caption(
+            f"Reviewed and approved by {meta['approved_by']} for the "
+            f"{meta.get('data_as_of', 'current')} data."
+        )
+
+
 def fall_year(label):
     import re
     m = re.search(r"(\d{4})", label or "")
@@ -127,7 +181,12 @@ if snapshot is None:
     st.write("No data available yet -- no aggregate_snapshot.json or sample data found.")
     st.stop()
 
-st.sidebar.caption(f"Data as of: {snapshot.get('generated_at', 'unknown')}")
+# The date the DATA represents, not the date the file was built. Falling back
+# to generated_at keeps older snapshots readable, but a snapshot carrying
+# data_as_of is the one telling the truth.
+st.sidebar.caption(
+    f"Data as of: {snapshot.get('data_as_of') or snapshot.get('generated_at', 'unknown')}"
+)
 if use_sample:
     st.sidebar.info("Showing made-up sample data, not real Cerritos College figures.")
 
@@ -267,6 +326,10 @@ st.markdown(
     """,
     unsafe_allow_html=True,
 )
+
+# Approved takeaways and actions for whatever is currently selected --
+# institution when the scope is All LCPs, that pathway's own when one is chosen.
+reports_panel(snapshot, cohort_label, scope)
 
 by_year = data.get("by_year", {})
 years = sorted((int(y) for y in by_year.keys()), )
