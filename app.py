@@ -306,7 +306,23 @@ segments = (data.get("segments") or {}).get("LCP", {})
 scope = ALL_LCPS
 if segments:
     options = [ALL_LCPS] + sorted(segments.keys(), key=lcp_label)
-    scope = st.selectbox("LCP / Division", options, format_func=lcp_label)
+
+    # Remember the chosen LCP across cohort changes. Cohorts do not all carry
+    # the same LCP list (e.g. "(unknown)" is absent from some), and Streamlit
+    # treats a changed option list as a brand-new widget -- which silently
+    # reset the selection to All LCPs. The choice is kept in session state and
+    # passed back in as the default; it falls back to All LCPs only when the
+    # newly selected cohort really has no figures for that LCP.
+    _choice = st.session_state.get("lcp_choice", ALL_LCPS)
+    if _choice not in options:
+        _choice = ALL_LCPS
+
+    def _remember_lcp():
+        st.session_state["lcp_choice"] = st.session_state["lcp_select"]
+
+    scope = st.selectbox("LCP / Division", options, index=options.index(_choice),
+                         format_func=lcp_label, key="lcp_select",
+                         on_change=_remember_lcp)
     if scope != ALL_LCPS:
         data = segments[scope]
 else:

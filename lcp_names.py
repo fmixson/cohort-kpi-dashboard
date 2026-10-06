@@ -5,12 +5,12 @@ dashboard falls back to the bare code -- a missing name is safe, not broken.
 """
 
 LCP_NAMES = {
-    "AHC":  "",
-    "ATST": "",
-    "BAL":  "",
-    "ED":   "",
-    "EHS":  "",
-    "HSW":  "",
-    "SBS":  "",
-    "SEM":  "",
+    "AHC":  "Arts, Humanities & Communication",
+    "ATST": "Applied Technology & Skilled Trades",
+    "BAL":  "Business, Accounting & Law",
+    "ED":   "Exploration & Discovery",
+    "EHS":  "Education & Human Services",
+    "HSW":  "Health Sciences & Wellness",
+    "SBS":  "Social & Behavioral Sciences",
+    "SEM":  "Science, Engineering & Math",
 }
