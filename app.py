@@ -305,7 +305,10 @@ data = cohorts[cohort_label]
 segments = (data.get("segments") or {}).get("LCP", {})
 scope = ALL_LCPS
 if segments:
-    options = [ALL_LCPS] + sorted(segments.keys(), key=lcp_label)
+    # "(unknown)" -- students with no LCP recorded -- is hidden from the
+    # filter. They are still counted in the All LCPs figures.
+    options = [ALL_LCPS] + sorted((k for k in segments if k != "(unknown)"),
+                                  key=lcp_label)
 
     # Remember the chosen LCP across cohort changes. Cohorts do not all carry
     # the same LCP list (e.g. "(unknown)" is absent from some), and Streamlit
