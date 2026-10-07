@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-07T13:19:20",
+  "generated_at": "2026-10-07T13:34:55",
   "data_as_of": "2026-10-02",
   "source": "student_data_tool (de-identified student-level extract)",
   "cohorts": {
@@ -5254,5 +5254,419 @@
         "rule": "PRIMARY"
       }
     ]
+  },
+  "reports": {
+    "Fall 2024": {
+      "institution": {
+        "takeaways": [
+          "Around 3,120 students have an education plan on file \u2014 87.6 percent of the cohort \u2014 well above the 80 percent goal, which gives most students a roadmap in place.",
+          "Around 2,700 students have attempted transfer-level English and 2,410 have attempted transfer-level math, meeting the attempt targets. However, around 770 students started English but haven't passed yet, and around 960 started math but haven't passed \u2014 pass rates among attempters are 71 percent in English and 60 percent in math, both worth attention.",
+          "Around 450 students haven't started English yet and 740 haven't started math; many appear in both groups, so the total number of people is lower than the sum, but each group is enrolled now and reachable with direct outreach.",
+          "English completion has held flat over the past four weeks at 61.3 percent, 8.7 points below goal. Math completion eased down in two of the last four weeks, from 46.4 to 46.2 percent, and sits 8.8 points below goal.",
+          "Roughly 509 students' worth of difference appears between fall-to-spring persistence (78.8 percent) and fall-to-fall persistence (64.8 percent), suggesting summer and early-fall registration outreach may be worth considering for students who completed spring but have not returned."
+        ],
+        "actions": [
+          "Advising outreach to the 955 students who attempted transfer-level math but have not passed, to plan a repeat attempt with support attached (LCP success team / counseling).",
+          "Advising outreach to the 772 students who attempted transfer-level English but have not passed, to plan a repeat attempt with support attached (LCP success team / counseling).",
+          "Direct outreach to the 740 students who have not yet attempted transfer-level math and the 447 who have not yet attempted English \u2014 each count includes some of the same students, so do not add the two (LCP success team).",
+          "Summer and early-fall registration outreach to students who completed spring but have not registered, representing roughly 509 students' worth of the fall-to-fall persistence drop (LCP success team / outreach)."
+        ]
+      },
+      "LCP": {
+        "AHC": {
+          "takeaways": [
+            "Education-plan completion is strong \u2014 96.9% of the cohort has finalized a CSEP or DPP, well above the 80% goal, and English attempted sits just above target at 86.4%, with 285 students having started transfer-level English.",
+            "Math completion sits 16.8 points below goal at 38.2%, and the pathway is 8 points below the college average; around 109 students have attempted math but not yet passed, and another 95 haven't started it yet.",
+            "English completion is 7.9 points short of the 70% target at 62.1%, with 80 students who attempted the course but haven't completed it \u2014 a different group from those who haven't started, and they'll benefit from a different conversation.",
+            "Both English and math attempted rates have moved in a narrow range over the past eight weeks \u2014 within a point in each direction \u2014 suggesting the cohort is largely settled, though the rates eased slightly between early and mid-September before leveling off.",
+            "Persistence dropped 12.4 points from fall-to-spring (81%) to fall-to-fall (68.6%), which may reflect roughly 44 students who completed the first year but did not return, though the data does not confirm which students or whether they finished spring."
+          ],
+          "actions": [
+            "Advising outreach to the 109 students who attempted math but have not passed, to plan a repeat attempt with support attached (LCP success team / counseling).",
+            "Direct outreach campaign to the 95 students who have not yet attempted transfer-level math and the 45 who have not yet attempted English (LCP success team).",
+            "Review how math is placed, sequenced and scheduled within the pathway, given that math completion sits 8 points below the college average and attempted rates are 5.3 points lower (Dean / discipline faculty).",
+            "Summer and early-fall registration outreach to students who completed spring but have not registered, to address the fall-to-fall persistence drop (LCP success team / outreach)."
+          ]
+        },
+        "ATST": {
+          "takeaways": [
+            "Around 366 students in the ATST pathway have finalized an education plan, which is good progress in year three, though 147 students would still benefit from a CSEP or DPP appointment to reach the 80% target.",
+            "English attempt rates have held steady around 83% over the last four weeks, with 48 students who haven't started the course yet and are currently enrolled, making them reachable now.",
+            "Math completion sits 23.9 points below goal at 31.1%, which is 15.1 points below the college average; around 110 students attempted math but didn't pass, and another 89 haven't started it yet.",
+            "Persistence dropped from 73% in the fall-to-spring window to 57% fall-to-fall, a decline of 16 points that suggests roughly 82 students may have completed spring but not returned, though the data does not identify which students or confirm spring completion.",
+            "The cohort is approaching its third fall, and unit-completion milestones remain well below targets across all three years, with year-three completion at 23.2%, 56.8 points short of goal."
+          ],
+          "actions": [
+            "Advising outreach to around 110 students who attempted math but have not passed, to plan a repeat attempt with support attached (LCP success team / counseling).",
+            "Direct outreach campaign to 89 students who have not yet attempted transfer-level math and 48 who have not yet attempted English (LCP success team).",
+            "Education-plan completion campaign for the 147 students without a finalized CSEP or DPP (Counseling).",
+            "Review how transfer-level math is placed, sequenced and scheduled within the pathway, given completion rates 15 points below the college average (Dean / discipline faculty)."
+          ]
+        },
+        "BAL": {
+          "takeaways": [
+            "Math attempted sits above goal at 72%, and around 360 students have started transfer-level math, which is good progress for this cohort.",
+            "Around 95 students haven't started transfer-level English yet, and 140 haven't started math; they're enrolled now, which makes them reachable.",
+            "Among the 405 students who attempted English, around 125 didn't pass, and among the 360 who attempted math, around 155 didn't pass \u2014 two different groups that would benefit from different kinds of support.",
+            "English completion eased down in three of the last four weeks, from 56.4% to 56.0%, though the full span has been mixed; math completion also declined consistently over the last four weeks, from 41.6% to 41.0%, while the longer span showed slight net upward movement.",
+            "Both English and math completion run about 5 points below the college average (English 56.0% vs. 61.2%, math 41.0% vs. 46.2%), which may be worth a look given the different students this pathway serves; the education-plan completion rate sits 3.7 points below the 80% goal, with around 155 students still without a finalized plan."
+          ],
+          "actions": [
+            "Direct outreach campaign to the 140 students who have not yet attempted transfer-level math and the 95 who have not yet attempted English (LCP success team).",
+            "Advising outreach to the 155 students who attempted math but have not passed, and the 125 who attempted English but have not passed, to plan a repeat attempt with support attached (LCP success team / counseling).",
+            "Education-plan completion campaign (CSEP/DPP appointments) for the approximately 155 students who have not finalized a plan (Counseling).",
+            "Review how English and math are placed, sequenced and scheduled within the pathway, given completion rates 5 points below the college average in both subjects (Dean / discipline faculty)."
+          ]
+        },
+        "ED": {
+          "takeaways": [
+            "Math completion sits 7.8 points above goal, and English completion is just 4 points short, with both trending upward \u2014 the completion rates rose in three of the last four weeks. Around 216 students have completed transfer-level math and 227 have completed English.",
+            "Around 86 students haven't started transfer-level English yet, and 95 haven't started math. These students are still enrolled, which makes them reachable for direct outreach now.",
+            "Among students who attempted the courses, pass rates are strong: 88.0 percent in English and 86.7 percent in math. About 31 students attempted English but haven't passed, and 33 attempted math but haven't passed \u2014 these are two smaller groups who would benefit from different conversations about trying again with support.",
+            "Education-plan completion stands 3.2 points above goal at 83.2 percent. Fall-to-spring persistence was 88.0 percent, but fall-to-fall persistence dropped to 82.1 percent, a decline of about 6 points that may reflect roughly 22 students who completed spring but did not return in fall.",
+            "The pathway's English attempt rate sits 10.8 points below the college average, though completion among attempters is 4.8 points above average. Math attempt rate is 4.1 points below the college, but completion is 16.6 points above. The pattern suggests students who start the courses do well, and the lower attempt rate may be worth a look at how English is placed or sequenced within the pathway."
+          ],
+          "actions": [
+            "Direct outreach campaign to the 86 students who have not yet attempted transfer-level English and the 95 who have not yet attempted transfer-level math (LCP success team).",
+            "Advising outreach to the 31 students who attempted English but have not passed and the 33 who attempted math but have not passed, to plan a repeat attempt with support attached (LCP success team / counseling).",
+            "Summer and early-fall registration outreach to students who completed spring but have not registered, to address the fall-to-fall persistence drop of roughly 22 students (LCP success team / outreach).",
+            "Review how transfer-level English is placed, sequenced and scheduled within the pathway, given the 10.8-point gap in attempt rate compared to the college average (Dean / discipline faculty)."
+          ]
+        },
+        "EHS": {
+          "takeaways": [
+            "Education-plan completion sits well above goal \u2014 around 125 of the 128 students in the cohort have finalized a CSEP or DPP, which puts the pathway 17.7 points ahead of the 80% target and provides a strong foundation for advising conversations.",
+            "Around 17 students haven't started transfer-level English yet, and 37 haven't started math. Among the 103 who have attempted English, 28 took it but didn't pass, giving them a 72.8% pass rate. Among the 83 who have attempted math, 44 took it but didn't pass, putting the pass rate at 47%.",
+            "Math completion sits 22.5 points below goal and 13.7 points below the college average. The pathway's math attempt rate is also 7.3 points below the institution, which suggests that course placement, sequencing or scheduling within the pathway may be worth a look.",
+            "Persistence dropped 10.9 points from fall-to-spring (81.2%) to fall-to-fall (70.3%), which may reflect roughly 14 students who completed spring but did not return in the fall, though we can't identify them individually from this data.",
+            "This is a small cohort \u2014 with 128 students, a handful of people move the percentages several points, so week-to-week changes should be read gently and conclusions drawn carefully."
+          ],
+          "actions": [
+            "Direct outreach campaign to students who have not yet attempted math \u2014 37 students \u2014 and to those who have not yet attempted English \u2014 17 students (LCP success team).",
+            "Advising outreach to the 44 students who attempted math but have not passed, and to the 28 who attempted English but have not passed, to plan a repeat attempt with support attached (LCP success team / counseling).",
+            "Review how math is placed, sequenced and scheduled within the pathway, given that the pathway sits 13.7 points below the college average in completion and 7.3 points below in attempts (Dean / discipline faculty).",
+            "Summer and early-fall registration outreach to students who completed spring but have not registered, implied by the 10.9-point drop from fall-to-spring to fall-to-fall persistence (LCP success team / outreach)."
+          ]
+        },
+        "HSW": {
+          "takeaways": [
+            "Around 500 students have started transfer-level English and 432 have started transfer-level math, putting the pathway above goal in English (89.6% vs. 85% target) and well above goal in math (77.4% vs. 70% target), and English attempt rates run nearly 4 points ahead of the college average.",
+            "Around 58 students haven't started English yet and 126 haven't started math, and they're enrolled now, which makes them reachable.",
+            "Among students who have attempted the courses, 168 took English and haven't passed, and 199 took math and haven't passed \u2014 two different groups needing two different kinds of follow-up.",
+            "Math completion sits 13.2 points below goal and about 4 points below the college average, with around 233 students having completed so far; English completion is 10.5 points below goal, with around 332 students through.",
+            "Fall-to-fall persistence dropped about 20 points from fall-to-spring, which may reflect roughly 122 students who have not re-enrolled, though the data does not show whether they completed spring or simply did not return for fall."
+          ],
+          "actions": [
+            "Advising outreach to the 199 students who attempted math but have not passed, to plan a repeat attempt with support attached (LCP success team / counseling).",
+            "Advising outreach to the 168 students who attempted English but have not passed, to plan a repeat attempt with support attached (LCP success team / counseling).",
+            "Direct outreach campaign to the 126 students who have not yet attempted transfer-level math and the 58 who have not yet attempted English (LCP success team).",
+            "Summer and early-fall registration outreach worth considering, given the fall-to-fall enrollment step-down, though the count of students who completed spring and chose not to return is not known from this data (LCP success team / outreach)."
+          ]
+        },
+        "SBS": {
+          "takeaways": [
+            "Transfer-level course attempt is strong: 433 students have started English and 393 have started math, both above goal and above the college average by 4 to 5 percentage points, and those rates have held steady for the past month.",
+            "English completion has eased down in four of the past eight weeks, from 64.1% to 63.6%, sitting 6.4 points below goal; around 127 students took the course but haven't passed yet, and 48 haven't started.",
+            "Math completion dropped in the last four weeks and now sits 6.6 points below goal at 48.4%; around 160 students attempted the course and haven't passed, and 88 haven't started yet.",
+            "Fall-to-fall persistence dropped 12 points from fall-to-spring, from 83.4% to 71.4%, which may reflect roughly 58 students who finished spring but did not return this fall, though the data does not confirm which students or whether they completed spring.",
+            "Award attainment sits 8.3 points below the college average, which may be worth a look given that education plans are strong and attempt is high."
+          ],
+          "actions": [
+            "Advising outreach to the 160 students who attempted math but have not passed, to plan a repeat attempt with support attached (LCP success team / counseling).",
+            "Advising outreach to the 127 students who attempted English but have not passed, to plan a repeat attempt with support attached (LCP success team / counseling).",
+            "Direct outreach campaign to the 88 students who have not yet attempted transfer-level math and to the 48 who have not yet attempted English (LCP success team).",
+            "Summer and early-fall registration outreach to students who completed spring but have not registered, given the 12-point fall-to-fall drop (LCP success team / outreach)."
+          ]
+        },
+        "SEM": {
+          "takeaways": [
+            "Math completion sits at 59.5%, which is 4.5 points above goal and 13.3 points above the college average, while English completion is at 68.8%, within 1.2 points of goal and 7.6 points above the college average \u2014 both subjects are performing well in this pathway.",
+            "Around 50 students haven't started transfer-level English yet and 69 haven't started math; these students are enrolled now, which makes them reachable for direct outreach before the term ends.",
+            "Among students who have attempted English, 115 have not yet passed, and in math 145 attempters have not passed \u2014 two different groups that would benefit from different conversations, one about starting and one about trying again with support.",
+            "About 57 students have reached 60 or more units but have not received an award, which is 10.7 points' worth of the cohort; the pathway's award rate sits 9.1 points below the college average, and a degree-audit sweep may close some of that distance.",
+            "The fall-to-fall persistence figure is 70.1%, down 12.5 points from the fall-to-spring rate of 82.6%, which suggests that around 67 students may not have registered for fall; summer and early-fall outreach to students who completed spring is worth considering."
+          ],
+          "actions": [
+            "Advising outreach to students who attempted English but have not passed (115 students) and those who attempted math but have not passed (145 students), to plan a repeat attempt with support attached (LCP success team / counseling).",
+            "Direct outreach campaign to students who have not yet attempted English (50 students) and those who have not yet attempted math (69 students) (LCP success team).",
+            "Summer and early-fall registration outreach to students who completed spring but have not registered, roughly 67 students implied by the fall-to-fall drop (LCP success team / outreach).",
+            "Degree-audit and award-petition sweep for students at or near the unit threshold who have not received an award, around 57 students (Counseling / Admissions & Records)."
+          ]
+        }
+      }
+    },
+    "Fall 2025": {
+      "institution": {
+        "takeaways": [
+          "Around 2,900 students have started transfer-level English and 86.7% have finalized an education plan, both above goal, which puts the cohort in a strong position for continued progress.",
+          "Math completion sits 16.9 points below goal at 38.1%, with around 1,185 students who attempted the course but have not passed \u2014 a separate population from the 881 who have not started math yet.",
+          "English completion is 11.9 points below goal at 58.1%, with around 968 students who attempted but did not pass, and 431 who have not yet started the course.",
+          "Roughly 658 students' worth of difference shows between fall-to-spring persistence (78.5%) and fall-to-fall (61.3%), though the data does not identify which students completed spring and did not return.",
+          "The cohort has grown by four students over the seven weeks, and math attempt rates eased down in four of the last seven weeks while completion held flat in recent weeks, which may partly reflect students arriving mid-term rather than course outcomes."
+        ],
+        "actions": [
+          "Advising outreach to the 1,185 students who attempted math but have not passed, to plan a repeat attempt with support attached (LCP success team / counseling).",
+          "Advising outreach to the 968 students who attempted English but have not passed, to plan a repeat attempt with support attached (LCP success team / counseling).",
+          "Direct outreach campaign to the 881 students who have not yet attempted math and the 431 who have not yet attempted English, recognizing these groups overlap (LCP success team).",
+          "Review corequisite and embedded-tutoring coverage for math sections, where the pass rate among attempters is 51.8% (Dean / discipline faculty)."
+        ]
+      },
+      "LCP": {
+        "AHC": {
+          "takeaways": [
+            "Around 288 students have started transfer-level English, which puts the pathway nearly 6 points above goal and about 4 points ahead of the college average.",
+            "About 29 students haven't attempted transfer-level English yet, and 86 haven't started math \u2014 both groups are still enrolled, which makes them reachable through direct outreach now.",
+            "Among students who started English, 98 have not passed; among those who started math, 107 have not passed \u2014 these are two different groups needing different conversations about repeating with support in place.",
+            "Math attempted has eased down in six of the last eight weeks, falling 1.8 points overall, while the pathway sits 2.9 points above goal; the decline has been consistent but gentle.",
+            "Fall-to-fall persistence dropped 13 points from fall-to-spring, which suggests that around 43 students who were here in spring have not registered for fall; summer and early-fall outreach may help close that gap."
+          ],
+          "actions": [
+            "Advising outreach to the 107 students who attempted math but have not passed, to plan a repeat attempt with support attached (LCP success team / counseling).",
+            "Advising outreach to the 98 students who attempted English but have not passed, to plan a repeat attempt with support attached (LCP success team / counseling).",
+            "Direct outreach campaign to 86 students who have not yet attempted transfer-level math (LCP success team).",
+            "Summer and early-fall registration outreach to students who completed spring but have not registered, to address the 13-point fall-to-fall persistence drop (LCP success team / outreach)."
+          ]
+        },
+        "ATST": {
+          "takeaways": [
+            "Around 279 students have started transfer-level English, which is about 80 percent of the 349 students tracked for academic progress, and the figure has held steady over the last eight weeks. Around 216 students have started math, which is about 62 percent, also steady recently.",
+            "Around 70 students haven't started English yet, and 133 haven't started math \u2014 both groups are enrolled now, which makes them reachable. These are two different populations, not a sum, because students who have started neither appear in both counts.",
+            "Among the 279 students who attempted English, 129 took the course but did not pass, and among the 216 who attempted math, 143 did not pass. These students need a different conversation from those who haven't started \u2014 one about planning a repeat attempt with support attached.",
+            "Math completion sits 17.2 points below the college average, and English completion is 15.1 points below. The differences are sizable and may be worth a look at how these courses are sequenced and scheduled within the pathway, given that ATST students arrive with particular preparation and support needs.",
+            "Around 183 students have not finalized an education plan, leaving the pathway 11.6 points short of the year-one CSEP/DPP goal. Persistence fell from 65.3 percent in spring to 42.1 percent this fall, a drop of 23.2 points, though that difference reflects students who did not return rather than a count of specific people who completed spring and chose not to register."
+          ],
+          "actions": [
+            "Direct outreach campaign to the 133 students who have not yet attempted transfer-level math (LCP success team).",
+            "Advising outreach to the 143 students who attempted math but have not passed, to plan a repeat attempt with support attached (LCP success team / counseling).",
+            "Advising outreach to the 129 students who attempted English but have not passed, to plan a repeat attempt with support attached (LCP success team / counseling).",
+            "Education-plan completion campaign for the 183 students without a finalized CSEP/DPP (Counseling)."
+          ]
+        },
+        "BAL": {
+          "takeaways": [
+            "Around 335 students have completed transfer-level English and 217 have completed transfer-level math, with both figures trending gently upward over the past eight weeks.",
+            "Around 106 students haven't attempted transfer-level English yet and 201 haven't attempted transfer-level math, and both groups are enrolled now, which makes them reachable for direct outreach.",
+            "Around 178 students attempted English but haven't passed, and 201 attempted math but haven't passed \u2014 two different populations that would benefit from different conversations about next steps.",
+            "Math completion sits 3 points below the college average and math attempt sits 6.1 points below, a difference worth considering as context given the students this pathway serves.",
+            "Fall-to-fall persistence dropped 20 points from the fall-to-spring figure, which may reflect students who completed spring but haven't registered for fall."
+          ],
+          "actions": [
+            "Direct outreach campaign to the 201 students who have not yet attempted transfer-level math and the 106 who have not yet attempted transfer-level English (LCP success team).",
+            "Advising outreach to the 201 students who attempted math but have not passed and the 178 who attempted English but have not passed, to plan a repeat attempt with support attached (LCP success team / counseling).",
+            "Summer and early-fall registration outreach to students who completed spring but have not registered, implied by the 20-point drop from fall-to-spring to fall-to-fall persistence (LCP success team / outreach).",
+            "Review how transfer-level math is placed, sequenced and scheduled within the pathway, given that the attempt rate sits 6.1 points below the college average (Dean / discipline faculty)."
+          ]
+        },
+        "ED": {
+          "takeaways": [
+            "Nineteen students have completed transfer-level English, and the completion rate has held fairly steady in recent weeks after an early bump in late August.",
+            "Around 39 students haven't started transfer-level math yet, and 24 haven't started English \u2014 these students are enrolled now, which makes them reachable for outreach and advising.",
+            "Among the 14 students who have attempted math, 8 did not pass, yielding a 42.8% pass rate; among the 29 who attempted English, 10 did not pass, for a 65.4% pass rate.",
+            "Math completion sits 26.8 points below the college average, and math attempt is 47.2 points below \u2014 the largest differences among this cohort's metrics \u2014 which may be worth a look at how the course is sequenced and scheduled within the pathway.",
+            "This is a small cohort of 62 students, so a few students move the percentages several points, and week-to-week changes should be read gently."
+          ],
+          "actions": [
+            "Direct outreach campaign to the 39 students who have not yet attempted math and the 24 who have not yet attempted English (LCP success team).",
+            "Advising outreach to the 8 math students and 10 English students who attempted but have not passed, to plan a repeat attempt with support attached (LCP success team / counseling).",
+            "Review how math is placed, sequenced and scheduled within the pathway, given the 47.2-point difference in attempt rate and 26.8-point difference in completion rate compared to the college (Dean / discipline faculty)."
+          ]
+        },
+        "EHS": {
+          "takeaways": [
+            "Around 91 students have completed transfer-level English, and the rate has been climbing steadily across all eight weeks, rising 3.8 points since early August. English completion now sits 5.1 points above the college average.",
+            "Both math and English attempt rates have been flat for the past four weeks. Around 16 students haven't started English yet, and around 35 haven't started math yet \u2014 those groups overlap, so the total number of students is smaller than the sum.",
+            "Among the 109 students who have attempted math, 57 have not yet passed, meaning the pass rate among attempters is 47.7 percent. Math completion sits 18.9 points below goal and 2.0 points below the college average.",
+            "Fall-to-spring persistence was 87.0 percent, and fall-to-fall dropped to 72.7 percent. The 14.3-point difference may reflect roughly 22 students who completed spring but have not registered for fall, though the data does not identify which students or confirm they completed spring.",
+            "The units-completed milestone for year two sits 59.2 points below goal, the largest gap in the report. This cohort is now in its second fall term, so completion figures mix outcomes from multiple terms and should be read as a long-range indicator rather than a reflection of recent effort."
+          ],
+          "actions": [
+            "Advising outreach to the 57 students who attempted math but have not passed, to plan a repeat attempt with support attached (LCP success team / counseling).",
+            "Direct outreach campaign to around 35 students who have not yet attempted math and around 16 who have not yet attempted English \u2014 these groups overlap, so the actual number of students is smaller than 51 (LCP success team).",
+            "Summer and early-fall registration outreach to students who completed spring but have not registered, roughly 22 in number, to bring them back for fall (LCP success team / outreach)."
+          ]
+        },
+        "HSW": {
+          "takeaways": [
+            "Around 643 students have attempted transfer-level English\u201490.6%, above the 85% goal and 3.5 points above the college average\u2014and the rate has held steady since early August with a small uptick in the last four weeks.",
+            "Around 67 students haven't started English yet and 185 haven't started math, and they're enrolled now, which makes them reachable for direct outreach.",
+            "Among the 643 who attempted English, 227 have not passed yet; among the 525 who attempted math, 259 have not passed yet\u2014two different groups that would benefit from different conversations about repeating with support.",
+            "Math completion sits 17.5 points below goal at 37.5%, though the rate has risen gently over the last four weeks; English completion is 11.4 points below goal at 58.6%, with a similar gentle rise recently.",
+            "The fall-to-fall persistence rate is 13.4 points lower than fall-to-spring, which may reflect roughly 101 students who completed spring but have not registered for fall\u2014though the data does not identify which students or confirm spring completion."
+          ],
+          "actions": [
+            "Advising outreach to the 259 students who attempted math but have not passed, to plan a repeat attempt with support attached (LCP success team / counseling).",
+            "Advising outreach to the 227 students who attempted English but have not passed, to plan a repeat attempt with support attached (LCP success team / counseling).",
+            "Direct outreach campaign to around 185 students who have not yet attempted math and 67 who have not yet attempted English (LCP success team).",
+            "Summer and early-fall registration outreach to students who may have completed spring but have not registered for fall, worth considering given the 13.4-point persistence drop (LCP success team / outreach)."
+          ]
+        },
+        "SBS": {
+          "takeaways": [
+            "The pathway is running above the college average on both subjects: English completion sits 5.9 points higher and math completion 5.9 points higher than the institution, showing strong outcomes for SBS students across foundational courses.",
+            "Around 55 students have not yet attempted transfer-level English, and they're enrolled now, which makes them reachable; 116 students have not yet attempted transfer-level math, also currently enrolled.",
+            "English attempted has held steady in recent weeks, ticking up in three of the last four weeks after dipping slightly earlier in the term, while math attempted has eased down consistently over the full eight weeks, declining in six of eight snapshots.",
+            "Among the 481 students who have attempted English, 138 have not yet passed, a 71.3% pass rate; among the 420 who have attempted math, 184 have not yet passed, a 56.1% pass rate, leaving two distinct groups who would benefit from different kinds of support.",
+            "The fall-to-fall persistence figure sits 12.2 points below the fall-to-spring number, which may reflect around 66 students who completed spring but have not registered for fall, though the data does not establish which students or whether they all finished spring."
+          ],
+          "actions": [
+            "Direct outreach campaign to the 116 students who have not yet attempted transfer-level math and the 55 who have not yet attempted transfer-level English (LCP success team).",
+            "Advising outreach to the 184 students who attempted math but have not passed and the 138 who attempted English but have not passed, to plan a repeat attempt with support attached (LCP success team / counseling).",
+            "Summer and early-fall registration outreach to the roughly 66 students who may have completed spring but have not registered for fall (LCP success team / outreach)."
+          ]
+        },
+        "SEM": {
+          "takeaways": [
+            "Nearly all students have an education plan finalized (99.3% in year two, well above the 80% goal), and math completion runs 10.8 points above the college average, reaching 298 students so far.",
+            "Around 64 students haven't started transfer-level English yet, and 86 haven't started math; many of these students overlap, and they're enrolled now, which makes them reachable.",
+            "Among students who have attempted the courses, 150 took English but haven't passed, and 225 took math but haven't passed \u2014 two groups needing different conversations about what comes next.",
+            "Fall-to-fall persistence dropped to 68.2%, down 15.7 points from the 83.9% who continued into spring; the data suggests roughly 96 students who made it to spring may not have registered for fall, though we can't confirm they completed spring or identify exactly who they are.",
+            "The units-completed milestone sits 51.1 points below goal at 28.9%, the furthest gap in the dashboard, though the year-two cohort is still active and this figure will grow as terms close."
+          ],
+          "actions": [
+            "Advising outreach to the 225 students who attempted math but have not passed, to plan a repeat attempt with support attached (LCP success team / counseling).",
+            "Advising outreach to the 150 students who attempted English but have not passed, to plan a repeat attempt with support attached (LCP success team / counseling).",
+            "Direct outreach campaign to the 86 students who have not yet attempted math and the 64 who have not yet attempted English (LCP success team).",
+            "Summer and early-fall registration outreach to students who completed spring but have not registered, estimated around 96 people, to close the fall-to-fall persistence gap (LCP success team / outreach)."
+          ]
+        }
+      }
+    },
+    "Fall 2026": {
+      "institution": {
+        "takeaways": [
+          "The Fall 2026 cohort is still forming \u2014 it has grown by 491 students over the past seven weeks, from 3,258 to 3,749 \u2014 so completion and award figures are not yet meaningful and have been left out of this report.",
+          "Around 2,680 students have started transfer-level English, which is a strong foundation, though the rate has eased from 86.5% in early August down to 78.0% now, declining steadily over six of the past seven weeks.",
+          "Nearly 2,000 students have started transfer-level math, but around 1,450 haven't yet, and the attempt rate has fallen from 67.3% in early August to 57.9% now, dropping each week for the past six weeks.",
+          "Both the English and math declines may partly reflect new students arriving who have not yet enrolled in those courses, rather than students who were here stepping back.",
+          "Education-plan completion sits at 77.4%, about 2.6 points below the 80% goal, leaving around 850 students without a finalized CSEP or DPP."
+        ],
+        "actions": [
+          "Direct outreach campaign to the approximately 1,450 students who have not yet attempted transfer-level math (LCP success team).",
+          "Direct outreach campaign to the approximately 760 students who have not yet attempted transfer-level English (LCP success team).",
+          "Education-plan completion campaign (CSEP/DPP appointments) for the roughly 850 students without a finalized plan (Counseling).",
+          "No action yet on completion or awards \u2014 continue weekly monitoring as the cohort stabilizes and the term progresses (Institutional Research)."
+        ]
+      },
+      "LCP": {
+        "AHC": {
+          "takeaways": [
+            "This cohort's first term hasn't ended yet, so the figures below reflect who has started rather than who has completed \u2014 completion and unit milestones will become meaningful when the term closes.",
+            "Around 249 students have started transfer-level English and 160 have started math, leaving 67 who haven't yet attempted English and 156 who haven't attempted math; those students are enrolled now and reachable for direct outreach.",
+            "Math attempt has eased down over the eight weeks, declining in five of them, while English dipped early and has steadied over the last four weeks; both rates may reflect students still adding courses as the cohort grew from 316 to its current size.",
+            "Education plans sit 1.9 points below the 80 percent goal, with 73 students not yet finalized \u2014 close enough that a focused campaign would likely close the gap.",
+            "The pathway's math attempt rate runs 7.4 points below the college average, which may be worth a conversation about how math is placed and sequenced within AHC."
+          ],
+          "actions": [
+            "Direct outreach campaign to 156 students who have not yet attempted transfer-level math and 67 who have not yet attempted English (LCP success team).",
+            "Education-plan completion campaign for the 73 students without a finalized CSEP or DPP (Counseling).",
+            "Review how transfer-level math is placed, sequenced and scheduled within the pathway, given the 7.4-point gap between AHC and the college average (Dean / discipline faculty)."
+          ]
+        },
+        "ATST": {
+          "takeaways": [
+            "This cohort's first term is still in progress, so completion and unit-milestone figures cannot yet be calculated \u2014 the numbers reported below reflect who has started English and math and who has completed an education plan.",
+            "Around 264 students have started transfer-level English, and 90 haven't yet; 155 have started transfer-level math, and 199 haven't yet. Both groups are still enrolled and reachable for outreach.",
+            "The math attempt rate has fallen steadily across all eight weeks, from 55.1 percent in early August to 43.8 percent now, which puts the pathway 14.2 points below the college average. The decline has been consistent rather than a few students dropping at once.",
+            "Around 163 students have not finalized an education plan, leaving the pathway 11.6 points short of the year-one goal of 80 percent.",
+            "English attempt rates have held roughly steady over the last four weeks, sitting 3.5 points below the college average."
+          ],
+          "actions": [
+            "Direct outreach campaign to the 199 students who have not yet attempted transfer-level math (LCP success team).",
+            "Direct outreach campaign to the 90 students who have not yet attempted transfer-level English (LCP success team).",
+            "Education-plan completion campaign for the 163 students without a finalized CSEP or DPP (Counseling).",
+            "Review how transfer-level math is placed, sequenced and scheduled within the pathway, given the consistent decline in attempt rates and the gap to the college average (Dean / discipline faculty)."
+          ]
+        },
+        "BAL": {
+          "takeaways": [
+            "This cohort's first term has not ended yet, so completion and unit-milestone figures aren't meaningful to report \u2014 what we can see is who has started and who hasn't.",
+            "Around 446 students have started transfer-level English and 322 have started math, which means 182 haven't attempted English yet and 306 haven't attempted math, and they're enrolled now, which makes them reachable.",
+            "English attempt slid from 81.4% in early August to 71.0% now, declining steadily in six of the eight weeks, with the steepest drop in the first snapshot. Math followed a similar shape, falling from 61.7% to 51.3%. Both rates have flattened in the last couple of weeks, suggesting the cohort may be settling.",
+            "About 241 students have not yet finalized an education plan, putting the pathway 13 points below the year-one goal of 80%.",
+            "Math attempt sits 6.7 points below the college average and English sits 7.1 points below, which may be worth a look at how these courses are scheduled and sequenced within the pathway."
+          ],
+          "actions": [
+            "Direct outreach campaign to the 306 students who have not yet attempted transfer-level math and the 182 who have not yet attempted English \u2014 these counts overlap, so some students appear in both (LCP success team).",
+            "Education-plan completion campaign for the 241 students without a finalized CSEP or DPP (Counseling).",
+            "Review how transfer-level math and English are placed, sequenced and scheduled within the pathway, given that both sit about 7 points below the college average (Dean / discipline faculty)."
+          ]
+        },
+        "ED": {
+          "takeaways": [
+            "This cohort's first term has not ended, so pass rates, awards and unit-completion figures are not yet meaningful and have been left out of this report.",
+            "Around 13 students have not started transfer-level English and 18 have not started math, and they are enrolled now, which makes them reachable.",
+            "Both English and math attempt rates have drifted down since the cohort opened in August, with English moving from 86.8% to 56.7% and math from 57.9% to 40.0%, though the recent four weeks have been largely steady.",
+            "The attempt-rate changes likely reflect the cohort composition shifting as new students enroll rather than students dropping plans; the pathway grew from 19 to 32 students over the eight weeks.",
+            "Around 20 students have not yet finalized an education plan, putting the pathway 42.5 points below the year-one CSEP/DPP goal.",
+            "This pathway's math attempt rate sits 18.0 points below the college average and English attempt rate sits 21.4 points below, which may be worth a look once the cohort has settled."
+          ],
+          "actions": [
+            "Direct outreach to the 18 students who have not yet attempted transfer-level math and the 13 who have not yet attempted English (LCP success team).",
+            "Education-plan completion campaign for the 20 students without a finalized CSEP or DPP (Counseling).",
+            "No action yet on the attempt-rate difference from the college average \u2014 continue weekly monitoring as the cohort forms and consider a sequencing review once fall enrollment closes (Institutional Research, then Dean / discipline faculty)."
+          ]
+        },
+        "EHS": {
+          "takeaways": [
+            "This cohort's first term has not ended, so completion and unit-milestone figures are not yet meaningful \u2014 what we can see now is who has started English and math and who has not, and all of those students are still enrolled and reachable.",
+            "Around 41 students haven't started transfer-level English yet and 76 haven't started math, and both figures have been drifting down as the cohort grows \u2014 English declined in five of the last eight weeks, and math has fallen in three straight weeks recently.",
+            "The math attempt rate sits 6.7 points below the college average, which may be worth a look given that math is also furthest from goal; English is 4.4 points below the college figure.",
+            "Education plans are nearly at goal, with 78.8% finalized and 34 students still needing appointments \u2014 close enough that a focused campaign over the next few weeks would likely close the gap."
+          ],
+          "actions": [
+            "Direct outreach campaign to the 76 students who have not yet attempted transfer-level math and the 41 who have not yet attempted English (LCP success team).",
+            "Review how math is placed, sequenced and scheduled within the EHS pathway, given that the attempt rate is 6.7 points below the college average (Dean / discipline faculty).",
+            "Education-plan completion campaign for the 34 students who have not finalized a CSEP or DPP (Counseling)."
+          ]
+        },
+        "HSW": {
+          "takeaways": [
+            "This cohort's first term has not ended, so completion and unit-milestone figures aren't available yet \u2014 what we can see is who has started and who has not.",
+            "Around 664 students have started transfer-level English and 494 have started math, which puts the pathway 3.2 points above the college average in English and 2.5 points above in math.",
+            "Around 153 students haven't started English yet and 323 haven't started math, and because they're enrolled now they're reachable for direct outreach before the add deadline passes.",
+            "Both English and math attempt rates have drifted down over the eight weeks \u2014 English declined in six of the eight weeks and math in five \u2014 but the movement has been gentle in the last month, which suggests the cohort may be stabilizing as we move past late-add activity.",
+            "Education-plan completion sits at 82.0%, just above the 80% goal, which gives most students a roadmap in place early."
+          ],
+          "actions": [
+            "Direct outreach campaign to the 323 students who have not yet attempted transfer-level math (LCP success team).",
+            "Direct outreach campaign to the 153 students who have not yet attempted transfer-level English (LCP success team).",
+            "No action yet on completion or unit milestones \u2014 continue weekly monitoring as the term progresses and those figures become meaningful (Institutional Research)."
+          ]
+        },
+        "SBS": {
+          "takeaways": [
+            "This cohort's first term has not ended, so completion and unit milestones are not yet measurable \u2014 the figures below reflect who has started and who has not.",
+            "Around 352 students have started transfer-level English, and 242 have started math; 98 haven't yet attempted English and 208 haven't attempted math, and they're enrolled now, which makes them reachable.",
+            "English attempt has eased down in all seven weeks on record, from 87.1 percent in early August to 78.2 percent now, and math attempt has declined in five of eight weeks, from 62.4 percent to 53.8 percent; some of this movement may reflect students who have just arrived rather than anything current students did.",
+            "Math attempt sits 4.2 points below the college average, which is worth noting as context \u2014 SBS students may be choosing different pathways or taking math later in the sequence.",
+            "Education plans are finalized for 93.6 percent of the cohort, well above the 80 percent goal."
+          ],
+          "actions": [
+            "Direct outreach campaign to around 208 students who have not yet attempted transfer-level math (LCP success team).",
+            "Direct outreach campaign to around 98 students who have not yet attempted transfer-level English (LCP success team).",
+            "Continue weekly monitoring as the cohort settles and the first term closes (Institutional Research)."
+          ]
+        },
+        "SEM": {
+          "takeaways": [
+            "This cohort's first term is still in progress, so completion and unit-milestone figures aren't ready yet \u2014 what we can see is who has started and who hasn't.",
+            "Around 520 students have started transfer-level math and 567 have started English, which puts the pathway 19.4 points above the college average in math and 6.3 points above in English.",
+            "Math attempt rate has eased down steadily over all eight weeks, from 84.4% to 77.4%, while English has held roughly flat over the last four weeks after an earlier dip \u2014 about 152 students haven't started math yet and 105 haven't started English, and they're enrolled now, which makes them reachable.",
+            "Education plans are at 82.5%, just above the 80% target, and the cohort is large enough that a few students' choices each week shift the percentages a couple of points."
+          ],
+          "actions": [
+            "Direct outreach campaign to the 152 students who have not yet attempted transfer-level math (LCP success team).",
+            "Direct outreach campaign to the 105 students who have not yet attempted transfer-level English (LCP success team).",
+            "Continue weekly monitoring as the term closes and completion figures become available (Institutional Research)."
+          ]
+        }
+      }
+    }
+  },
+  "reports_meta": {
+    "source": "ai",
+    "approved_at": "2026-10-07T13:33:55",
+    "approved_by": "Frank Mixson",
+    "data_as_of": "2026-10-02"
   }
 }
