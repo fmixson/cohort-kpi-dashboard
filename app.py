@@ -263,8 +263,17 @@ for key in OVERVIEW_ROW_ORDER:
     sample_metric = next((_overview_metric(cohorts[l], key) for l in cohort_labels if _overview_metric(cohorts[l], key)), None)
     if sample_metric is None:
         continue
+    # Goal shown under the metric name. Goals are the same for every cohort;
+    # take the first one present, since an immature cohort can carry None
+    # (Fall 2026 completion goals are withheld during its first term).
+    row_goal = next((m["target"] for l in cohort_labels
+                     if (m := _overview_metric(cohorts[l], key)) and m.get("target") is not None),
+                    None)
+    goal_txt = f"Goal: {row_goal:.0f}%" if row_goal is not None else "No goal set"
     cells = (f"<td style='padding:0.55rem 0.9rem;font-weight:600;color:#2A2A2A;"
-             f"background:{LIGHTBG};font-size:0.85rem;white-space:nowrap;'>{sample_metric['label']}</td>")
+             f"background:{LIGHTBG};font-size:0.85rem;white-space:nowrap;'>{sample_metric['label']}"
+             f"<div style='font-size:0.75rem;font-weight:400;font-style:italic;color:{GRAY};'>"
+             f"{goal_txt}</div></td>")
     for label in cohort_labels:
         m = _overview_metric(cohorts[label], key)
         val = m["value"] if m else None
