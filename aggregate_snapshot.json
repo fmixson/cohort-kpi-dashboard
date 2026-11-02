@@ -1,79 +1,79 @@
 {
-  "generated_at": "2026-10-20T11:16:36",
-  "data_as_of": "2026-10-16",
+  "generated_at": "2026-11-02T12:41:15",
+  "data_as_of": "2026-10-30",
   "source": "student_data_tool (de-identified student-level extract)",
   "cohorts": {
     "Fall 2024": {
-      "n_students": 3633,
+      "n_students": 3634,
       "overall": {
         "english_attempted": {
           "value": 85.9,
           "target": 85.0,
-          "n": 3152,
+          "n": 3153,
           "available": true,
           "label": "Transfer-Level English Attempted",
           "note": "Ever attempted, as of this data pull -- Transfer/Degree-Seeking students"
         },
         "math_attempted": {
-          "value": 76.6,
+          "value": 76.7,
           "target": 70.0,
-          "n": 3152,
+          "n": 3153,
           "available": true,
           "label": "Transfer-Level Math Attempted",
           "note": "Ever attempted, as of this data pull -- Transfer/Degree-Seeking students"
         },
         "english_completed": {
-          "value": 61.3,
+          "value": 61.4,
           "target": 70.0,
-          "n": 3152,
+          "n": 3153,
           "available": true,
           "label": "Transfer-Level English Completed",
           "note": "Ever completed, as of this data pull -- Transfer/Degree-Seeking students"
         },
         "math_completed": {
-          "value": 46.3,
+          "value": 46.2,
           "target": 55.0,
-          "n": 3152,
+          "n": 3153,
           "available": true,
           "label": "Transfer-Level Math Completed",
           "note": "Ever completed, as of this data pull -- Transfer/Degree-Seeking students"
         },
         "cte_units_attempted": {
-          "value": 19.5,
+          "value": 19.3,
           "target": 20.0,
-          "n": 442,
+          "n": 441,
           "available": true,
           "label": "CTE Units Attempted",
           "note": "9+ CTE units, CTE Certificate students, AY2*"
         },
         "cte_units_completed": {
-          "value": 15.8,
+          "value": 15.6,
           "target": 20.0,
-          "n": 442,
+          "n": 441,
           "available": true,
           "label": "CTE Units Completed",
           "note": "9+ CTE units, CTE Certificate students, AY2*"
         },
         "any_award": {
-          "value": 16.1,
+          "value": 16.6,
           "target": null,
-          "n": 3633,
+          "n": 3634,
           "available": true,
           "label": "Any Award Earned (ever)",
           "note": "Degree or certificate, as of this data pull"
         },
         "units_60_plus": {
-          "value": 14.8,
+          "value": 15.0,
           "target": null,
-          "n": 3633,
+          "n": 3634,
           "available": true,
           "label": "Earned 60+ Units",
           "note": "Total completed units, as of this data pull"
         },
         "graduated": {
-          "value": 16.1,
+          "value": 16.6,
           "target": null,
-          "n": 3633,
+          "n": 3634,
           "available": true,
           "label": "Graduated",
           "note": "As of this data pull"
@@ -84,7 +84,7 @@
           "csep_dpp": {
             "value": 85.8,
             "target": 80.0,
-            "n": 3633,
+            "n": 3634,
             "available": true,
             "label": "CSEP/DPP Finalized",
             "note": "By end of this year"
@@ -92,7 +92,7 @@
           "units_attempted": {
             "value": 74.9,
             "target": null,
-            "n": 3152,
+            "n": 3153,
             "available": true,
             "label": "Units-Attempted Milestone",
             "note": "15+ units attempted by end of Year 1 (includes summer before the start of the fall semester)"
@@ -100,7 +100,7 @@
           "units_completed": {
             "value": 48.0,
             "target": 80.0,
-            "n": 3152,
+            "n": 3153,
             "available": true,
             "label": "Units-Completed Milestone",
             "note": "15+ units completed by end of Year 1 (includes summer before the start of the fall semester)"
@@ -108,7 +108,7 @@
           "persistence_fs": {
             "value": 78.8,
             "target": null,
-            "n": 3633,
+            "n": 3634,
             "available": true,
             "label": "Persistence, Fall-to-Spring",
             "note": "Year 1"
@@ -118,15 +118,15 @@
           "csep_dpp": {
             "value": 87.3,
             "target": 80.0,
-            "n": 3633,
+            "n": 3634,
             "available": true,
             "label": "CSEP/DPP Finalized",
             "note": "By end of this year"
           },
           "units_attempted": {
-            "value": 62.8,
+            "value": 62.9,
             "target": null,
-            "n": 3152,
+            "n": 3153,
             "available": true,
             "label": "Units-Attempted Milestone",
             "note": "30+ units attempted by end of Year 2 (includes summer before the start of the fall semester)"
@@ -134,15 +134,15 @@
           "units_completed": {
             "value": 44.2,
             "target": 80.0,
-            "n": 3152,
+            "n": 3153,
             "available": true,
             "label": "Units-Completed Milestone",
             "note": "30+ units completed by end of Year 2 (includes summer before the start of the fall semester)"
           },
           "persistence_ff": {
-            "value": 64.8,
+            "value": 64.7,
             "target": null,
-            "n": 3633,
+            "n": 3634,
             "available": true,
             "label": "Persistence, Fall-to-Fall",
             "note": "Year 1 to Year 2"
@@ -150,7 +150,7 @@
           "persistence_s2": {
             "value": 57.9,
             "target": null,
-            "n": 3633,
+            "n": 3634,
             "available": true,
             "label": "Persistence, Fall-to-2nd-Spring",
             "note": "Year 1 to Year 2"
@@ -158,25 +158,25 @@
         },
         "3": {
           "csep_dpp": {
-            "value": 87.6,
+            "value": 87.7,
             "target": 80.0,
-            "n": 3633,
+            "n": 3634,
             "available": true,
             "label": "CSEP/DPP Finalized",
             "note": "By end of this year"
           },
           "units_attempted": {
-            "value": 52.3,
+            "value": 52.8,
             "target": null,
-            "n": 3152,
+            "n": 3153,
             "available": true,
             "label": "Units-Attempted Milestone",
             "note": "45+ units attempted by end of Year 3 (includes summer before the start of the fall semester)"
           },
           "units_completed": {
-            "value": 31.4,
+            "value": 31.6,
             "target": 80.0,
-            "n": 3152,
+            "n": 3153,
             "available": true,
             "label": "Units-Completed Milestone",
             "note": "45+ units completed by end of Year 3 (includes summer before the start of the fall semester)"
@@ -184,7 +184,7 @@
           "persistence_f3": {
             "value": 44.2,
             "target": null,
-            "n": 3632,
+            "n": 3633,
             "available": true,
             "label": "Persistence, Fall-to-3rd Fall (approx.)",
             "note": "Approximated from unit-attempt growth*"
@@ -195,58 +195,58 @@
         "LCP / Division": [
           {
             "LCP_current": "AHC",
-            "N": 353,
-            "Transfer-Level English Completed": 61.8,
-            "Transfer-Level Math Completed": 37.9,
+            "N": 351,
+            "Transfer-Level English Completed": 61.5,
+            "Transfer-Level Math Completed": 37.6,
             "CTE Units Completed": 0.0
           },
           {
             "LCP_current": "ATST",
-            "N": 503,
-            "Transfer-Level English Completed": 48.8,
-            "Transfer-Level Math Completed": 31.1,
-            "CTE Units Completed": 19.8
+            "N": 501,
+            "Transfer-Level English Completed": 48.6,
+            "Transfer-Level Math Completed": 30.9,
+            "CTE Units Completed": 19.4
           },
           {
             "LCP_current": "BAL",
-            "N": 654,
-            "Transfer-Level English Completed": 55.8,
-            "Transfer-Level Math Completed": 40.8,
+            "N": 659,
+            "Transfer-Level English Completed": 55.9,
+            "Transfer-Level Math Completed": 41.0,
             "CTE Units Completed": 12.8
           },
           {
             "LCP_current": "ED",
-            "N": 378,
-            "Transfer-Level English Completed": 66.5,
-            "Transfer-Level Math Completed": 63.3,
+            "N": 375,
+            "Transfer-Level English Completed": 66.2,
+            "Transfer-Level Math Completed": 63.0,
             "CTE Units Completed": null
           },
           {
             "LCP_current": "EHS",
             "N": 127,
             "Transfer-Level English Completed": 62.2,
-            "Transfer-Level Math Completed": 31.9,
+            "Transfer-Level Math Completed": 31.1,
             "CTE Units Completed": 0.0
           },
           {
             "LCP_current": "HSW",
-            "N": 600,
+            "N": 596,
             "Transfer-Level English Completed": 59.6,
-            "Transfer-Level Math Completed": 41.9,
+            "Transfer-Level Math Completed": 41.6,
             "CTE Units Completed": 14.6
           },
           {
             "LCP_current": "SBS",
-            "N": 484,
+            "N": 485,
             "Transfer-Level English Completed": 64.0,
-            "Transfer-Level Math Completed": 48.7,
+            "Transfer-Level Math Completed": 48.6,
             "CTE Units Completed": 100.0
           },
           {
             "LCP_current": "SEM",
-            "N": 532,
-            "Transfer-Level English Completed": 68.8,
-            "Transfer-Level Math Completed": 59.6,
+            "N": 538,
+            "Transfer-Level English Completed": 69.5,
+            "Transfer-Level Math Completed": 60.1,
             "CTE Units Completed": 14.3
           },
           {
@@ -260,23 +260,23 @@
         "Major Classification": [
           {
             "major_classification_current": "CTE Certificate",
-            "N": 442,
+            "N": 441,
             "Transfer-Level English Completed": null,
             "Transfer-Level Math Completed": null,
-            "CTE Units Completed": 15.8
+            "CTE Units Completed": 15.6
           },
           {
             "major_classification_current": "Non-CTE Certificate",
-            "N": 32,
+            "N": 33,
             "Transfer-Level English Completed": null,
             "Transfer-Level Math Completed": null,
             "CTE Units Completed": null
           },
           {
             "major_classification_current": "Transfer/Degree-Seeking",
-            "N": 3152,
-            "Transfer-Level English Completed": 61.3,
-            "Transfer-Level Math Completed": 46.3,
+            "N": 3153,
+            "Transfer-Level English Completed": 61.4,
+            "Transfer-Level Math Completed": 46.2,
             "CTE Units Completed": null
           },
           {
@@ -305,13 +305,13 @@
           {
             "Ethnicity": "Asian",
             "N": 217,
-            "Transfer-Level English Completed": 82.8,
+            "Transfer-Level English Completed": 83.3,
             "Transfer-Level Math Completed": 77.8,
             "CTE Units Completed": 0.0
           },
           {
             "Ethnicity": "Black or African American",
-            "N": 198,
+            "N": 199,
             "Transfer-Level English Completed": 49.7,
             "Transfer-Level Math Completed": 32.6,
             "CTE Units Completed": 18.8
@@ -320,7 +320,7 @@
             "Ethnicity": "Hispanic/Latino",
             "N": 2750,
             "Transfer-Level English Completed": 62.9,
-            "Transfer-Level Math Completed": 46.5,
+            "Transfer-Level Math Completed": 46.4,
             "CTE Units Completed": 17.9
           },
           {
@@ -333,9 +333,9 @@
           {
             "Ethnicity": "Race/Ethnicity Unknown",
             "N": 31,
-            "Transfer-Level English Completed": 33.3,
-            "Transfer-Level Math Completed": 25.0,
-            "CTE Units Completed": 50.0
+            "Transfer-Level English Completed": 38.5,
+            "Transfer-Level Math Completed": 23.1,
+            "CTE Units Completed": 33.3
           },
           {
             "Ethnicity": "Two or More Races",
@@ -362,15 +362,15 @@
         "Gender": [
           {
             "Gender": "Female",
-            "N": 1761,
-            "Transfer-Level English Completed": 64.9,
-            "Transfer-Level Math Completed": 48.6,
-            "CTE Units Completed": 17.0
+            "N": 1762,
+            "Transfer-Level English Completed": 64.8,
+            "Transfer-Level Math Completed": 48.5,
+            "CTE Units Completed": 16.6
           },
           {
             "Gender": "Male",
             "N": 1793,
-            "Transfer-Level English Completed": 57.5,
+            "Transfer-Level English Completed": 57.7,
             "Transfer-Level Math Completed": 44.3,
             "CTE Units Completed": 15.2
           },
@@ -386,36 +386,36 @@
       "segments": {
         "LCP": {
           "AHC": {
-            "n_students": 353,
+            "n_students": 351,
             "overall": {
               "english_attempted": {
-                "value": 86.4,
+                "value": 86.2,
                 "target": 85.0,
-                "n": 330,
+                "n": 327,
                 "available": true,
                 "label": "Transfer-Level English Attempted",
                 "note": "Ever attempted, as of this data pull -- Transfer/Degree-Seeking students"
               },
               "math_attempted": {
-                "value": 71.2,
+                "value": 71.6,
                 "target": 70.0,
-                "n": 330,
+                "n": 327,
                 "available": true,
                 "label": "Transfer-Level Math Attempted",
                 "note": "Ever attempted, as of this data pull -- Transfer/Degree-Seeking students"
               },
               "english_completed": {
-                "value": 61.8,
+                "value": 61.5,
                 "target": 70.0,
-                "n": 330,
+                "n": 327,
                 "available": true,
                 "label": "Transfer-Level English Completed",
                 "note": "Ever completed, as of this data pull -- Transfer/Degree-Seeking students"
               },
               "math_completed": {
-                "value": 37.9,
+                "value": 37.6,
                 "target": 55.0,
-                "n": 330,
+                "n": 327,
                 "available": true,
                 "label": "Transfer-Level Math Completed",
                 "note": "Ever completed, as of this data pull -- Transfer/Degree-Seeking students"
@@ -439,25 +439,25 @@
                 "suppressed": true
               },
               "any_award": {
-                "value": 6.5,
+                "value": 6.8,
                 "target": null,
-                "n": 353,
+                "n": 351,
                 "available": true,
                 "label": "Any Award Earned (ever)",
                 "note": "Degree or certificate, as of this data pull"
               },
               "units_60_plus": {
-                "value": 12.2,
+                "value": 12.5,
                 "target": null,
-                "n": 353,
+                "n": 351,
                 "available": true,
                 "label": "Earned 60+ Units",
                 "note": "Total completed units, as of this data pull"
               },
               "graduated": {
-                "value": 6.5,
+                "value": 6.8,
                 "target": null,
-                "n": 353,
+                "n": 351,
                 "available": true,
                 "label": "Graduated",
                 "note": "As of this data pull"
@@ -466,33 +466,33 @@
             "by_year": {
               "1": {
                 "csep_dpp": {
-                  "value": 94.1,
+                  "value": 94.0,
                   "target": 80.0,
-                  "n": 353,
+                  "n": 351,
                   "available": true,
                   "label": "CSEP/DPP Finalized",
                   "note": "By end of this year"
                 },
                 "units_attempted": {
-                  "value": 74.2,
+                  "value": 73.7,
                   "target": null,
-                  "n": 330,
+                  "n": 327,
                   "available": true,
                   "label": "Units-Attempted Milestone",
                   "note": "15+ units attempted by end of Year 1 (includes summer before the start of the fall semester)"
                 },
                 "units_completed": {
-                  "value": 41.8,
+                  "value": 41.0,
                   "target": 80.0,
-                  "n": 330,
+                  "n": 327,
                   "available": true,
                   "label": "Units-Completed Milestone",
                   "note": "15+ units completed by end of Year 1 (includes summer before the start of the fall semester)"
                 },
                 "persistence_fs": {
-                  "value": 81.0,
+                  "value": 80.6,
                   "target": null,
-                  "n": 353,
+                  "n": 351,
                   "available": true,
                   "label": "Persistence, Fall-to-Spring",
                   "note": "Year 1"
@@ -502,39 +502,39 @@
                 "csep_dpp": {
                   "value": 96.9,
                   "target": 80.0,
-                  "n": 353,
+                  "n": 351,
                   "available": true,
                   "label": "CSEP/DPP Finalized",
                   "note": "By end of this year"
                 },
                 "units_attempted": {
-                  "value": 64.2,
+                  "value": 63.6,
                   "target": null,
-                  "n": 330,
+                  "n": 327,
                   "available": true,
                   "label": "Units-Attempted Milestone",
                   "note": "30+ units attempted by end of Year 2 (includes summer before the start of the fall semester)"
                 },
                 "units_completed": {
-                  "value": 41.5,
+                  "value": 41.0,
                   "target": 80.0,
-                  "n": 330,
+                  "n": 327,
                   "available": true,
                   "label": "Units-Completed Milestone",
                   "note": "30+ units completed by end of Year 2 (includes summer before the start of the fall semester)"
                 },
                 "persistence_ff": {
-                  "value": 68.6,
+                  "value": 68.1,
                   "target": null,
-                  "n": 353,
+                  "n": 351,
                   "available": true,
                   "label": "Persistence, Fall-to-Fall",
                   "note": "Year 1 to Year 2"
                 },
                 "persistence_s2": {
-                  "value": 63.5,
+                  "value": 63.0,
                   "target": null,
-                  "n": 353,
+                  "n": 351,
                   "available": true,
                   "label": "Persistence, Fall-to-2nd-Spring",
                   "note": "Year 1 to Year 2"
@@ -542,33 +542,33 @@
               },
               "3": {
                 "csep_dpp": {
-                  "value": 96.9,
+                  "value": 97.2,
                   "target": 80.0,
-                  "n": 353,
+                  "n": 351,
                   "available": true,
                   "label": "CSEP/DPP Finalized",
                   "note": "By end of this year"
                 },
                 "units_attempted": {
-                  "value": 51.5,
+                  "value": 52.3,
                   "target": null,
-                  "n": 330,
+                  "n": 327,
                   "available": true,
                   "label": "Units-Attempted Milestone",
                   "note": "45+ units attempted by end of Year 3 (includes summer before the start of the fall semester)"
                 },
                 "units_completed": {
-                  "value": 24.2,
+                  "value": 24.5,
                   "target": 80.0,
-                  "n": 330,
+                  "n": 327,
                   "available": true,
                   "label": "Units-Completed Milestone",
                   "note": "45+ units completed by end of Year 3 (includes summer before the start of the fall semester)"
                 },
                 "persistence_f3": {
-                  "value": 55.5,
+                  "value": 55.0,
                   "target": null,
-                  "n": 353,
+                  "n": 351,
                   "available": true,
                   "label": "Persistence, Fall-to-3rd Fall (approx.)",
                   "note": "Approximated from unit-attempt growth*"
@@ -577,60 +577,60 @@
             }
           },
           "ATST": {
-            "n_students": 503,
+            "n_students": 501,
             "overall": {
               "english_attempted": {
-                "value": 83.4,
+                "value": 83.3,
                 "target": 85.0,
-                "n": 289,
+                "n": 288,
                 "available": true,
                 "label": "Transfer-Level English Attempted",
                 "note": "Ever attempted, as of this data pull -- Transfer/Degree-Seeking students"
               },
               "math_attempted": {
-                "value": 69.2,
+                "value": 69.1,
                 "target": 70.0,
-                "n": 289,
+                "n": 288,
                 "available": true,
                 "label": "Transfer-Level Math Attempted",
                 "note": "Ever attempted, as of this data pull -- Transfer/Degree-Seeking students"
               },
               "english_completed": {
-                "value": 48.8,
+                "value": 48.6,
                 "target": 70.0,
-                "n": 289,
+                "n": 288,
                 "available": true,
                 "label": "Transfer-Level English Completed",
                 "note": "Ever completed, as of this data pull -- Transfer/Degree-Seeking students"
               },
               "math_completed": {
-                "value": 31.1,
+                "value": 30.9,
                 "target": 55.0,
-                "n": 289,
+                "n": 288,
                 "available": true,
                 "label": "Transfer-Level Math Completed",
                 "note": "Ever completed, as of this data pull -- Transfer/Degree-Seeking students"
               },
               "cte_units_attempted": {
-                "value": 20.8,
+                "value": 20.4,
                 "target": 20.0,
-                "n": 212,
+                "n": 211,
                 "available": true,
                 "label": "CTE Units Attempted",
                 "note": "9+ CTE units, CTE Certificate students, AY2*"
               },
               "cte_units_completed": {
-                "value": 19.8,
+                "value": 19.4,
                 "target": 20.0,
-                "n": 212,
+                "n": 211,
                 "available": true,
                 "label": "CTE Units Completed",
                 "note": "9+ CTE units, CTE Certificate students, AY2*"
               },
               "any_award": {
-                "value": 12.9,
+                "value": 13.2,
                 "target": null,
-                "n": 503,
+                "n": 501,
                 "available": true,
                 "label": "Any Award Earned (ever)",
                 "note": "Degree or certificate, as of this data pull"
@@ -638,15 +638,15 @@
               "units_60_plus": {
                 "value": 4.8,
                 "target": null,
-                "n": 503,
+                "n": 501,
                 "available": true,
                 "label": "Earned 60+ Units",
                 "note": "Total completed units, as of this data pull"
               },
               "graduated": {
-                "value": 12.9,
+                "value": 13.2,
                 "target": null,
-                "n": 503,
+                "n": 501,
                 "available": true,
                 "label": "Graduated",
                 "note": "As of this data pull"
@@ -655,33 +655,33 @@
             "by_year": {
               "1": {
                 "csep_dpp": {
-                  "value": 70.8,
+                  "value": 70.5,
                   "target": 80.0,
-                  "n": 503,
+                  "n": 501,
                   "available": true,
                   "label": "CSEP/DPP Finalized",
                   "note": "By end of this year"
                 },
                 "units_attempted": {
-                  "value": 67.1,
+                  "value": 67.0,
                   "target": null,
-                  "n": 289,
+                  "n": 288,
                   "available": true,
                   "label": "Units-Attempted Milestone",
                   "note": "15+ units attempted by end of Year 1 (includes summer before the start of the fall semester)"
                 },
                 "units_completed": {
-                  "value": 37.7,
+                  "value": 37.8,
                   "target": 80.0,
-                  "n": 289,
+                  "n": 288,
                   "available": true,
                   "label": "Units-Completed Milestone",
                   "note": "15+ units completed by end of Year 1 (includes summer before the start of the fall semester)"
                 },
                 "persistence_fs": {
-                  "value": 73.2,
+                  "value": 73.1,
                   "target": null,
-                  "n": 503,
+                  "n": 501,
                   "available": true,
                   "label": "Persistence, Fall-to-Spring",
                   "note": "Year 1"
@@ -689,41 +689,41 @@
               },
               "2": {
                 "csep_dpp": {
-                  "value": 72.0,
+                  "value": 71.7,
                   "target": 80.0,
-                  "n": 503,
+                  "n": 501,
                   "available": true,
                   "label": "CSEP/DPP Finalized",
                   "note": "By end of this year"
                 },
                 "units_attempted": {
-                  "value": 48.8,
+                  "value": 49.0,
                   "target": null,
-                  "n": 289,
+                  "n": 288,
                   "available": true,
                   "label": "Units-Attempted Milestone",
                   "note": "30+ units attempted by end of Year 2 (includes summer before the start of the fall semester)"
                 },
                 "units_completed": {
-                  "value": 31.5,
+                  "value": 31.9,
                   "target": 80.0,
-                  "n": 289,
+                  "n": 288,
                   "available": true,
                   "label": "Units-Completed Milestone",
                   "note": "30+ units completed by end of Year 2 (includes summer before the start of the fall semester)"
                 },
                 "persistence_ff": {
-                  "value": 56.9,
+                  "value": 56.7,
                   "target": null,
-                  "n": 503,
+                  "n": 501,
                   "available": true,
                   "label": "Persistence, Fall-to-Fall",
                   "note": "Year 1 to Year 2"
                 },
                 "persistence_s2": {
-                  "value": 49.7,
+                  "value": 49.5,
                   "target": null,
-                  "n": 503,
+                  "n": 501,
                   "available": true,
                   "label": "Persistence, Fall-to-2nd-Spring",
                   "note": "Year 1 to Year 2"
@@ -731,33 +731,33 @@
               },
               "3": {
                 "csep_dpp": {
-                  "value": 72.4,
+                  "value": 72.1,
                   "target": 80.0,
-                  "n": 503,
+                  "n": 501,
                   "available": true,
                   "label": "CSEP/DPP Finalized",
                   "note": "By end of this year"
                 },
                 "units_attempted": {
-                  "value": 38.1,
+                  "value": 37.8,
                   "target": null,
-                  "n": 289,
+                  "n": 288,
                   "available": true,
                   "label": "Units-Attempted Milestone",
                   "note": "45+ units attempted by end of Year 3 (includes summer before the start of the fall semester)"
                 },
                 "units_completed": {
-                  "value": 23.5,
+                  "value": 23.6,
                   "target": 80.0,
-                  "n": 289,
+                  "n": 288,
                   "available": true,
                   "label": "Units-Completed Milestone",
                   "note": "45+ units completed by end of Year 3 (includes summer before the start of the fall semester)"
                 },
                 "persistence_f3": {
-                  "value": 43.7,
+                  "value": 43.9,
                   "target": null,
-                  "n": 503,
+                  "n": 501,
                   "available": true,
                   "label": "Persistence, Fall-to-3rd Fall (approx.)",
                   "note": "Approximated from unit-attempt growth*"
@@ -766,36 +766,36 @@
             }
           },
           "BAL": {
-            "n_students": 654,
+            "n_students": 659,
             "overall": {
               "english_attempted": {
-                "value": 80.9,
+                "value": 81.1,
                 "target": 85.0,
-                "n": 498,
+                "n": 503,
                 "available": true,
                 "label": "Transfer-Level English Attempted",
                 "note": "Ever attempted, as of this data pull -- Transfer/Degree-Seeking students"
               },
               "math_attempted": {
-                "value": 71.9,
+                "value": 72.2,
                 "target": 70.0,
-                "n": 498,
+                "n": 503,
                 "available": true,
                 "label": "Transfer-Level Math Attempted",
                 "note": "Ever attempted, as of this data pull -- Transfer/Degree-Seeking students"
               },
               "english_completed": {
-                "value": 55.8,
+                "value": 55.9,
                 "target": 70.0,
-                "n": 498,
+                "n": 503,
                 "available": true,
                 "label": "Transfer-Level English Completed",
                 "note": "Ever completed, as of this data pull -- Transfer/Degree-Seeking students"
               },
               "math_completed": {
-                "value": 40.8,
+                "value": 41.0,
                 "target": 55.0,
-                "n": 498,
+                "n": 503,
                 "available": true,
                 "label": "Transfer-Level Math Completed",
                 "note": "Ever completed, as of this data pull -- Transfer/Degree-Seeking students"
@@ -817,25 +817,25 @@
                 "note": "9+ CTE units, CTE Certificate students, AY2*"
               },
               "any_award": {
-                "value": 8.6,
+                "value": 9.3,
                 "target": null,
-                "n": 654,
+                "n": 659,
                 "available": true,
                 "label": "Any Award Earned (ever)",
                 "note": "Degree or certificate, as of this data pull"
               },
               "units_60_plus": {
-                "value": 9.6,
+                "value": 9.7,
                 "target": null,
-                "n": 654,
+                "n": 659,
                 "available": true,
                 "label": "Earned 60+ Units",
                 "note": "Total completed units, as of this data pull"
               },
               "graduated": {
-                "value": 8.6,
+                "value": 9.3,
                 "target": null,
-                "n": 654,
+                "n": 659,
                 "available": true,
                 "label": "Graduated",
                 "note": "As of this data pull"
@@ -844,33 +844,33 @@
             "by_year": {
               "1": {
                 "csep_dpp": {
-                  "value": 76.3,
+                  "value": 76.5,
                   "target": 80.0,
-                  "n": 654,
+                  "n": 659,
                   "available": true,
                   "label": "CSEP/DPP Finalized",
                   "note": "By end of this year"
                 },
                 "units_attempted": {
-                  "value": 71.7,
+                  "value": 72.0,
                   "target": null,
-                  "n": 498,
+                  "n": 503,
                   "available": true,
                   "label": "Units-Attempted Milestone",
                   "note": "15+ units attempted by end of Year 1 (includes summer before the start of the fall semester)"
                 },
                 "units_completed": {
-                  "value": 46.0,
+                  "value": 46.1,
                   "target": 80.0,
-                  "n": 498,
+                  "n": 503,
                   "available": true,
                   "label": "Units-Completed Milestone",
                   "note": "15+ units completed by end of Year 1 (includes summer before the start of the fall semester)"
                 },
                 "persistence_fs": {
-                  "value": 69.3,
+                  "value": 69.5,
                   "target": null,
-                  "n": 654,
+                  "n": 659,
                   "available": true,
                   "label": "Persistence, Fall-to-Spring",
                   "note": "Year 1"
@@ -878,17 +878,17 @@
               },
               "2": {
                 "csep_dpp": {
-                  "value": 78.4,
+                  "value": 78.6,
                   "target": 80.0,
-                  "n": 654,
+                  "n": 659,
                   "available": true,
                   "label": "CSEP/DPP Finalized",
                   "note": "By end of this year"
                 },
                 "units_attempted": {
-                  "value": 58.4,
+                  "value": 58.6,
                   "target": null,
-                  "n": 498,
+                  "n": 503,
                   "available": true,
                   "label": "Units-Attempted Milestone",
                   "note": "30+ units attempted by end of Year 2 (includes summer before the start of the fall semester)"
@@ -896,23 +896,23 @@
                 "units_completed": {
                   "value": 39.8,
                   "target": 80.0,
-                  "n": 498,
+                  "n": 503,
                   "available": true,
                   "label": "Units-Completed Milestone",
                   "note": "30+ units completed by end of Year 2 (includes summer before the start of the fall semester)"
                 },
                 "persistence_ff": {
-                  "value": 53.8,
+                  "value": 54.0,
                   "target": null,
-                  "n": 654,
+                  "n": 659,
                   "available": true,
                   "label": "Persistence, Fall-to-Fall",
                   "note": "Year 1 to Year 2"
                 },
                 "persistence_s2": {
-                  "value": 46.2,
+                  "value": 46.4,
                   "target": null,
-                  "n": 654,
+                  "n": 659,
                   "available": true,
                   "label": "Persistence, Fall-to-2nd-Spring",
                   "note": "Year 1 to Year 2"
@@ -920,33 +920,33 @@
               },
               "3": {
                 "csep_dpp": {
-                  "value": 79.1,
+                  "value": 79.2,
                   "target": 80.0,
-                  "n": 654,
+                  "n": 659,
                   "available": true,
                   "label": "CSEP/DPP Finalized",
                   "note": "By end of this year"
                 },
                 "units_attempted": {
-                  "value": 48.6,
+                  "value": 49.7,
                   "target": null,
-                  "n": 498,
+                  "n": 503,
                   "available": true,
                   "label": "Units-Attempted Milestone",
                   "note": "45+ units attempted by end of Year 3 (includes summer before the start of the fall semester)"
                 },
                 "units_completed": {
-                  "value": 28.5,
+                  "value": 29.0,
                   "target": 80.0,
-                  "n": 498,
+                  "n": 503,
                   "available": true,
                   "label": "Units-Completed Milestone",
                   "note": "45+ units completed by end of Year 3 (includes summer before the start of the fall semester)"
                 },
                 "persistence_f3": {
-                  "value": 39.6,
+                  "value": 39.8,
                   "target": null,
-                  "n": 654,
+                  "n": 659,
                   "available": true,
                   "label": "Persistence, Fall-to-3rd Fall (approx.)",
                   "note": "Approximated from unit-attempt growth*"
@@ -955,36 +955,36 @@
             }
           },
           "ED": {
-            "n_students": 378,
+            "n_students": 375,
             "overall": {
               "english_attempted": {
-                "value": 75.6,
+                "value": 75.4,
                 "target": 85.0,
-                "n": 349,
+                "n": 346,
                 "available": true,
                 "label": "Transfer-Level English Attempted",
                 "note": "Ever attempted, as of this data pull -- Transfer/Degree-Seeking students"
               },
               "math_attempted": {
-                "value": 72.8,
+                "value": 72.5,
                 "target": 70.0,
-                "n": 349,
+                "n": 346,
                 "available": true,
                 "label": "Transfer-Level Math Attempted",
                 "note": "Ever attempted, as of this data pull -- Transfer/Degree-Seeking students"
               },
               "english_completed": {
-                "value": 66.5,
+                "value": 66.2,
                 "target": 70.0,
-                "n": 349,
+                "n": 346,
                 "available": true,
                 "label": "Transfer-Level English Completed",
                 "note": "Ever completed, as of this data pull -- Transfer/Degree-Seeking students"
               },
               "math_completed": {
-                "value": 63.3,
+                "value": 63.0,
                 "target": 55.0,
-                "n": 349,
+                "n": 346,
                 "available": true,
                 "label": "Transfer-Level Math Completed",
                 "note": "Ever completed, as of this data pull -- Transfer/Degree-Seeking students"
@@ -1006,25 +1006,25 @@
                 "note": "9+ CTE units, CTE Certificate students, AY2*"
               },
               "any_award": {
-                "value": 79.1,
+                "value": 78.9,
                 "target": null,
-                "n": 378,
+                "n": 375,
                 "available": true,
                 "label": "Any Award Earned (ever)",
                 "note": "Degree or certificate, as of this data pull"
               },
               "units_60_plus": {
-                "value": 50.5,
+                "value": 50.4,
                 "target": null,
-                "n": 378,
+                "n": 375,
                 "available": true,
                 "label": "Earned 60+ Units",
                 "note": "Total completed units, as of this data pull"
               },
               "graduated": {
-                "value": 79.1,
+                "value": 78.9,
                 "target": null,
-                "n": 378,
+                "n": 375,
                 "available": true,
                 "label": "Graduated",
                 "note": "As of this data pull"
@@ -1033,33 +1033,33 @@
             "by_year": {
               "1": {
                 "csep_dpp": {
-                  "value": 82.8,
+                  "value": 82.7,
                   "target": 80.0,
-                  "n": 378,
+                  "n": 375,
                   "available": true,
                   "label": "CSEP/DPP Finalized",
                   "note": "By end of this year"
                 },
                 "units_attempted": {
-                  "value": 73.1,
+                  "value": 72.8,
                   "target": null,
-                  "n": 349,
+                  "n": 346,
                   "available": true,
                   "label": "Units-Attempted Milestone",
                   "note": "15+ units attempted by end of Year 1 (includes summer before the start of the fall semester)"
                 },
                 "units_completed": {
-                  "value": 66.5,
+                  "value": 66.2,
                   "target": 80.0,
-                  "n": 349,
+                  "n": 346,
                   "available": true,
                   "label": "Units-Completed Milestone",
                   "note": "15+ units completed by end of Year 1 (includes summer before the start of the fall semester)"
                 },
                 "persistence_fs": {
-                  "value": 88.1,
+                  "value": 88.0,
                   "target": null,
-                  "n": 378,
+                  "n": 375,
                   "available": true,
                   "label": "Persistence, Fall-to-Spring",
                   "note": "Year 1"
@@ -1067,41 +1067,41 @@
               },
               "2": {
                 "csep_dpp": {
-                  "value": 83.3,
+                  "value": 83.2,
                   "target": 80.0,
-                  "n": 378,
+                  "n": 375,
                   "available": true,
                   "label": "CSEP/DPP Finalized",
                   "note": "By end of this year"
                 },
                 "units_attempted": {
-                  "value": 68.2,
+                  "value": 67.9,
                   "target": null,
-                  "n": 349,
+                  "n": 346,
                   "available": true,
                   "label": "Units-Attempted Milestone",
                   "note": "30+ units attempted by end of Year 2 (includes summer before the start of the fall semester)"
                 },
                 "units_completed": {
-                  "value": 65.6,
+                  "value": 65.3,
                   "target": 80.0,
-                  "n": 349,
+                  "n": 346,
                   "available": true,
                   "label": "Units-Completed Milestone",
                   "note": "30+ units completed by end of Year 2 (includes summer before the start of the fall semester)"
                 },
                 "persistence_ff": {
-                  "value": 82.3,
+                  "value": 82.1,
                   "target": null,
-                  "n": 378,
+                  "n": 375,
                   "available": true,
                   "label": "Persistence, Fall-to-Fall",
                   "note": "Year 1 to Year 2"
                 },
                 "persistence_s2": {
-                  "value": 76.5,
+                  "value": 76.3,
                   "target": null,
-                  "n": 378,
+                  "n": 375,
                   "available": true,
                   "label": "Persistence, Fall-to-2nd-Spring",
                   "note": "Year 1 to Year 2"
@@ -1109,33 +1109,33 @@
               },
               "3": {
                 "csep_dpp": {
-                  "value": 83.3,
+                  "value": 83.5,
                   "target": 80.0,
-                  "n": 378,
+                  "n": 375,
                   "available": true,
                   "label": "CSEP/DPP Finalized",
                   "note": "By end of this year"
                 },
                 "units_attempted": {
-                  "value": 64.5,
+                  "value": 64.2,
                   "target": null,
-                  "n": 349,
+                  "n": 346,
                   "available": true,
                   "label": "Units-Attempted Milestone",
                   "note": "45+ units attempted by end of Year 3 (includes summer before the start of the fall semester)"
                 },
                 "units_completed": {
-                  "value": 61.9,
+                  "value": 61.8,
                   "target": 80.0,
-                  "n": 349,
+                  "n": 346,
                   "available": true,
                   "label": "Units-Completed Milestone",
                   "note": "45+ units completed by end of Year 3 (includes summer before the start of the fall semester)"
                 },
                 "persistence_f3": {
-                  "value": 18.5,
+                  "value": 18.1,
                   "target": null,
-                  "n": 378,
+                  "n": 375,
                   "available": true,
                   "label": "Persistence, Fall-to-3rd Fall (approx.)",
                   "note": "Approximated from unit-attempt growth*"
@@ -1171,7 +1171,7 @@
                 "note": "Ever completed, as of this data pull -- Transfer/Degree-Seeking students"
               },
               "math_completed": {
-                "value": 31.9,
+                "value": 31.1,
                 "target": 55.0,
                 "n": 119,
                 "available": true,
@@ -1274,7 +1274,7 @@
                   "note": "30+ units attempted by end of Year 2 (includes summer before the start of the fall semester)"
                 },
                 "units_completed": {
-                  "value": 35.3,
+                  "value": 34.5,
                   "target": 80.0,
                   "n": 119,
                   "available": true,
@@ -1316,7 +1316,7 @@
                   "note": "45+ units attempted by end of Year 3 (includes summer before the start of the fall semester)"
                 },
                 "units_completed": {
-                  "value": 21.8,
+                  "value": 23.5,
                   "target": 80.0,
                   "n": 119,
                   "available": true,
@@ -1335,20 +1335,20 @@
             }
           },
           "HSW": {
-            "n_students": 600,
+            "n_students": 596,
             "overall": {
               "english_attempted": {
-                "value": 89.6,
+                "value": 89.5,
                 "target": 85.0,
-                "n": 559,
+                "n": 555,
                 "available": true,
                 "label": "Transfer-Level English Attempted",
                 "note": "Ever attempted, as of this data pull -- Transfer/Degree-Seeking students"
               },
               "math_attempted": {
-                "value": 77.6,
+                "value": 77.7,
                 "target": 70.0,
-                "n": 559,
+                "n": 555,
                 "available": true,
                 "label": "Transfer-Level Math Attempted",
                 "note": "Ever attempted, as of this data pull -- Transfer/Degree-Seeking students"
@@ -1356,15 +1356,15 @@
               "english_completed": {
                 "value": 59.6,
                 "target": 70.0,
-                "n": 559,
+                "n": 555,
                 "available": true,
                 "label": "Transfer-Level English Completed",
                 "note": "Ever completed, as of this data pull -- Transfer/Degree-Seeking students"
               },
               "math_completed": {
-                "value": 41.9,
+                "value": 41.6,
                 "target": 55.0,
-                "n": 559,
+                "n": 555,
                 "available": true,
                 "label": "Transfer-Level Math Completed",
                 "note": "Ever completed, as of this data pull -- Transfer/Degree-Seeking students"
@@ -1386,25 +1386,25 @@
                 "note": "9+ CTE units, CTE Certificate students, AY2*"
               },
               "any_award": {
-                "value": 7.5,
+                "value": 8.1,
                 "target": null,
-                "n": 600,
+                "n": 596,
                 "available": true,
                 "label": "Any Award Earned (ever)",
                 "note": "Degree or certificate, as of this data pull"
               },
               "units_60_plus": {
-                "value": 8.8,
+                "value": 8.9,
                 "target": null,
-                "n": 600,
+                "n": 596,
                 "available": true,
                 "label": "Earned 60+ Units",
                 "note": "Total completed units, as of this data pull"
               },
               "graduated": {
-                "value": 7.5,
+                "value": 8.1,
                 "target": null,
-                "n": 600,
+                "n": 596,
                 "available": true,
                 "label": "Graduated",
                 "note": "As of this data pull"
@@ -1413,17 +1413,17 @@
             "by_year": {
               "1": {
                 "csep_dpp": {
-                  "value": 87.3,
+                  "value": 87.4,
                   "target": 80.0,
-                  "n": 600,
+                  "n": 596,
                   "available": true,
                   "label": "CSEP/DPP Finalized",
                   "note": "By end of this year"
                 },
                 "units_attempted": {
-                  "value": 74.2,
+                  "value": 74.1,
                   "target": null,
-                  "n": 559,
+                  "n": 555,
                   "available": true,
                   "label": "Units-Attempted Milestone",
                   "note": "15+ units attempted by end of Year 1 (includes summer before the start of the fall semester)"
@@ -1431,15 +1431,15 @@
                 "units_completed": {
                   "value": 43.8,
                   "target": 80.0,
-                  "n": 559,
+                  "n": 555,
                   "available": true,
                   "label": "Units-Completed Milestone",
                   "note": "15+ units completed by end of Year 1 (includes summer before the start of the fall semester)"
                 },
                 "persistence_fs": {
-                  "value": 79.3,
+                  "value": 79.2,
                   "target": null,
-                  "n": 600,
+                  "n": 596,
                   "available": true,
                   "label": "Persistence, Fall-to-Spring",
                   "note": "Year 1"
@@ -1447,41 +1447,41 @@
               },
               "2": {
                 "csep_dpp": {
-                  "value": 88.3,
+                  "value": 88.4,
                   "target": 80.0,
-                  "n": 600,
+                  "n": 596,
                   "available": true,
                   "label": "CSEP/DPP Finalized",
                   "note": "By end of this year"
                 },
                 "units_attempted": {
-                  "value": 57.2,
+                  "value": 57.1,
                   "target": null,
-                  "n": 559,
+                  "n": 555,
                   "available": true,
                   "label": "Units-Attempted Milestone",
                   "note": "30+ units attempted by end of Year 2 (includes summer before the start of the fall semester)"
                 },
                 "units_completed": {
-                  "value": 39.2,
+                  "value": 39.1,
                   "target": 80.0,
-                  "n": 559,
+                  "n": 555,
                   "available": true,
                   "label": "Units-Completed Milestone",
                   "note": "30+ units completed by end of Year 2 (includes summer before the start of the fall semester)"
                 },
                 "persistence_ff": {
-                  "value": 59.0,
+                  "value": 58.9,
                   "target": null,
-                  "n": 600,
+                  "n": 596,
                   "available": true,
                   "label": "Persistence, Fall-to-Fall",
                   "note": "Year 1 to Year 2"
                 },
                 "persistence_s2": {
-                  "value": 52.5,
+                  "value": 52.3,
                   "target": null,
-                  "n": 600,
+                  "n": 596,
                   "available": true,
                   "label": "Persistence, Fall-to-2nd-Spring",
                   "note": "Year 1 to Year 2"
@@ -1489,33 +1489,33 @@
               },
               "3": {
                 "csep_dpp": {
-                  "value": 88.8,
+                  "value": 88.9,
                   "target": 80.0,
-                  "n": 600,
+                  "n": 596,
                   "available": true,
                   "label": "CSEP/DPP Finalized",
                   "note": "By end of this year"
                 },
                 "units_attempted": {
-                  "value": 45.3,
+                  "value": 45.4,
                   "target": null,
-                  "n": 559,
+                  "n": 555,
                   "available": true,
                   "label": "Units-Attempted Milestone",
                   "note": "45+ units attempted by end of Year 3 (includes summer before the start of the fall semester)"
                 },
                 "units_completed": {
-                  "value": 24.2,
+                  "value": 24.0,
                   "target": 80.0,
-                  "n": 559,
+                  "n": 555,
                   "available": true,
                   "label": "Units-Completed Milestone",
                   "note": "45+ units completed by end of Year 3 (includes summer before the start of the fall semester)"
                 },
                 "persistence_f3": {
-                  "value": 41.5,
+                  "value": 40.9,
                   "target": null,
-                  "n": 600,
+                  "n": 596,
                   "available": true,
                   "label": "Persistence, Fall-to-3rd Fall (approx.)",
                   "note": "Approximated from unit-attempt growth*"
@@ -1524,20 +1524,20 @@
             }
           },
           "SBS": {
-            "n_students": 484,
+            "n_students": 485,
             "overall": {
               "english_attempted": {
                 "value": 90.1,
                 "target": 85.0,
-                "n": 483,
+                "n": 484,
                 "available": true,
                 "label": "Transfer-Level English Attempted",
                 "note": "Ever attempted, as of this data pull -- Transfer/Degree-Seeking students"
               },
               "math_attempted": {
-                "value": 82.0,
+                "value": 81.8,
                 "target": 70.0,
-                "n": 483,
+                "n": 484,
                 "available": true,
                 "label": "Transfer-Level Math Attempted",
                 "note": "Ever attempted, as of this data pull -- Transfer/Degree-Seeking students"
@@ -1545,15 +1545,15 @@
               "english_completed": {
                 "value": 64.0,
                 "target": 70.0,
-                "n": 483,
+                "n": 484,
                 "available": true,
                 "label": "Transfer-Level English Completed",
                 "note": "Ever completed, as of this data pull -- Transfer/Degree-Seeking students"
               },
               "math_completed": {
-                "value": 48.7,
+                "value": 48.6,
                 "target": 55.0,
-                "n": 483,
+                "n": 484,
                 "available": true,
                 "label": "Transfer-Level Math Completed",
                 "note": "Ever completed, as of this data pull -- Transfer/Degree-Seeking students"
@@ -1577,25 +1577,25 @@
                 "suppressed": true
               },
               "any_award": {
-                "value": 7.6,
+                "value": 9.1,
                 "target": null,
-                "n": 484,
+                "n": 485,
                 "available": true,
                 "label": "Any Award Earned (ever)",
                 "note": "Degree or certificate, as of this data pull"
               },
               "units_60_plus": {
-                "value": 13.0,
+                "value": 13.2,
                 "target": null,
-                "n": 484,
+                "n": 485,
                 "available": true,
                 "label": "Earned 60+ Units",
                 "note": "Total completed units, as of this data pull"
               },
               "graduated": {
-                "value": 7.6,
+                "value": 9.1,
                 "target": null,
-                "n": 484,
+                "n": 485,
                 "available": true,
                 "label": "Graduated",
                 "note": "As of this data pull"
@@ -1606,23 +1606,23 @@
                 "csep_dpp": {
                   "value": 94.6,
                   "target": 80.0,
-                  "n": 484,
+                  "n": 485,
                   "available": true,
                   "label": "CSEP/DPP Finalized",
                   "note": "By end of this year"
                 },
                 "units_attempted": {
-                  "value": 80.1,
+                  "value": 80.2,
                   "target": null,
-                  "n": 483,
+                  "n": 484,
                   "available": true,
                   "label": "Units-Attempted Milestone",
                   "note": "15+ units attempted by end of Year 1 (includes summer before the start of the fall semester)"
                 },
                 "units_completed": {
-                  "value": 48.7,
+                  "value": 48.6,
                   "target": 80.0,
-                  "n": 483,
+                  "n": 484,
                   "available": true,
                   "label": "Units-Completed Milestone",
                   "note": "15+ units completed by end of Year 1 (includes summer before the start of the fall semester)"
@@ -1630,7 +1630,7 @@
                 "persistence_fs": {
                   "value": 83.5,
                   "target": null,
-                  "n": 484,
+                  "n": 485,
                   "available": true,
                   "label": "Persistence, Fall-to-Spring",
                   "note": "Year 1"
@@ -1640,39 +1640,39 @@
                 "csep_dpp": {
                   "value": 96.3,
                   "target": 80.0,
-                  "n": 484,
+                  "n": 485,
                   "available": true,
                   "label": "CSEP/DPP Finalized",
                   "note": "By end of this year"
                 },
                 "units_attempted": {
-                  "value": 70.6,
+                  "value": 70.7,
                   "target": null,
-                  "n": 483,
+                  "n": 484,
                   "available": true,
                   "label": "Units-Attempted Milestone",
                   "note": "30+ units attempted by end of Year 2 (includes summer before the start of the fall semester)"
                 },
                 "units_completed": {
-                  "value": 47.6,
+                  "value": 47.7,
                   "target": 80.0,
-                  "n": 483,
+                  "n": 484,
                   "available": true,
                   "label": "Units-Completed Milestone",
                   "note": "30+ units completed by end of Year 2 (includes summer before the start of the fall semester)"
                 },
                 "persistence_ff": {
-                  "value": 71.7,
+                  "value": 71.8,
                   "target": null,
-                  "n": 484,
+                  "n": 485,
                   "available": true,
                   "label": "Persistence, Fall-to-Fall",
                   "note": "Year 1 to Year 2"
                 },
                 "persistence_s2": {
-                  "value": 63.6,
+                  "value": 63.7,
                   "target": null,
-                  "n": 484,
+                  "n": 485,
                   "available": true,
                   "label": "Persistence, Fall-to-2nd-Spring",
                   "note": "Year 1 to Year 2"
@@ -1682,31 +1682,31 @@
                 "csep_dpp": {
                   "value": 96.5,
                   "target": 80.0,
-                  "n": 484,
+                  "n": 485,
                   "available": true,
                   "label": "CSEP/DPP Finalized",
                   "note": "By end of this year"
                 },
                 "units_attempted": {
-                  "value": 58.2,
+                  "value": 58.7,
                   "target": null,
-                  "n": 483,
+                  "n": 484,
                   "available": true,
                   "label": "Units-Attempted Milestone",
                   "note": "45+ units attempted by end of Year 3 (includes summer before the start of the fall semester)"
                 },
                 "units_completed": {
-                  "value": 30.0,
+                  "value": 30.2,
                   "target": 80.0,
-                  "n": 483,
+                  "n": 484,
                   "available": true,
                   "label": "Units-Completed Milestone",
                   "note": "45+ units completed by end of Year 3 (includes summer before the start of the fall semester)"
                 },
                 "persistence_f3": {
-                  "value": 54.5,
+                  "value": 54.6,
                   "target": null,
-                  "n": 484,
+                  "n": 485,
                   "available": true,
                   "label": "Persistence, Fall-to-3rd Fall (approx.)",
                   "note": "Approximated from unit-attempt growth*"
@@ -1715,36 +1715,36 @@
             }
           },
           "SEM": {
-            "n_students": 532,
+            "n_students": 538,
             "overall": {
               "english_attempted": {
-                "value": 90.5,
+                "value": 90.6,
                 "target": 85.0,
-                "n": 525,
+                "n": 531,
                 "available": true,
                 "label": "Transfer-Level English Attempted",
                 "note": "Ever attempted, as of this data pull -- Transfer/Degree-Seeking students"
               },
               "math_attempted": {
-                "value": 86.7,
+                "value": 86.8,
                 "target": 70.0,
-                "n": 525,
+                "n": 531,
                 "available": true,
                 "label": "Transfer-Level Math Attempted",
                 "note": "Ever attempted, as of this data pull -- Transfer/Degree-Seeking students"
               },
               "english_completed": {
-                "value": 68.8,
+                "value": 69.5,
                 "target": 70.0,
-                "n": 525,
+                "n": 531,
                 "available": true,
                 "label": "Transfer-Level English Completed",
                 "note": "Ever completed, as of this data pull -- Transfer/Degree-Seeking students"
               },
               "math_completed": {
-                "value": 59.6,
+                "value": 60.1,
                 "target": 55.0,
-                "n": 525,
+                "n": 531,
                 "available": true,
                 "label": "Transfer-Level Math Completed",
                 "note": "Ever completed, as of this data pull -- Transfer/Degree-Seeking students"
@@ -1768,25 +1768,25 @@
                 "suppressed": true
               },
               "any_award": {
-                "value": 6.8,
+                "value": 7.6,
                 "target": null,
-                "n": 532,
+                "n": 538,
                 "available": true,
                 "label": "Any Award Earned (ever)",
                 "note": "Degree or certificate, as of this data pull"
               },
               "units_60_plus": {
-                "value": 17.1,
+                "value": 17.8,
                 "target": null,
-                "n": 532,
+                "n": 538,
                 "available": true,
                 "label": "Earned 60+ Units",
                 "note": "Total completed units, as of this data pull"
               },
               "graduated": {
-                "value": 6.8,
+                "value": 7.6,
                 "target": null,
-                "n": 532,
+                "n": 538,
                 "available": true,
                 "label": "Graduated",
                 "note": "As of this data pull"
@@ -1795,33 +1795,33 @@
             "by_year": {
               "1": {
                 "csep_dpp": {
-                  "value": 96.4,
+                  "value": 96.5,
                   "target": 80.0,
-                  "n": 532,
+                  "n": 538,
                   "available": true,
                   "label": "CSEP/DPP Finalized",
                   "note": "By end of this year"
                 },
                 "units_attempted": {
-                  "value": 80.0,
+                  "value": 80.2,
                   "target": null,
-                  "n": 525,
+                  "n": 531,
                   "available": true,
                   "label": "Units-Attempted Milestone",
                   "note": "15+ units attempted by end of Year 1 (includes summer before the start of the fall semester)"
                 },
                 "units_completed": {
-                  "value": 53.9,
+                  "value": 54.2,
                   "target": 80.0,
-                  "n": 525,
+                  "n": 531,
                   "available": true,
                   "label": "Units-Completed Milestone",
                   "note": "15+ units completed by end of Year 1 (includes summer before the start of the fall semester)"
                 },
                 "persistence_fs": {
-                  "value": 82.5,
+                  "value": 82.7,
                   "target": null,
-                  "n": 532,
+                  "n": 538,
                   "available": true,
                   "label": "Persistence, Fall-to-Spring",
                   "note": "Year 1"
@@ -1831,39 +1831,39 @@
                 "csep_dpp": {
                   "value": 97.6,
                   "target": 80.0,
-                  "n": 532,
+                  "n": 538,
                   "available": true,
                   "label": "CSEP/DPP Finalized",
                   "note": "By end of this year"
                 },
                 "units_attempted": {
-                  "value": 68.6,
+                  "value": 68.9,
                   "target": null,
-                  "n": 525,
+                  "n": 531,
                   "available": true,
                   "label": "Units-Attempted Milestone",
                   "note": "30+ units attempted by end of Year 2 (includes summer before the start of the fall semester)"
                 },
                 "units_completed": {
-                  "value": 47.2,
+                  "value": 47.6,
                   "target": 80.0,
-                  "n": 525,
+                  "n": 531,
                   "available": true,
                   "label": "Units-Completed Milestone",
                   "note": "30+ units completed by end of Year 2 (includes summer before the start of the fall semester)"
                 },
                 "persistence_ff": {
-                  "value": 69.9,
+                  "value": 70.3,
                   "target": null,
-                  "n": 532,
+                  "n": 538,
                   "available": true,
                   "label": "Persistence, Fall-to-Fall",
                   "note": "Year 1 to Year 2"
                 },
                 "persistence_s2": {
-                  "value": 63.3,
+                  "value": 63.8,
                   "target": null,
-                  "n": 532,
+                  "n": 538,
                   "available": true,
                   "label": "Persistence, Fall-to-2nd-Spring",
                   "note": "Year 1 to Year 2"
@@ -1873,31 +1873,31 @@
                 "csep_dpp": {
                   "value": 97.6,
                   "target": 80.0,
-                  "n": 532,
+                  "n": 538,
                   "available": true,
                   "label": "CSEP/DPP Finalized",
                   "note": "By end of this year"
                 },
                 "units_attempted": {
-                  "value": 57.9,
+                  "value": 59.1,
                   "target": null,
-                  "n": 525,
+                  "n": 531,
                   "available": true,
                   "label": "Units-Attempted Milestone",
                   "note": "45+ units attempted by end of Year 3 (includes summer before the start of the fall semester)"
                 },
                 "units_completed": {
-                  "value": 33.7,
+                  "value": 34.3,
                   "target": 80.0,
-                  "n": 525,
+                  "n": 531,
                   "available": true,
                   "label": "Units-Completed Milestone",
                   "note": "45+ units completed by end of Year 3 (includes summer before the start of the fall semester)"
                 },
                 "persistence_f3": {
-                  "value": 53.0,
+                  "value": 53.5,
                   "target": null,
-                  "n": 532,
+                  "n": 538,
                   "available": true,
                   "label": "Persistence, Fall-to-3rd Fall (approx.)",
                   "note": "Approximated from unit-attempt growth*"
@@ -2107,25 +2107,25 @@
       "n_students": 3825,
       "overall": {
         "english_attempted": {
-          "value": 87.1,
+          "value": 87.2,
           "target": 85.0,
-          "n": 3339,
+          "n": 3336,
           "available": true,
           "label": "Transfer-Level English Attempted",
           "note": "Ever attempted, as of this data pull -- Transfer/Degree-Seeking students"
         },
         "math_attempted": {
-          "value": 73.5,
+          "value": 74.3,
           "target": 70.0,
-          "n": 3339,
+          "n": 3336,
           "available": true,
           "label": "Transfer-Level Math Attempted",
           "note": "Ever attempted, as of this data pull -- Transfer/Degree-Seeking students"
         },
         "english_completed": {
-          "value": 58.2,
+          "value": 58.3,
           "target": 70.0,
-          "n": 3339,
+          "n": 3336,
           "available": true,
           "label": "Transfer-Level English Completed",
           "note": "Ever completed, as of this data pull -- Transfer/Degree-Seeking students"
@@ -2133,23 +2133,23 @@
         "math_completed": {
           "value": 38.3,
           "target": 55.0,
-          "n": 3339,
+          "n": 3336,
           "available": true,
           "label": "Transfer-Level Math Completed",
           "note": "Ever completed, as of this data pull -- Transfer/Degree-Seeking students"
         },
         "cte_units_attempted": {
-          "value": 23.9,
+          "value": 24.6,
           "target": 20.0,
-          "n": 473,
+          "n": 476,
           "available": true,
           "label": "CTE Units Attempted",
           "note": "9+ CTE units, CTE Certificate students, AY2"
         },
         "cte_units_completed": {
-          "value": 11.8,
+          "value": 13.0,
           "target": 20.0,
-          "n": 473,
+          "n": 476,
           "available": true,
           "label": "CTE Units Completed",
           "note": "9+ CTE units, CTE Certificate students, AY2"
@@ -2190,9 +2190,9 @@
             "note": "By end of this year"
           },
           "units_attempted": {
-            "value": 78.1,
+            "value": 78.2,
             "target": null,
-            "n": 3339,
+            "n": 3336,
             "available": true,
             "label": "Units-Attempted Milestone",
             "note": "15+ units attempted by end of Year 1 (includes summer before the start of the fall semester)"
@@ -2200,7 +2200,7 @@
           "units_completed": {
             "value": 48.5,
             "target": 80.0,
-            "n": 3339,
+            "n": 3336,
             "available": true,
             "label": "Units-Completed Milestone",
             "note": "15+ units completed by end of Year 1 (includes summer before the start of the fall semester)"
@@ -2216,7 +2216,7 @@
         },
         "2": {
           "csep_dpp": {
-            "value": 86.8,
+            "value": 87.0,
             "target": 80.0,
             "n": 3825,
             "available": true,
@@ -2224,23 +2224,23 @@
             "note": "By end of this year"
           },
           "units_attempted": {
-            "value": 58.1,
+            "value": 58.5,
             "target": null,
-            "n": 3339,
+            "n": 3336,
             "available": true,
             "label": "Units-Attempted Milestone",
             "note": "30+ units attempted by end of Year 2 (includes summer before the start of the fall semester)"
           },
           "units_completed": {
-            "value": 23.5,
+            "value": 24.3,
             "target": 80.0,
-            "n": 3339,
+            "n": 3336,
             "available": true,
             "label": "Units-Completed Milestone",
             "note": "30+ units completed by end of Year 2 (includes summer before the start of the fall semester)"
           },
           "persistence_ff": {
-            "value": 61.8,
+            "value": 61.3,
             "target": null,
             "n": 3825,
             "available": true,
@@ -2248,10 +2248,10 @@
             "note": "Year 1 to Year 2"
           },
           "persistence_s2": {
-            "value": null,
+            "value": 23.0,
             "target": null,
             "n": 3825,
-            "available": false,
+            "available": true,
             "label": "Persistence, Fall-to-2nd-Spring",
             "note": "Year 1 to Year 2"
           }
@@ -2261,68 +2261,68 @@
         "LCP / Division": [
           {
             "LCP_current": "AHC",
-            "N": 324,
-            "Transfer-Level English Completed": 60.1,
-            "Transfer-Level Math Completed": 39.3,
+            "N": 325,
+            "Transfer-Level English Completed": 60.8,
+            "Transfer-Level Math Completed": 39.2,
             "CTE Units Completed": 20.0
           },
           {
             "LCP_current": "ATST",
-            "N": 579,
-            "Transfer-Level English Completed": 43.3,
-            "Transfer-Level Math Completed": 21.1,
-            "CTE Units Completed": 6.6
+            "N": 578,
+            "Transfer-Level English Completed": 43.0,
+            "Transfer-Level Math Completed": 21.2,
+            "CTE Units Completed": 7.0
           },
           {
             "LCP_current": "BAL",
-            "N": 806,
-            "Transfer-Level English Completed": 54.0,
-            "Transfer-Level Math Completed": 35.2,
-            "CTE Units Completed": 18.5
+            "N": 802,
+            "Transfer-Level English Completed": 53.8,
+            "Transfer-Level Math Completed": 35.1,
+            "CTE Units Completed": 21.1
           },
           {
             "LCP_current": "ED",
-            "N": 62,
-            "Transfer-Level English Completed": 36.5,
-            "Transfer-Level Math Completed": 11.5,
+            "N": 63,
+            "Transfer-Level English Completed": 35.8,
+            "Transfer-Level Math Completed": 11.3,
             "CTE Units Completed": null
           },
           {
             "LCP_current": "EHS",
             "N": 154,
-            "Transfer-Level English Completed": 63.2,
-            "Transfer-Level Math Completed": 36.8,
+            "Transfer-Level English Completed": 62.5,
+            "Transfer-Level Math Completed": 35.4,
             "CTE Units Completed": 0.0
           },
           {
             "LCP_current": "HSW",
-            "N": 750,
+            "N": 745,
             "Transfer-Level English Completed": 58.5,
-            "Transfer-Level Math Completed": 37.7,
+            "Transfer-Level Math Completed": 37.6,
             "CTE Units Completed": 12.2
           },
           {
             "LCP_current": "SBS",
-            "N": 543,
-            "Transfer-Level English Completed": 64.4,
-            "Transfer-Level Math Completed": 44.3,
-            "CTE Units Completed": null
+            "N": 555,
+            "Transfer-Level English Completed": 64.9,
+            "Transfer-Level Math Completed": 44.7,
+            "CTE Units Completed": 0.0
           },
           {
             "LCP_current": "SEM",
-            "N": 607,
-            "Transfer-Level English Completed": 65.0,
-            "Transfer-Level Math Completed": 49.0,
+            "N": 603,
+            "Transfer-Level English Completed": 65.1,
+            "Transfer-Level Math Completed": 48.8,
             "CTE Units Completed": 0.0
           }
         ],
         "Major Classification": [
           {
             "major_classification_current": "CTE Certificate",
-            "N": 473,
+            "N": 476,
             "Transfer-Level English Completed": null,
             "Transfer-Level Math Completed": null,
-            "CTE Units Completed": 11.8
+            "CTE Units Completed": 13.0
           },
           {
             "major_classification_current": "Non-CTE Certificate",
@@ -2333,8 +2333,8 @@
           },
           {
             "major_classification_current": "Transfer/Degree-Seeking",
-            "N": 3339,
-            "Transfer-Level English Completed": 58.2,
+            "N": 3336,
+            "Transfer-Level English Completed": 58.3,
             "Transfer-Level Math Completed": 38.3,
             "CTE Units Completed": null
           },
@@ -2357,9 +2357,9 @@
           {
             "Ethnicity": "Asian",
             "N": 262,
-            "Transfer-Level English Completed": 76.1,
-            "Transfer-Level Math Completed": 65.3,
-            "CTE Units Completed": 9.1
+            "Transfer-Level English Completed": 75.9,
+            "Transfer-Level Math Completed": 65.5,
+            "CTE Units Completed": 15.4
           },
           {
             "Ethnicity": "Black or African American",
@@ -2371,9 +2371,9 @@
           {
             "Ethnicity": "Hispanic/Latino",
             "N": 2909,
-            "Transfer-Level English Completed": 59.3,
+            "Transfer-Level English Completed": 59.4,
             "Transfer-Level Math Completed": 37.3,
-            "CTE Units Completed": 12.5
+            "CTE Units Completed": 13.9
           },
           {
             "Ethnicity": "Native Hawaiian or Other Pacific Islander",
@@ -2415,22 +2415,22 @@
           {
             "Gender": "Female",
             "N": 1895,
-            "Transfer-Level English Completed": 60.9,
+            "Transfer-Level English Completed": 61.1,
             "Transfer-Level Math Completed": 39.0,
-            "CTE Units Completed": 16.6
+            "CTE Units Completed": 18.4
           },
           {
             "Gender": "Male",
             "N": 1869,
-            "Transfer-Level English Completed": 55.0,
+            "Transfer-Level English Completed": 55.1,
             "Transfer-Level Math Completed": 37.4,
-            "CTE Units Completed": 9.1
+            "CTE Units Completed": 9.8
           },
           {
             "Gender": "Unknown",
             "N": 61,
-            "Transfer-Level English Completed": 67.3,
-            "Transfer-Level Math Completed": 42.9,
+            "Transfer-Level English Completed": 66.0,
+            "Transfer-Level Math Completed": 42.0,
             "CTE Units Completed": 0.0
           }
         ]
@@ -2438,36 +2438,36 @@
       "segments": {
         "LCP": {
           "AHC": {
-            "n_students": 324,
+            "n_students": 325,
             "overall": {
               "english_attempted": {
                 "value": 90.9,
                 "target": 85.0,
-                "n": 318,
+                "n": 319,
                 "available": true,
                 "label": "Transfer-Level English Attempted",
                 "note": "Ever attempted, as of this data pull -- Transfer/Degree-Seeking students"
               },
               "math_attempted": {
-                "value": 73.0,
+                "value": 73.4,
                 "target": 70.0,
-                "n": 318,
+                "n": 319,
                 "available": true,
                 "label": "Transfer-Level Math Attempted",
                 "note": "Ever attempted, as of this data pull -- Transfer/Degree-Seeking students"
               },
               "english_completed": {
-                "value": 60.1,
+                "value": 60.8,
                 "target": 70.0,
-                "n": 318,
+                "n": 319,
                 "available": true,
                 "label": "Transfer-Level English Completed",
                 "note": "Ever completed, as of this data pull -- Transfer/Degree-Seeking students"
               },
               "math_completed": {
-                "value": 39.3,
+                "value": 39.2,
                 "target": 55.0,
-                "n": 318,
+                "n": 319,
                 "available": true,
                 "label": "Transfer-Level Math Completed",
                 "note": "Ever completed, as of this data pull -- Transfer/Degree-Seeking students"
@@ -2491,9 +2491,9 @@
                 "suppressed": true
               },
               "any_award": {
-                "value": 0.0,
+                "value": 0.6,
                 "target": null,
-                "n": 324,
+                "n": 325,
                 "available": true,
                 "label": "Any Award Earned (ever)",
                 "note": "Degree or certificate, as of this data pull"
@@ -2501,16 +2501,16 @@
               "units_60_plus": {
                 "value": 0.3,
                 "target": null,
-                "n": 324,
+                "n": 325,
                 "available": true,
                 "label": "Earned 60+ Units",
                 "note": "Total completed units, as of this data pull"
               },
               "graduated": {
-                "value": null,
+                "value": 0.6,
                 "target": null,
-                "n": 324,
-                "available": false,
+                "n": 325,
+                "available": true,
                 "label": "Graduated",
                 "note": "As of this data pull"
               }
@@ -2518,9 +2518,9 @@
             "by_year": {
               "1": {
                 "csep_dpp": {
-                  "value": 84.6,
+                  "value": 84.3,
                   "target": 80.0,
-                  "n": 324,
+                  "n": 325,
                   "available": true,
                   "label": "CSEP/DPP Finalized",
                   "note": "By end of this year"
@@ -2528,23 +2528,23 @@
                 "units_attempted": {
                   "value": 77.4,
                   "target": null,
-                  "n": 318,
+                  "n": 319,
                   "available": true,
                   "label": "Units-Attempted Milestone",
                   "note": "15+ units attempted by end of Year 1 (includes summer before the start of the fall semester)"
                 },
                 "units_completed": {
-                  "value": 47.2,
+                  "value": 47.0,
                   "target": 80.0,
-                  "n": 318,
+                  "n": 319,
                   "available": true,
                   "label": "Units-Completed Milestone",
                   "note": "15+ units completed by end of Year 1 (includes summer before the start of the fall semester)"
                 },
                 "persistence_fs": {
-                  "value": 79.9,
+                  "value": 80.0,
                   "target": null,
-                  "n": 324,
+                  "n": 325,
                   "available": true,
                   "label": "Persistence, Fall-to-Spring",
                   "note": "Year 1"
@@ -2552,42 +2552,42 @@
               },
               "2": {
                 "csep_dpp": {
-                  "value": 85.8,
+                  "value": 86.2,
                   "target": 80.0,
-                  "n": 324,
+                  "n": 325,
                   "available": true,
                   "label": "CSEP/DPP Finalized",
                   "note": "By end of this year"
                 },
                 "units_attempted": {
-                  "value": 56.3,
+                  "value": 57.4,
                   "target": null,
-                  "n": 318,
+                  "n": 319,
                   "available": true,
                   "label": "Units-Attempted Milestone",
                   "note": "30+ units attempted by end of Year 2 (includes summer before the start of the fall semester)"
                 },
                 "units_completed": {
-                  "value": 20.8,
+                  "value": 21.9,
                   "target": 80.0,
-                  "n": 318,
+                  "n": 319,
                   "available": true,
                   "label": "Units-Completed Milestone",
                   "note": "30+ units completed by end of Year 2 (includes summer before the start of the fall semester)"
                 },
                 "persistence_ff": {
-                  "value": 67.0,
+                  "value": 66.5,
                   "target": null,
-                  "n": 324,
+                  "n": 325,
                   "available": true,
                   "label": "Persistence, Fall-to-Fall",
                   "note": "Year 1 to Year 2"
                 },
                 "persistence_s2": {
-                  "value": null,
+                  "value": 26.2,
                   "target": null,
-                  "n": 324,
-                  "available": false,
+                  "n": 325,
+                  "available": true,
                   "label": "Persistence, Fall-to-2nd-Spring",
                   "note": "Year 1 to Year 2"
                 }
@@ -2595,52 +2595,52 @@
             }
           },
           "ATST": {
-            "n_students": 579,
+            "n_students": 578,
             "overall": {
               "english_attempted": {
-                "value": 79.8,
+                "value": 79.4,
                 "target": 85.0,
-                "n": 351,
+                "n": 349,
                 "available": true,
                 "label": "Transfer-Level English Attempted",
                 "note": "Ever attempted, as of this data pull -- Transfer/Degree-Seeking students"
               },
               "math_attempted": {
-                "value": 61.8,
+                "value": 62.5,
                 "target": 70.0,
-                "n": 351,
+                "n": 349,
                 "available": true,
                 "label": "Transfer-Level Math Attempted",
                 "note": "Ever attempted, as of this data pull -- Transfer/Degree-Seeking students"
               },
               "english_completed": {
-                "value": 43.3,
+                "value": 43.0,
                 "target": 70.0,
-                "n": 351,
+                "n": 349,
                 "available": true,
                 "label": "Transfer-Level English Completed",
                 "note": "Ever completed, as of this data pull -- Transfer/Degree-Seeking students"
               },
               "math_completed": {
-                "value": 21.1,
+                "value": 21.2,
                 "target": 55.0,
-                "n": 351,
+                "n": 349,
                 "available": true,
                 "label": "Transfer-Level Math Completed",
                 "note": "Ever completed, as of this data pull -- Transfer/Degree-Seeking students"
               },
               "cte_units_attempted": {
-                "value": 11.5,
+                "value": 12.7,
                 "target": 20.0,
-                "n": 227,
+                "n": 228,
                 "available": true,
                 "label": "CTE Units Attempted",
                 "note": "9+ CTE units, CTE Certificate students, AY2"
               },
               "cte_units_completed": {
-                "value": 6.6,
+                "value": 7.0,
                 "target": 20.0,
-                "n": 227,
+                "n": 228,
                 "available": true,
                 "label": "CTE Units Completed",
                 "note": "9+ CTE units, CTE Certificate students, AY2"
@@ -2648,7 +2648,7 @@
               "any_award": {
                 "value": 3.6,
                 "target": null,
-                "n": 579,
+                "n": 578,
                 "available": true,
                 "label": "Any Award Earned (ever)",
                 "note": "Degree or certificate, as of this data pull"
@@ -2656,7 +2656,7 @@
               "units_60_plus": {
                 "value": 0.0,
                 "target": null,
-                "n": 579,
+                "n": 578,
                 "available": true,
                 "label": "Earned 60+ Units",
                 "note": "Total completed units, as of this data pull"
@@ -2664,7 +2664,7 @@
               "graduated": {
                 "value": 3.6,
                 "target": null,
-                "n": 579,
+                "n": 578,
                 "available": true,
                 "label": "Graduated",
                 "note": "As of this data pull"
@@ -2673,33 +2673,33 @@
             "by_year": {
               "1": {
                 "csep_dpp": {
-                  "value": 68.4,
+                  "value": 68.3,
                   "target": 80.0,
-                  "n": 579,
+                  "n": 578,
                   "available": true,
                   "label": "CSEP/DPP Finalized",
                   "note": "By end of this year"
                 },
                 "units_attempted": {
-                  "value": 59.3,
+                  "value": 59.9,
                   "target": null,
-                  "n": 351,
+                  "n": 349,
                   "available": true,
                   "label": "Units-Attempted Milestone",
                   "note": "15+ units attempted by end of Year 1 (includes summer before the start of the fall semester)"
                 },
                 "units_completed": {
-                  "value": 32.2,
+                  "value": 33.0,
                   "target": 80.0,
-                  "n": 351,
+                  "n": 349,
                   "available": true,
                   "label": "Units-Completed Milestone",
                   "note": "15+ units completed by end of Year 1 (includes summer before the start of the fall semester)"
                 },
                 "persistence_fs": {
-                  "value": 65.3,
+                  "value": 65.4,
                   "target": null,
-                  "n": 579,
+                  "n": 578,
                   "available": true,
                   "label": "Persistence, Fall-to-Spring",
                   "note": "Year 1"
@@ -2707,42 +2707,42 @@
               },
               "2": {
                 "csep_dpp": {
-                  "value": 70.1,
+                  "value": 70.2,
                   "target": 80.0,
-                  "n": 579,
+                  "n": 578,
                   "available": true,
                   "label": "CSEP/DPP Finalized",
                   "note": "By end of this year"
                 },
                 "units_attempted": {
-                  "value": 39.9,
+                  "value": 41.0,
                   "target": null,
-                  "n": 351,
+                  "n": 349,
                   "available": true,
                   "label": "Units-Attempted Milestone",
                   "note": "30+ units attempted by end of Year 2 (includes summer before the start of the fall semester)"
                 },
                 "units_completed": {
-                  "value": 10.5,
+                  "value": 11.2,
                   "target": 80.0,
-                  "n": 351,
+                  "n": 349,
                   "available": true,
                   "label": "Units-Completed Milestone",
                   "note": "30+ units completed by end of Year 2 (includes summer before the start of the fall semester)"
                 },
                 "persistence_ff": {
-                  "value": 44.4,
+                  "value": 44.1,
                   "target": null,
-                  "n": 579,
+                  "n": 578,
                   "available": true,
                   "label": "Persistence, Fall-to-Fall",
                   "note": "Year 1 to Year 2"
                 },
                 "persistence_s2": {
-                  "value": null,
+                  "value": 14.0,
                   "target": null,
-                  "n": 579,
-                  "available": false,
+                  "n": 578,
+                  "available": true,
                   "label": "Persistence, Fall-to-2nd-Spring",
                   "note": "Year 1 to Year 2"
                 }
@@ -2750,52 +2750,52 @@
             }
           },
           "BAL": {
-            "n_students": 806,
+            "n_students": 802,
             "overall": {
               "english_attempted": {
-                "value": 82.8,
+                "value": 83.2,
                 "target": 85.0,
-                "n": 617,
+                "n": 612,
                 "available": true,
                 "label": "Transfer-Level English Attempted",
                 "note": "Ever attempted, as of this data pull -- Transfer/Degree-Seeking students"
               },
               "math_attempted": {
-                "value": 67.4,
+                "value": 68.1,
                 "target": 70.0,
-                "n": 617,
+                "n": 612,
                 "available": true,
                 "label": "Transfer-Level Math Attempted",
                 "note": "Ever attempted, as of this data pull -- Transfer/Degree-Seeking students"
               },
               "english_completed": {
-                "value": 54.0,
+                "value": 53.8,
                 "target": 70.0,
-                "n": 617,
+                "n": 612,
                 "available": true,
                 "label": "Transfer-Level English Completed",
                 "note": "Ever completed, as of this data pull -- Transfer/Degree-Seeking students"
               },
               "math_completed": {
-                "value": 35.2,
+                "value": 35.1,
                 "target": 55.0,
-                "n": 617,
+                "n": 612,
                 "available": true,
                 "label": "Transfer-Level Math Completed",
                 "note": "Ever completed, as of this data pull -- Transfer/Degree-Seeking students"
               },
               "cte_units_attempted": {
-                "value": 38.6,
+                "value": 37.9,
                 "target": 20.0,
-                "n": 189,
+                "n": 190,
                 "available": true,
                 "label": "CTE Units Attempted",
                 "note": "9+ CTE units, CTE Certificate students, AY2"
               },
               "cte_units_completed": {
-                "value": 18.5,
+                "value": 21.1,
                 "target": 20.0,
-                "n": 189,
+                "n": 190,
                 "available": true,
                 "label": "CTE Units Completed",
                 "note": "9+ CTE units, CTE Certificate students, AY2"
@@ -2803,7 +2803,7 @@
               "any_award": {
                 "value": 4.1,
                 "target": null,
-                "n": 806,
+                "n": 802,
                 "available": true,
                 "label": "Any Award Earned (ever)",
                 "note": "Degree or certificate, as of this data pull"
@@ -2811,7 +2811,7 @@
               "units_60_plus": {
                 "value": 0.6,
                 "target": null,
-                "n": 806,
+                "n": 802,
                 "available": true,
                 "label": "Earned 60+ Units",
                 "note": "Total completed units, as of this data pull"
@@ -2819,7 +2819,7 @@
               "graduated": {
                 "value": 4.1,
                 "target": null,
-                "n": 806,
+                "n": 802,
                 "available": true,
                 "label": "Graduated",
                 "note": "As of this data pull"
@@ -2830,7 +2830,7 @@
                 "csep_dpp": {
                   "value": 84.7,
                   "target": 80.0,
-                  "n": 806,
+                  "n": 802,
                   "available": true,
                   "label": "CSEP/DPP Finalized",
                   "note": "By end of this year"
@@ -2838,23 +2838,23 @@
                 "units_attempted": {
                   "value": 77.5,
                   "target": null,
-                  "n": 617,
+                  "n": 612,
                   "available": true,
                   "label": "Units-Attempted Milestone",
                   "note": "15+ units attempted by end of Year 1 (includes summer before the start of the fall semester)"
                 },
                 "units_completed": {
-                  "value": 44.9,
+                  "value": 44.4,
                   "target": 80.0,
-                  "n": 617,
+                  "n": 612,
                   "available": true,
                   "label": "Units-Completed Milestone",
                   "note": "15+ units completed by end of Year 1 (includes summer before the start of the fall semester)"
                 },
                 "persistence_fs": {
-                  "value": 75.6,
+                  "value": 75.4,
                   "target": null,
-                  "n": 806,
+                  "n": 802,
                   "available": true,
                   "label": "Persistence, Fall-to-Spring",
                   "note": "Year 1"
@@ -2862,42 +2862,42 @@
               },
               "2": {
                 "csep_dpp": {
-                  "value": 86.0,
+                  "value": 86.2,
                   "target": 80.0,
-                  "n": 806,
+                  "n": 802,
                   "available": true,
                   "label": "CSEP/DPP Finalized",
                   "note": "By end of this year"
                 },
                 "units_attempted": {
-                  "value": 53.3,
+                  "value": 52.8,
                   "target": null,
-                  "n": 617,
+                  "n": 612,
                   "available": true,
                   "label": "Units-Attempted Milestone",
                   "note": "30+ units attempted by end of Year 2 (includes summer before the start of the fall semester)"
                 },
                 "units_completed": {
-                  "value": 21.7,
+                  "value": 22.4,
                   "target": 80.0,
-                  "n": 617,
+                  "n": 612,
                   "available": true,
                   "label": "Units-Completed Milestone",
                   "note": "30+ units completed by end of Year 2 (includes summer before the start of the fall semester)"
                 },
                 "persistence_ff": {
-                  "value": 55.5,
+                  "value": 53.5,
                   "target": null,
-                  "n": 806,
+                  "n": 802,
                   "available": true,
                   "label": "Persistence, Fall-to-Fall",
                   "note": "Year 1 to Year 2"
                 },
                 "persistence_s2": {
-                  "value": null,
+                  "value": 15.1,
                   "target": null,
-                  "n": 806,
-                  "available": false,
+                  "n": 802,
+                  "available": true,
                   "label": "Persistence, Fall-to-2nd-Spring",
                   "note": "Year 1 to Year 2"
                 }
@@ -2905,36 +2905,36 @@
             }
           },
           "ED": {
-            "n_students": 62,
+            "n_students": 63,
             "overall": {
               "english_attempted": {
-                "value": 57.7,
+                "value": 56.6,
                 "target": 85.0,
-                "n": 52,
+                "n": 53,
                 "available": true,
                 "label": "Transfer-Level English Attempted",
                 "note": "Ever attempted, as of this data pull -- Transfer/Degree-Seeking students"
               },
               "math_attempted": {
-                "value": 26.9,
+                "value": 26.4,
                 "target": 70.0,
-                "n": 52,
+                "n": 53,
                 "available": true,
                 "label": "Transfer-Level Math Attempted",
                 "note": "Ever attempted, as of this data pull -- Transfer/Degree-Seeking students"
               },
               "english_completed": {
-                "value": 36.5,
+                "value": 35.8,
                 "target": 70.0,
-                "n": 52,
+                "n": 53,
                 "available": true,
                 "label": "Transfer-Level English Completed",
                 "note": "Ever completed, as of this data pull -- Transfer/Degree-Seeking students"
               },
               "math_completed": {
-                "value": 11.5,
+                "value": 11.3,
                 "target": 55.0,
-                "n": 52,
+                "n": 53,
                 "available": true,
                 "label": "Transfer-Level Math Completed",
                 "note": "Ever completed, as of this data pull -- Transfer/Degree-Seeking students"
@@ -2956,9 +2956,9 @@
                 "note": "9+ CTE units, CTE Certificate students, AY2"
               },
               "any_award": {
-                "value": 29.0,
+                "value": 30.2,
                 "target": null,
-                "n": 62,
+                "n": 63,
                 "available": true,
                 "label": "Any Award Earned (ever)",
                 "note": "Degree or certificate, as of this data pull"
@@ -2966,15 +2966,15 @@
               "units_60_plus": {
                 "value": 0.0,
                 "target": null,
-                "n": 62,
+                "n": 63,
                 "available": true,
                 "label": "Earned 60+ Units",
                 "note": "Total completed units, as of this data pull"
               },
               "graduated": {
-                "value": 29.0,
+                "value": 30.2,
                 "target": null,
-                "n": 62,
+                "n": 63,
                 "available": true,
                 "label": "Graduated",
                 "note": "As of this data pull"
@@ -2983,33 +2983,33 @@
             "by_year": {
               "1": {
                 "csep_dpp": {
-                  "value": 53.2,
+                  "value": 54.0,
                   "target": 80.0,
-                  "n": 62,
+                  "n": 63,
                   "available": true,
                   "label": "CSEP/DPP Finalized",
                   "note": "By end of this year"
                 },
                 "units_attempted": {
-                  "value": 59.6,
+                  "value": 60.4,
                   "target": null,
-                  "n": 52,
+                  "n": 53,
                   "available": true,
                   "label": "Units-Attempted Milestone",
                   "note": "15+ units attempted by end of Year 1 (includes summer before the start of the fall semester)"
                 },
                 "units_completed": {
-                  "value": 42.3,
+                  "value": 43.4,
                   "target": 80.0,
-                  "n": 52,
+                  "n": 53,
                   "available": true,
                   "label": "Units-Completed Milestone",
                   "note": "15+ units completed by end of Year 1 (includes summer before the start of the fall semester)"
                 },
                 "persistence_fs": {
-                  "value": 71.0,
+                  "value": 71.4,
                   "target": null,
-                  "n": 62,
+                  "n": 63,
                   "available": true,
                   "label": "Persistence, Fall-to-Spring",
                   "note": "Year 1"
@@ -3017,42 +3017,42 @@
               },
               "2": {
                 "csep_dpp": {
-                  "value": 54.8,
+                  "value": 55.6,
                   "target": 80.0,
-                  "n": 62,
+                  "n": 63,
                   "available": true,
                   "label": "CSEP/DPP Finalized",
                   "note": "By end of this year"
                 },
                 "units_attempted": {
-                  "value": 23.1,
+                  "value": 22.6,
                   "target": null,
-                  "n": 52,
+                  "n": 53,
                   "available": true,
                   "label": "Units-Attempted Milestone",
                   "note": "30+ units attempted by end of Year 2 (includes summer before the start of the fall semester)"
                 },
                 "units_completed": {
-                  "value": 19.2,
+                  "value": 18.9,
                   "target": 80.0,
-                  "n": 52,
+                  "n": 53,
                   "available": true,
                   "label": "Units-Completed Milestone",
                   "note": "30+ units completed by end of Year 2 (includes summer before the start of the fall semester)"
                 },
                 "persistence_ff": {
-                  "value": 29.0,
+                  "value": 31.7,
                   "target": null,
-                  "n": 62,
+                  "n": 63,
                   "available": true,
                   "label": "Persistence, Fall-to-Fall",
                   "note": "Year 1 to Year 2"
                 },
                 "persistence_s2": {
-                  "value": null,
+                  "value": 4.8,
                   "target": null,
-                  "n": 62,
-                  "available": false,
+                  "n": 63,
+                  "available": true,
                   "label": "Persistence, Fall-to-2nd-Spring",
                   "note": "Year 1 to Year 2"
                 }
@@ -3071,7 +3071,7 @@
                 "note": "Ever attempted, as of this data pull -- Transfer/Degree-Seeking students"
               },
               "math_attempted": {
-                "value": 75.7,
+                "value": 77.1,
                 "target": 70.0,
                 "n": 144,
                 "available": true,
@@ -3079,7 +3079,7 @@
                 "note": "Ever attempted, as of this data pull -- Transfer/Degree-Seeking students"
               },
               "english_completed": {
-                "value": 63.2,
+                "value": 62.5,
                 "target": 70.0,
                 "n": 144,
                 "available": true,
@@ -3087,7 +3087,7 @@
                 "note": "Ever completed, as of this data pull -- Transfer/Degree-Seeking students"
               },
               "math_completed": {
-                "value": 36.8,
+                "value": 35.4,
                 "target": 55.0,
                 "n": 144,
                 "available": true,
@@ -3147,7 +3147,7 @@
                   "note": "By end of this year"
                 },
                 "units_attempted": {
-                  "value": 87.5,
+                  "value": 86.1,
                   "target": null,
                   "n": 144,
                   "available": true,
@@ -3155,7 +3155,7 @@
                   "note": "15+ units attempted by end of Year 1 (includes summer before the start of the fall semester)"
                 },
                 "units_completed": {
-                  "value": 48.6,
+                  "value": 47.2,
                   "target": 80.0,
                   "n": 144,
                   "available": true,
@@ -3173,7 +3173,7 @@
               },
               "2": {
                 "csep_dpp": {
-                  "value": 90.9,
+                  "value": 91.6,
                   "target": 80.0,
                   "n": 154,
                   "available": true,
@@ -3181,7 +3181,7 @@
                   "note": "By end of this year"
                 },
                 "units_attempted": {
-                  "value": 62.5,
+                  "value": 61.8,
                   "target": null,
                   "n": 144,
                   "available": true,
@@ -3189,7 +3189,7 @@
                   "note": "30+ units attempted by end of Year 2 (includes summer before the start of the fall semester)"
                 },
                 "units_completed": {
-                  "value": 20.8,
+                  "value": 20.1,
                   "target": 80.0,
                   "n": 144,
                   "available": true,
@@ -3205,10 +3205,10 @@
                   "note": "Year 1 to Year 2"
                 },
                 "persistence_s2": {
-                  "value": null,
+                  "value": 24.7,
                   "target": null,
                   "n": 154,
-                  "available": false,
+                  "available": true,
                   "label": "Persistence, Fall-to-2nd-Spring",
                   "note": "Year 1 to Year 2"
                 }
@@ -3216,20 +3216,20 @@
             }
           },
           "HSW": {
-            "n_students": 750,
+            "n_students": 745,
             "overall": {
               "english_attempted": {
                 "value": 90.6,
                 "target": 85.0,
-                "n": 709,
+                "n": 704,
                 "available": true,
                 "label": "Transfer-Level English Attempted",
                 "note": "Ever attempted, as of this data pull -- Transfer/Degree-Seeking students"
               },
               "math_attempted": {
-                "value": 73.9,
+                "value": 74.4,
                 "target": 70.0,
-                "n": 709,
+                "n": 704,
                 "available": true,
                 "label": "Transfer-Level Math Attempted",
                 "note": "Ever attempted, as of this data pull -- Transfer/Degree-Seeking students"
@@ -3237,21 +3237,21 @@
               "english_completed": {
                 "value": 58.5,
                 "target": 70.0,
-                "n": 709,
+                "n": 704,
                 "available": true,
                 "label": "Transfer-Level English Completed",
                 "note": "Ever completed, as of this data pull -- Transfer/Degree-Seeking students"
               },
               "math_completed": {
-                "value": 37.7,
+                "value": 37.6,
                 "target": 55.0,
-                "n": 709,
+                "n": 704,
                 "available": true,
                 "label": "Transfer-Level Math Completed",
                 "note": "Ever completed, as of this data pull -- Transfer/Degree-Seeking students"
               },
               "cte_units_attempted": {
-                "value": 26.8,
+                "value": 31.7,
                 "target": 20.0,
                 "n": 41,
                 "available": true,
@@ -3269,7 +3269,7 @@
               "any_award": {
                 "value": 0.7,
                 "target": null,
-                "n": 750,
+                "n": 745,
                 "available": true,
                 "label": "Any Award Earned (ever)",
                 "note": "Degree or certificate, as of this data pull"
@@ -3277,7 +3277,7 @@
               "units_60_plus": {
                 "value": 0.7,
                 "target": null,
-                "n": 750,
+                "n": 745,
                 "available": true,
                 "label": "Earned 60+ Units",
                 "note": "Total completed units, as of this data pull"
@@ -3285,7 +3285,7 @@
               "graduated": {
                 "value": 0.7,
                 "target": null,
-                "n": 750,
+                "n": 745,
                 "available": true,
                 "label": "Graduated",
                 "note": "As of this data pull"
@@ -3294,33 +3294,33 @@
             "by_year": {
               "1": {
                 "csep_dpp": {
-                  "value": 82.5,
+                  "value": 82.4,
                   "target": 80.0,
-                  "n": 750,
+                  "n": 745,
                   "available": true,
                   "label": "CSEP/DPP Finalized",
                   "note": "By end of this year"
                 },
                 "units_attempted": {
-                  "value": 77.7,
+                  "value": 77.4,
                   "target": null,
-                  "n": 709,
+                  "n": 704,
                   "available": true,
                   "label": "Units-Attempted Milestone",
                   "note": "15+ units attempted by end of Year 1 (includes summer before the start of the fall semester)"
                 },
                 "units_completed": {
-                  "value": 47.8,
+                  "value": 47.3,
                   "target": 80.0,
-                  "n": 709,
+                  "n": 704,
                   "available": true,
                   "label": "Units-Completed Milestone",
                   "note": "15+ units completed by end of Year 1 (includes summer before the start of the fall semester)"
                 },
                 "persistence_fs": {
-                  "value": 78.9,
+                  "value": 78.7,
                   "target": null,
-                  "n": 750,
+                  "n": 745,
                   "available": true,
                   "label": "Persistence, Fall-to-Spring",
                   "note": "Year 1"
@@ -3328,42 +3328,42 @@
               },
               "2": {
                 "csep_dpp": {
-                  "value": 84.4,
+                  "value": 84.6,
                   "target": 80.0,
-                  "n": 750,
+                  "n": 745,
                   "available": true,
                   "label": "CSEP/DPP Finalized",
                   "note": "By end of this year"
                 },
                 "units_attempted": {
-                  "value": 57.5,
+                  "value": 58.0,
                   "target": null,
-                  "n": 709,
+                  "n": 704,
                   "available": true,
                   "label": "Units-Attempted Milestone",
                   "note": "30+ units attempted by end of Year 2 (includes summer before the start of the fall semester)"
                 },
                 "units_completed": {
-                  "value": 21.6,
+                  "value": 22.6,
                   "target": 80.0,
-                  "n": 709,
+                  "n": 704,
                   "available": true,
                   "label": "Units-Completed Milestone",
                   "note": "30+ units completed by end of Year 2 (includes summer before the start of the fall semester)"
                 },
                 "persistence_ff": {
-                  "value": 65.7,
+                  "value": 65.4,
                   "target": null,
-                  "n": 750,
+                  "n": 745,
                   "available": true,
                   "label": "Persistence, Fall-to-Fall",
                   "note": "Year 1 to Year 2"
                 },
                 "persistence_s2": {
-                  "value": null,
+                  "value": 23.9,
                   "target": null,
-                  "n": 750,
-                  "available": false,
+                  "n": 745,
+                  "available": true,
                   "label": "Persistence, Fall-to-2nd-Spring",
                   "note": "Year 1 to Year 2"
                 }
@@ -3371,36 +3371,36 @@
             }
           },
           "SBS": {
-            "n_students": 543,
+            "n_students": 555,
             "overall": {
               "english_attempted": {
-                "value": 89.7,
+                "value": 89.9,
                 "target": 85.0,
-                "n": 542,
+                "n": 553,
                 "available": true,
                 "label": "Transfer-Level English Attempted",
                 "note": "Ever attempted, as of this data pull -- Transfer/Degree-Seeking students"
               },
               "math_attempted": {
-                "value": 78.0,
+                "value": 79.6,
                 "target": 70.0,
-                "n": 542,
+                "n": 553,
                 "available": true,
                 "label": "Transfer-Level Math Attempted",
                 "note": "Ever attempted, as of this data pull -- Transfer/Degree-Seeking students"
               },
               "english_completed": {
-                "value": 64.4,
+                "value": 64.9,
                 "target": 70.0,
-                "n": 542,
+                "n": 553,
                 "available": true,
                 "label": "Transfer-Level English Completed",
                 "note": "Ever completed, as of this data pull -- Transfer/Degree-Seeking students"
               },
               "math_completed": {
-                "value": 44.3,
+                "value": 44.7,
                 "target": 55.0,
-                "n": 542,
+                "n": 553,
                 "available": true,
                 "label": "Transfer-Level Math Completed",
                 "note": "Ever completed, as of this data pull -- Transfer/Degree-Seeking students"
@@ -3408,31 +3408,33 @@
               "cte_units_attempted": {
                 "value": null,
                 "target": 20.0,
-                "n": 0,
+                "n": 1,
                 "available": false,
                 "label": "CTE Units Attempted",
-                "note": "9+ CTE units, CTE Certificate students, AY2"
+                "note": "9+ CTE units, CTE Certificate students, AY2",
+                "suppressed": true
               },
               "cte_units_completed": {
                 "value": null,
                 "target": 20.0,
-                "n": 0,
+                "n": 1,
                 "available": false,
                 "label": "CTE Units Completed",
-                "note": "9+ CTE units, CTE Certificate students, AY2"
+                "note": "9+ CTE units, CTE Certificate students, AY2",
+                "suppressed": true
               },
               "any_award": {
                 "value": 1.1,
                 "target": null,
-                "n": 543,
+                "n": 555,
                 "available": true,
                 "label": "Any Award Earned (ever)",
                 "note": "Degree or certificate, as of this data pull"
               },
               "units_60_plus": {
-                "value": 0.6,
+                "value": 0.5,
                 "target": null,
-                "n": 543,
+                "n": 555,
                 "available": true,
                 "label": "Earned 60+ Units",
                 "note": "Total completed units, as of this data pull"
@@ -3440,7 +3442,7 @@
               "graduated": {
                 "value": 1.1,
                 "target": null,
-                "n": 543,
+                "n": 555,
                 "available": true,
                 "label": "Graduated",
                 "note": "As of this data pull"
@@ -3451,31 +3453,31 @@
                 "csep_dpp": {
                   "value": 97.8,
                   "target": 80.0,
-                  "n": 543,
+                  "n": 555,
                   "available": true,
                   "label": "CSEP/DPP Finalized",
                   "note": "By end of this year"
                 },
                 "units_attempted": {
-                  "value": 85.8,
+                  "value": 86.1,
                   "target": null,
-                  "n": 542,
+                  "n": 553,
                   "available": true,
                   "label": "Units-Attempted Milestone",
                   "note": "15+ units attempted by end of Year 1 (includes summer before the start of the fall semester)"
                 },
                 "units_completed": {
-                  "value": 59.0,
+                  "value": 60.0,
                   "target": 80.0,
-                  "n": 542,
+                  "n": 553,
                   "available": true,
                   "label": "Units-Completed Milestone",
                   "note": "15+ units completed by end of Year 1 (includes summer before the start of the fall semester)"
                 },
                 "persistence_fs": {
-                  "value": 87.8,
+                  "value": 88.1,
                   "target": null,
-                  "n": 543,
+                  "n": 555,
                   "available": true,
                   "label": "Persistence, Fall-to-Spring",
                   "note": "Year 1"
@@ -3483,25 +3485,25 @@
               },
               "2": {
                 "csep_dpp": {
-                  "value": 98.3,
+                  "value": 98.7,
                   "target": 80.0,
-                  "n": 543,
+                  "n": 555,
                   "available": true,
                   "label": "CSEP/DPP Finalized",
                   "note": "By end of this year"
                 },
                 "units_attempted": {
-                  "value": 70.8,
+                  "value": 71.6,
                   "target": null,
-                  "n": 542,
+                  "n": 553,
                   "available": true,
                   "label": "Units-Attempted Milestone",
                   "note": "30+ units attempted by end of Year 2 (includes summer before the start of the fall semester)"
                 },
                 "units_completed": {
-                  "value": 32.8,
+                  "value": 34.2,
                   "target": 80.0,
-                  "n": 542,
+                  "n": 553,
                   "available": true,
                   "label": "Units-Completed Milestone",
                   "note": "30+ units completed by end of Year 2 (includes summer before the start of the fall semester)"
@@ -3509,16 +3511,16 @@
                 "persistence_ff": {
                   "value": 75.3,
                   "target": null,
-                  "n": 543,
+                  "n": 555,
                   "available": true,
                   "label": "Persistence, Fall-to-Fall",
                   "note": "Year 1 to Year 2"
                 },
                 "persistence_s2": {
-                  "value": null,
+                  "value": 31.5,
                   "target": null,
-                  "n": 543,
-                  "available": false,
+                  "n": 555,
+                  "available": true,
                   "label": "Persistence, Fall-to-2nd-Spring",
                   "note": "Year 1 to Year 2"
                 }
@@ -3526,36 +3528,36 @@
             }
           },
           "SEM": {
-            "n_students": 607,
+            "n_students": 603,
             "overall": {
               "english_attempted": {
-                "value": 89.6,
+                "value": 89.5,
                 "target": 85.0,
-                "n": 606,
+                "n": 602,
                 "available": true,
                 "label": "Transfer-Level English Attempted",
                 "note": "Ever attempted, as of this data pull -- Transfer/Degree-Seeking students"
               },
               "math_attempted": {
-                "value": 85.8,
+                "value": 86.2,
                 "target": 70.0,
-                "n": 606,
+                "n": 602,
                 "available": true,
                 "label": "Transfer-Level Math Attempted",
                 "note": "Ever attempted, as of this data pull -- Transfer/Degree-Seeking students"
               },
               "english_completed": {
-                "value": 65.0,
+                "value": 65.1,
                 "target": 70.0,
-                "n": 606,
+                "n": 602,
                 "available": true,
                 "label": "Transfer-Level English Completed",
                 "note": "Ever completed, as of this data pull -- Transfer/Degree-Seeking students"
               },
               "math_completed": {
-                "value": 49.0,
+                "value": 48.8,
                 "target": 55.0,
-                "n": 606,
+                "n": 602,
                 "available": true,
                 "label": "Transfer-Level Math Completed",
                 "note": "Ever completed, as of this data pull -- Transfer/Degree-Seeking students"
@@ -3581,7 +3583,7 @@
               "any_award": {
                 "value": 0.8,
                 "target": null,
-                "n": 607,
+                "n": 603,
                 "available": true,
                 "label": "Any Award Earned (ever)",
                 "note": "Degree or certificate, as of this data pull"
@@ -3589,7 +3591,7 @@
               "units_60_plus": {
                 "value": 1.0,
                 "target": null,
-                "n": 607,
+                "n": 603,
                 "available": true,
                 "label": "Earned 60+ Units",
                 "note": "Total completed units, as of this data pull"
@@ -3597,7 +3599,7 @@
               "graduated": {
                 "value": 0.8,
                 "target": null,
-                "n": 607,
+                "n": 603,
                 "available": true,
                 "label": "Graduated",
                 "note": "As of this data pull"
@@ -3606,9 +3608,9 @@
             "by_year": {
               "1": {
                 "csep_dpp": {
-                  "value": 98.5,
+                  "value": 98.7,
                   "target": 80.0,
-                  "n": 607,
+                  "n": 603,
                   "available": true,
                   "label": "CSEP/DPP Finalized",
                   "note": "By end of this year"
@@ -3616,23 +3618,23 @@
                 "units_attempted": {
                   "value": 83.2,
                   "target": null,
-                  "n": 606,
+                  "n": 602,
                   "available": true,
                   "label": "Units-Attempted Milestone",
                   "note": "15+ units attempted by end of Year 1 (includes summer before the start of the fall semester)"
                 },
                 "units_completed": {
-                  "value": 54.1,
+                  "value": 54.0,
                   "target": 80.0,
-                  "n": 606,
+                  "n": 602,
                   "available": true,
                   "label": "Units-Completed Milestone",
                   "note": "15+ units completed by end of Year 1 (includes summer before the start of the fall semester)"
                 },
                 "persistence_fs": {
-                  "value": 83.9,
+                  "value": 83.7,
                   "target": null,
-                  "n": 607,
+                  "n": 603,
                   "available": true,
                   "label": "Persistence, Fall-to-Spring",
                   "note": "Year 1"
@@ -3642,7 +3644,7 @@
                 "csep_dpp": {
                   "value": 99.2,
                   "target": 80.0,
-                  "n": 607,
+                  "n": 603,
                   "available": true,
                   "label": "CSEP/DPP Finalized",
                   "note": "By end of this year"
@@ -3650,32 +3652,32 @@
                 "units_attempted": {
                   "value": 65.8,
                   "target": null,
-                  "n": 606,
+                  "n": 602,
                   "available": true,
                   "label": "Units-Attempted Milestone",
                   "note": "30+ units attempted by end of Year 2 (includes summer before the start of the fall semester)"
                 },
                 "units_completed": {
-                  "value": 28.9,
+                  "value": 29.4,
                   "target": 80.0,
-                  "n": 606,
+                  "n": 602,
                   "available": true,
                   "label": "Units-Completed Milestone",
                   "note": "30+ units completed by end of Year 2 (includes summer before the start of the fall semester)"
                 },
                 "persistence_ff": {
-                  "value": 67.9,
+                  "value": 67.7,
                   "target": null,
-                  "n": 607,
+                  "n": 603,
                   "available": true,
                   "label": "Persistence, Fall-to-Fall",
                   "note": "Year 1 to Year 2"
                 },
                 "persistence_s2": {
-                  "value": null,
+                  "value": 33.0,
                   "target": null,
-                  "n": 607,
-                  "available": false,
+                  "n": 603,
+                  "available": true,
                   "label": "Persistence, Fall-to-2nd-Spring",
                   "note": "Year 1 to Year 2"
                 }
@@ -3686,52 +3688,52 @@
       }
     },
     "Fall 2026": {
-      "n_students": 3796,
+      "n_students": 3763,
       "overall": {
         "english_attempted": {
-          "value": 77.9,
+          "value": 79.0,
           "target": 85.0,
-          "n": 3455,
+          "n": 3420,
           "available": true,
           "label": "Transfer-Level English Attempted",
           "note": "Ever attempted, as of this data pull -- Transfer/Degree-Seeking students"
         },
         "math_attempted": {
-          "value": 57.5,
+          "value": 60.6,
           "target": 70.0,
-          "n": 3455,
+          "n": 3420,
           "available": true,
           "label": "Transfer-Level Math Attempted",
           "note": "Ever attempted, as of this data pull -- Transfer/Degree-Seeking students"
         },
         "english_completed": {
-          "value": 9.6,
+          "value": 11.4,
           "target": null,
-          "n": 3455,
+          "n": 3420,
           "available": true,
           "label": "Transfer-Level English Completed",
           "note": "Ever completed -- Year 1 in progress"
         },
         "math_completed": {
-          "value": 3.7,
+          "value": 3.9,
           "target": null,
-          "n": 3455,
+          "n": 3420,
           "available": true,
           "label": "Transfer-Level Math Completed",
           "note": "Ever completed -- Year 1 in progress"
         },
         "cte_units_attempted": {
-          "value": 20.8,
+          "value": 24.6,
           "target": 20.0,
-          "n": 332,
+          "n": 334,
           "available": true,
           "label": "CTE Units Attempted",
           "note": "9+ CTE units, CTE Certificate students, AY1"
         },
         "cte_units_completed": {
-          "value": 2.4,
+          "value": 3.9,
           "target": 20.0,
-          "n": 332,
+          "n": 334,
           "available": true,
           "label": "CTE Units Completed",
           "note": "9+ CTE units, CTE Certificate students, AY1"
@@ -3739,7 +3741,7 @@
         "any_award": {
           "value": 0.1,
           "target": null,
-          "n": 3796,
+          "n": 3763,
           "available": true,
           "label": "Any Award Earned (ever)",
           "note": "Degree or certificate, as of this data pull"
@@ -3747,7 +3749,7 @@
         "units_60_plus": {
           "value": 0.1,
           "target": null,
-          "n": 3796,
+          "n": 3763,
           "available": true,
           "label": "Earned 60+ Units",
           "note": "Total completed units, as of this data pull"
@@ -3755,7 +3757,7 @@
         "graduated": {
           "value": 0.1,
           "target": null,
-          "n": 3796,
+          "n": 3763,
           "available": true,
           "label": "Graduated",
           "note": "As of this data pull"
@@ -3764,34 +3766,34 @@
       "by_year": {
         "1": {
           "csep_dpp": {
-            "value": 78.6,
+            "value": 80.1,
             "target": 80.0,
-            "n": 3796,
+            "n": 3763,
             "available": true,
             "label": "CSEP/DPP Finalized",
             "note": "By end of this year"
           },
           "units_attempted": {
-            "value": 45.0,
+            "value": 50.6,
             "target": null,
-            "n": 3455,
+            "n": 3420,
             "available": true,
             "label": "Units-Attempted Milestone",
             "note": "15+ units attempted by end of Year 1 (includes summer before the start of the fall semester)"
           },
           "units_completed": {
-            "value": 2.0,
+            "value": 2.3,
             "target": 80.0,
-            "n": 3455,
+            "n": 3420,
             "available": true,
             "label": "Units-Completed Milestone",
             "note": "15+ units completed by end of Year 1 (includes summer before the start of the fall semester)"
           },
           "persistence_fs": {
-            "value": null,
+            "value": 25.3,
             "target": null,
-            "n": 3796,
-            "available": false,
+            "n": 3763,
+            "available": true,
             "label": "Persistence, Fall-to-Spring",
             "note": "Year 1"
           }
@@ -3801,58 +3803,58 @@
         "LCP / Division": [
           {
             "LCP_current": "AHC",
-            "N": 338,
-            "Transfer-Level English Completed": 7.2,
-            "Transfer-Level Math Completed": 1.9,
+            "N": 342,
+            "Transfer-Level English Completed": 7.1,
+            "Transfer-Level Math Completed": 1.8,
             "CTE Units Completed": 0.0
           },
           {
             "LCP_current": "ATST",
-            "N": 532,
-            "Transfer-Level English Completed": 7.6,
-            "Transfer-Level Math Completed": 1.1,
+            "N": 526,
+            "Transfer-Level English Completed": 9.0,
+            "Transfer-Level Math Completed": 1.2,
             "CTE Units Completed": 0.0
           },
           {
             "LCP_current": "BAL",
-            "N": 737,
-            "Transfer-Level English Completed": 5.8,
-            "Transfer-Level Math Completed": 1.1,
+            "N": 736,
+            "Transfer-Level English Completed": 8.3,
+            "Transfer-Level Math Completed": 1.4,
             "CTE Units Completed": 0.0
           },
           {
             "LCP_current": "ED",
-            "N": 32,
-            "Transfer-Level English Completed": 3.6,
+            "N": 31,
+            "Transfer-Level English Completed": 7.4,
             "Transfer-Level Math Completed": 0.0,
             "CTE Units Completed": null
           },
           {
             "LCP_current": "EHS",
-            "N": 160,
-            "Transfer-Level English Completed": 11.5,
+            "N": 159,
+            "Transfer-Level English Completed": 12.9,
             "Transfer-Level Math Completed": 1.3,
             "CTE Units Completed": 0.0
           },
           {
             "LCP_current": "HSW",
-            "N": 850,
-            "Transfer-Level English Completed": 10.0,
-            "Transfer-Level Math Completed": 3.5,
+            "N": 844,
+            "Transfer-Level English Completed": 12.3,
+            "Transfer-Level Math Completed": 3.8,
             "CTE Units Completed": 0.0
           },
           {
             "LCP_current": "SBS",
-            "N": 463,
-            "Transfer-Level English Completed": 9.7,
+            "N": 452,
+            "Transfer-Level English Completed": 12.2,
             "Transfer-Level Math Completed": 3.5,
             "CTE Units Completed": 0.0
           },
           {
             "LCP_current": "SEM",
-            "N": 683,
-            "Transfer-Level English Completed": 14.6,
-            "Transfer-Level Math Completed": 9.5,
+            "N": 672,
+            "Transfer-Level English Completed": 16.1,
+            "Transfer-Level Math Completed": 9.9,
             "CTE Units Completed": 0.0
           },
           {
@@ -3866,7 +3868,7 @@
         "Major Classification": [
           {
             "major_classification_current": "CTE Certificate",
-            "N": 332,
+            "N": 334,
             "Transfer-Level English Completed": null,
             "Transfer-Level Math Completed": null,
             "CTE Units Completed": 0.0
@@ -3880,9 +3882,9 @@
           },
           {
             "major_classification_current": "Transfer/Degree-Seeking",
-            "N": 3455,
-            "Transfer-Level English Completed": 9.6,
-            "Transfer-Level Math Completed": 3.7,
+            "N": 3420,
+            "Transfer-Level English Completed": 11.4,
+            "Transfer-Level Math Completed": 3.9,
             "CTE Units Completed": null
           },
           {
@@ -3904,22 +3906,22 @@
           {
             "Ethnicity": "Asian",
             "N": 228,
-            "Transfer-Level English Completed": 23.4,
-            "Transfer-Level Math Completed": 16.2,
+            "Transfer-Level English Completed": 25.8,
+            "Transfer-Level Math Completed": 16.3,
             "CTE Units Completed": 0.0
           },
           {
             "Ethnicity": "Black or African American",
-            "N": 301,
-            "Transfer-Level English Completed": 4.2,
-            "Transfer-Level Math Completed": 1.0,
+            "N": 295,
+            "Transfer-Level English Completed": 6.4,
+            "Transfer-Level Math Completed": 1.1,
             "CTE Units Completed": 0.0
           },
           {
             "Ethnicity": "Hispanic/Latino",
-            "N": 2901,
-            "Transfer-Level English Completed": 9.2,
-            "Transfer-Level Math Completed": 3.0,
+            "N": 2888,
+            "Transfer-Level English Completed": 10.8,
+            "Transfer-Level Math Completed": 3.3,
             "CTE Units Completed": 0.0
           },
           {
@@ -3931,29 +3933,29 @@
           },
           {
             "Ethnicity": "Race/Ethnicity Unknown",
-            "N": 37,
+            "N": 36,
             "Transfer-Level English Completed": 0.0,
             "Transfer-Level Math Completed": 0.0,
             "CTE Units Completed": 0.0
           },
           {
             "Ethnicity": "Two or More Races",
-            "N": 81,
-            "Transfer-Level English Completed": 12.3,
-            "Transfer-Level Math Completed": 8.2,
+            "N": 79,
+            "Transfer-Level English Completed": 13.9,
+            "Transfer-Level Math Completed": 8.3,
             "CTE Units Completed": 0.0
           },
           {
             "Ethnicity": "White",
-            "N": 208,
-            "Transfer-Level English Completed": 8.7,
-            "Transfer-Level Math Completed": 2.2,
+            "N": 198,
+            "Transfer-Level English Completed": 12.7,
+            "Transfer-Level Math Completed": 2.3,
             "CTE Units Completed": 0.0
           },
           {
             "Ethnicity": null,
-            "N": 19,
-            "Transfer-Level English Completed": 18.2,
+            "N": 18,
+            "Transfer-Level English Completed": 20.0,
             "Transfer-Level Math Completed": 0.0,
             "CTE Units Completed": 0.0
           }
@@ -3961,16 +3963,16 @@
         "Gender": [
           {
             "Gender": "Female",
-            "N": 1818,
-            "Transfer-Level English Completed": 11.3,
-            "Transfer-Level Math Completed": 3.0,
+            "N": 1801,
+            "Transfer-Level English Completed": 12.9,
+            "Transfer-Level Math Completed": 3.1,
             "CTE Units Completed": 0.0
           },
           {
             "Gender": "Male",
-            "N": 1913,
-            "Transfer-Level English Completed": 8.0,
-            "Transfer-Level Math Completed": 4.4,
+            "N": 1897,
+            "Transfer-Level English Completed": 10.1,
+            "Transfer-Level Math Completed": 4.7,
             "CTE Units Completed": 0.0
           },
           {
@@ -3985,36 +3987,36 @@
       "segments": {
         "LCP": {
           "AHC": {
-            "n_students": 338,
+            "n_students": 342,
             "overall": {
               "english_attempted": {
-                "value": 77.9,
+                "value": 78.5,
                 "target": 85.0,
-                "n": 321,
+                "n": 325,
                 "available": true,
                 "label": "Transfer-Level English Attempted",
                 "note": "Ever attempted, as of this data pull -- Transfer/Degree-Seeking students"
               },
               "math_attempted": {
-                "value": 49.8,
+                "value": 53.5,
                 "target": 70.0,
-                "n": 321,
+                "n": 325,
                 "available": true,
                 "label": "Transfer-Level Math Attempted",
                 "note": "Ever attempted, as of this data pull -- Transfer/Degree-Seeking students"
               },
               "english_completed": {
-                "value": 7.2,
+                "value": 7.1,
                 "target": null,
-                "n": 321,
+                "n": 325,
                 "available": true,
                 "label": "Transfer-Level English Completed",
                 "note": "Ever completed -- Year 1 in progress"
               },
               "math_completed": {
-                "value": 1.9,
+                "value": 1.8,
                 "target": null,
-                "n": 321,
+                "n": 325,
                 "available": true,
                 "label": "Transfer-Level Math Completed",
                 "note": "Ever completed -- Year 1 in progress"
@@ -4040,7 +4042,7 @@
               "any_award": {
                 "value": 0.0,
                 "target": null,
-                "n": 338,
+                "n": 342,
                 "available": true,
                 "label": "Any Award Earned (ever)",
                 "note": "Degree or certificate, as of this data pull"
@@ -4048,7 +4050,7 @@
               "units_60_plus": {
                 "value": 0.0,
                 "target": null,
-                "n": 338,
+                "n": 342,
                 "available": true,
                 "label": "Earned 60+ Units",
                 "note": "Total completed units, as of this data pull"
@@ -4056,7 +4058,7 @@
               "graduated": {
                 "value": null,
                 "target": null,
-                "n": 338,
+                "n": 342,
                 "available": false,
                 "label": "Graduated",
                 "note": "As of this data pull"
@@ -4065,34 +4067,34 @@
             "by_year": {
               "1": {
                 "csep_dpp": {
-                  "value": 79.3,
+                  "value": 79.5,
                   "target": 80.0,
-                  "n": 338,
+                  "n": 342,
                   "available": true,
                   "label": "CSEP/DPP Finalized",
                   "note": "By end of this year"
                 },
                 "units_attempted": {
-                  "value": 42.1,
+                  "value": 51.4,
                   "target": null,
-                  "n": 321,
+                  "n": 325,
                   "available": true,
                   "label": "Units-Attempted Milestone",
                   "note": "15+ units attempted by end of Year 1 (includes summer before the start of the fall semester)"
                 },
                 "units_completed": {
-                  "value": 1.2,
+                  "value": 1.5,
                   "target": 80.0,
-                  "n": 321,
+                  "n": 325,
                   "available": true,
                   "label": "Units-Completed Milestone",
                   "note": "15+ units completed by end of Year 1 (includes summer before the start of the fall semester)"
                 },
                 "persistence_fs": {
-                  "value": null,
+                  "value": 21.3,
                   "target": null,
-                  "n": 338,
-                  "available": false,
+                  "n": 342,
+                  "available": true,
                   "label": "Persistence, Fall-to-Spring",
                   "note": "Year 1"
                 }
@@ -4100,44 +4102,44 @@
             }
           },
           "ATST": {
-            "n_students": 532,
+            "n_students": 526,
             "overall": {
               "english_attempted": {
-                "value": 73.7,
+                "value": 74.5,
                 "target": 85.0,
-                "n": 353,
+                "n": 345,
                 "available": true,
                 "label": "Transfer-Level English Attempted",
                 "note": "Ever attempted, as of this data pull -- Transfer/Degree-Seeking students"
               },
               "math_attempted": {
-                "value": 43.3,
+                "value": 44.3,
                 "target": 70.0,
-                "n": 353,
+                "n": 345,
                 "available": true,
                 "label": "Transfer-Level Math Attempted",
                 "note": "Ever attempted, as of this data pull -- Transfer/Degree-Seeking students"
               },
               "english_completed": {
-                "value": 7.6,
+                "value": 9.0,
                 "target": null,
-                "n": 353,
+                "n": 345,
                 "available": true,
                 "label": "Transfer-Level English Completed",
                 "note": "Ever completed -- Year 1 in progress"
               },
               "math_completed": {
-                "value": 1.1,
+                "value": 1.2,
                 "target": null,
-                "n": 353,
+                "n": 345,
                 "available": true,
                 "label": "Transfer-Level Math Completed",
                 "note": "Ever completed -- Year 1 in progress"
               },
               "cte_units_attempted": {
-                "value": 24.6,
+                "value": 30.4,
                 "target": 20.0,
-                "n": 179,
+                "n": 181,
                 "available": true,
                 "label": "CTE Units Attempted",
                 "note": "9+ CTE units, CTE Certificate students, AY1"
@@ -4145,7 +4147,7 @@
               "cte_units_completed": {
                 "value": 2.2,
                 "target": 20.0,
-                "n": 179,
+                "n": 181,
                 "available": true,
                 "label": "CTE Units Completed",
                 "note": "9+ CTE units, CTE Certificate students, AY1"
@@ -4153,7 +4155,7 @@
               "any_award": {
                 "value": 0.0,
                 "target": null,
-                "n": 532,
+                "n": 526,
                 "available": true,
                 "label": "Any Award Earned (ever)",
                 "note": "Degree or certificate, as of this data pull"
@@ -4161,7 +4163,7 @@
               "units_60_plus": {
                 "value": 0.0,
                 "target": null,
-                "n": 532,
+                "n": 526,
                 "available": true,
                 "label": "Earned 60+ Units",
                 "note": "Total completed units, as of this data pull"
@@ -4169,7 +4171,7 @@
               "graduated": {
                 "value": null,
                 "target": null,
-                "n": 532,
+                "n": 526,
                 "available": false,
                 "label": "Graduated",
                 "note": "As of this data pull"
@@ -4178,34 +4180,34 @@
             "by_year": {
               "1": {
                 "csep_dpp": {
-                  "value": 68.2,
+                  "value": 68.4,
                   "target": 80.0,
-                  "n": 532,
+                  "n": 526,
                   "available": true,
                   "label": "CSEP/DPP Finalized",
                   "note": "By end of this year"
                 },
                 "units_attempted": {
-                  "value": 27.2,
+                  "value": 34.2,
                   "target": null,
-                  "n": 353,
+                  "n": 345,
                   "available": true,
                   "label": "Units-Attempted Milestone",
                   "note": "15+ units attempted by end of Year 1 (includes summer before the start of the fall semester)"
                 },
                 "units_completed": {
-                  "value": 0.6,
+                  "value": 0.3,
                   "target": 80.0,
-                  "n": 353,
+                  "n": 345,
                   "available": true,
                   "label": "Units-Completed Milestone",
                   "note": "15+ units completed by end of Year 1 (includes summer before the start of the fall semester)"
                 },
                 "persistence_fs": {
-                  "value": null,
+                  "value": 15.8,
                   "target": null,
-                  "n": 532,
-                  "available": false,
+                  "n": 526,
+                  "available": true,
                   "label": "Persistence, Fall-to-Spring",
                   "note": "Year 1"
                 }
@@ -4213,52 +4215,52 @@
             }
           },
           "BAL": {
-            "n_students": 737,
+            "n_students": 736,
             "overall": {
               "english_attempted": {
-                "value": 70.3,
+                "value": 72.4,
                 "target": 85.0,
-                "n": 633,
+                "n": 630,
                 "available": true,
                 "label": "Transfer-Level English Attempted",
                 "note": "Ever attempted, as of this data pull -- Transfer/Degree-Seeking students"
               },
               "math_attempted": {
-                "value": 50.7,
+                "value": 53.5,
                 "target": 70.0,
-                "n": 633,
+                "n": 630,
                 "available": true,
                 "label": "Transfer-Level Math Attempted",
                 "note": "Ever attempted, as of this data pull -- Transfer/Degree-Seeking students"
               },
               "english_completed": {
-                "value": 5.8,
+                "value": 8.3,
                 "target": null,
-                "n": 633,
+                "n": 630,
                 "available": true,
                 "label": "Transfer-Level English Completed",
                 "note": "Ever completed -- Year 1 in progress"
               },
               "math_completed": {
-                "value": 1.1,
+                "value": 1.4,
                 "target": null,
-                "n": 633,
+                "n": 630,
                 "available": true,
                 "label": "Transfer-Level Math Completed",
                 "note": "Ever completed -- Year 1 in progress"
               },
               "cte_units_attempted": {
-                "value": 21.2,
+                "value": 20.8,
                 "target": 20.0,
-                "n": 104,
+                "n": 106,
                 "available": true,
                 "label": "CTE Units Attempted",
                 "note": "9+ CTE units, CTE Certificate students, AY1"
               },
               "cte_units_completed": {
-                "value": 3.8,
+                "value": 8.5,
                 "target": 20.0,
-                "n": 104,
+                "n": 106,
                 "available": true,
                 "label": "CTE Units Completed",
                 "note": "9+ CTE units, CTE Certificate students, AY1"
@@ -4266,7 +4268,7 @@
               "any_award": {
                 "value": 0.3,
                 "target": null,
-                "n": 737,
+                "n": 736,
                 "available": true,
                 "label": "Any Award Earned (ever)",
                 "note": "Degree or certificate, as of this data pull"
@@ -4274,7 +4276,7 @@
               "units_60_plus": {
                 "value": 0.0,
                 "target": null,
-                "n": 737,
+                "n": 736,
                 "available": true,
                 "label": "Earned 60+ Units",
                 "note": "Total completed units, as of this data pull"
@@ -4282,7 +4284,7 @@
               "graduated": {
                 "value": 0.3,
                 "target": null,
-                "n": 737,
+                "n": 736,
                 "available": true,
                 "label": "Graduated",
                 "note": "As of this data pull"
@@ -4291,34 +4293,34 @@
             "by_year": {
               "1": {
                 "csep_dpp": {
-                  "value": 67.4,
+                  "value": 69.0,
                   "target": 80.0,
-                  "n": 737,
+                  "n": 736,
                   "available": true,
                   "label": "CSEP/DPP Finalized",
                   "note": "By end of this year"
                 },
                 "units_attempted": {
-                  "value": 45.2,
+                  "value": 50.8,
                   "target": null,
-                  "n": 633,
+                  "n": 630,
                   "available": true,
                   "label": "Units-Attempted Milestone",
                   "note": "15+ units attempted by end of Year 1 (includes summer before the start of the fall semester)"
                 },
                 "units_completed": {
-                  "value": 1.7,
+                  "value": 2.4,
                   "target": 80.0,
-                  "n": 633,
+                  "n": 630,
                   "available": true,
                   "label": "Units-Completed Milestone",
                   "note": "15+ units completed by end of Year 1 (includes summer before the start of the fall semester)"
                 },
                 "persistence_fs": {
-                  "value": null,
+                  "value": 21.5,
                   "target": null,
-                  "n": 737,
-                  "available": false,
+                  "n": 736,
+                  "available": true,
                   "label": "Persistence, Fall-to-Spring",
                   "note": "Year 1"
                 }
@@ -4326,28 +4328,28 @@
             }
           },
           "ED": {
-            "n_students": 32,
+            "n_students": 31,
             "overall": {
               "english_attempted": {
-                "value": 75.0,
+                "value": 70.4,
                 "target": 85.0,
-                "n": 28,
+                "n": 27,
                 "available": true,
                 "label": "Transfer-Level English Attempted",
                 "note": "Ever attempted, as of this data pull -- Transfer/Degree-Seeking students"
               },
               "math_attempted": {
-                "value": 39.3,
+                "value": 37.0,
                 "target": 70.0,
-                "n": 28,
+                "n": 27,
                 "available": true,
                 "label": "Transfer-Level Math Attempted",
                 "note": "Ever attempted, as of this data pull -- Transfer/Degree-Seeking students"
               },
               "english_completed": {
-                "value": 3.6,
+                "value": 7.4,
                 "target": null,
-                "n": 28,
+                "n": 27,
                 "available": true,
                 "label": "Transfer-Level English Completed",
                 "note": "Ever completed -- Year 1 in progress"
@@ -4355,7 +4357,7 @@
               "math_completed": {
                 "value": null,
                 "target": null,
-                "n": 28,
+                "n": 27,
                 "available": false,
                 "label": "Transfer-Level Math Completed",
                 "note": "Ever completed -- Year 1 in progress",
@@ -4380,7 +4382,7 @@
               "any_award": {
                 "value": 0.0,
                 "target": null,
-                "n": 32,
+                "n": 31,
                 "available": true,
                 "label": "Any Award Earned (ever)",
                 "note": "Degree or certificate, as of this data pull"
@@ -4388,7 +4390,7 @@
               "units_60_plus": {
                 "value": 0.0,
                 "target": null,
-                "n": 32,
+                "n": 31,
                 "available": true,
                 "label": "Earned 60+ Units",
                 "note": "Total completed units, as of this data pull"
@@ -4396,7 +4398,7 @@
               "graduated": {
                 "value": null,
                 "target": null,
-                "n": 32,
+                "n": 31,
                 "available": false,
                 "label": "Graduated",
                 "note": "As of this data pull"
@@ -4405,34 +4407,34 @@
             "by_year": {
               "1": {
                 "csep_dpp": {
-                  "value": 37.5,
+                  "value": 32.3,
                   "target": 80.0,
-                  "n": 32,
+                  "n": 31,
                   "available": true,
                   "label": "CSEP/DPP Finalized",
                   "note": "By end of this year"
                 },
                 "units_attempted": {
-                  "value": 14.3,
+                  "value": 14.8,
                   "target": null,
-                  "n": 28,
+                  "n": 27,
                   "available": true,
                   "label": "Units-Attempted Milestone",
                   "note": "15+ units attempted by end of Year 1 (includes summer before the start of the fall semester)"
                 },
                 "units_completed": {
-                  "value": 3.6,
+                  "value": 3.7,
                   "target": 80.0,
-                  "n": 28,
+                  "n": 27,
                   "available": true,
                   "label": "Units-Completed Milestone",
                   "note": "15+ units completed by end of Year 1 (includes summer before the start of the fall semester)"
                 },
                 "persistence_fs": {
-                  "value": null,
+                  "value": 3.2,
                   "target": null,
-                  "n": 32,
-                  "available": false,
+                  "n": 31,
+                  "available": true,
                   "label": "Persistence, Fall-to-Spring",
                   "note": "Year 1"
                 }
@@ -4440,28 +4442,28 @@
             }
           },
           "EHS": {
-            "n_students": 160,
+            "n_students": 159,
             "overall": {
               "english_attempted": {
-                "value": 75.0,
+                "value": 77.4,
                 "target": 85.0,
-                "n": 156,
+                "n": 155,
                 "available": true,
                 "label": "Transfer-Level English Attempted",
                 "note": "Ever attempted, as of this data pull -- Transfer/Degree-Seeking students"
               },
               "math_attempted": {
-                "value": 51.3,
+                "value": 52.9,
                 "target": 70.0,
-                "n": 156,
+                "n": 155,
                 "available": true,
                 "label": "Transfer-Level Math Attempted",
                 "note": "Ever attempted, as of this data pull -- Transfer/Degree-Seeking students"
               },
               "english_completed": {
-                "value": 11.5,
+                "value": 12.9,
                 "target": null,
-                "n": 156,
+                "n": 155,
                 "available": true,
                 "label": "Transfer-Level English Completed",
                 "note": "Ever completed -- Year 1 in progress"
@@ -4469,7 +4471,7 @@
               "math_completed": {
                 "value": 1.3,
                 "target": null,
-                "n": 156,
+                "n": 155,
                 "available": true,
                 "label": "Transfer-Level Math Completed",
                 "note": "Ever completed -- Year 1 in progress"
@@ -4495,7 +4497,7 @@
               "any_award": {
                 "value": 0.0,
                 "target": null,
-                "n": 160,
+                "n": 159,
                 "available": true,
                 "label": "Any Award Earned (ever)",
                 "note": "Degree or certificate, as of this data pull"
@@ -4503,7 +4505,7 @@
               "units_60_plus": {
                 "value": 0.0,
                 "target": null,
-                "n": 160,
+                "n": 159,
                 "available": true,
                 "label": "Earned 60+ Units",
                 "note": "Total completed units, as of this data pull"
@@ -4511,7 +4513,7 @@
               "graduated": {
                 "value": null,
                 "target": null,
-                "n": 160,
+                "n": 159,
                 "available": false,
                 "label": "Graduated",
                 "note": "As of this data pull"
@@ -4520,34 +4522,34 @@
             "by_year": {
               "1": {
                 "csep_dpp": {
-                  "value": 79.4,
+                  "value": 81.8,
                   "target": 80.0,
-                  "n": 160,
+                  "n": 159,
                   "available": true,
                   "label": "CSEP/DPP Finalized",
                   "note": "By end of this year"
                 },
                 "units_attempted": {
-                  "value": 40.4,
+                  "value": 49.0,
                   "target": null,
-                  "n": 156,
+                  "n": 155,
                   "available": true,
                   "label": "Units-Attempted Milestone",
                   "note": "15+ units attempted by end of Year 1 (includes summer before the start of the fall semester)"
                 },
                 "units_completed": {
-                  "value": 1.3,
+                  "value": 1.9,
                   "target": 80.0,
-                  "n": 156,
+                  "n": 155,
                   "available": true,
                   "label": "Units-Completed Milestone",
                   "note": "15+ units completed by end of Year 1 (includes summer before the start of the fall semester)"
                 },
                 "persistence_fs": {
-                  "value": null,
+                  "value": 25.8,
                   "target": null,
-                  "n": 160,
-                  "available": false,
+                  "n": 159,
+                  "available": true,
                   "label": "Persistence, Fall-to-Spring",
                   "note": "Year 1"
                 }
@@ -4555,44 +4557,44 @@
             }
           },
           "HSW": {
-            "n_students": 850,
+            "n_students": 844,
             "overall": {
               "english_attempted": {
-                "value": 80.8,
+                "value": 81.2,
                 "target": 85.0,
-                "n": 826,
+                "n": 821,
                 "available": true,
                 "label": "Transfer-Level English Attempted",
                 "note": "Ever attempted, as of this data pull -- Transfer/Degree-Seeking students"
               },
               "math_attempted": {
-                "value": 59.9,
+                "value": 63.6,
                 "target": 70.0,
-                "n": 826,
+                "n": 821,
                 "available": true,
                 "label": "Transfer-Level Math Attempted",
                 "note": "Ever attempted, as of this data pull -- Transfer/Degree-Seeking students"
               },
               "english_completed": {
-                "value": 10.0,
+                "value": 12.3,
                 "target": null,
-                "n": 826,
+                "n": 821,
                 "available": true,
                 "label": "Transfer-Level English Completed",
                 "note": "Ever completed -- Year 1 in progress"
               },
               "math_completed": {
-                "value": 3.5,
+                "value": 3.8,
                 "target": null,
-                "n": 826,
+                "n": 821,
                 "available": true,
                 "label": "Transfer-Level Math Completed",
                 "note": "Ever completed -- Year 1 in progress"
               },
               "cte_units_attempted": {
-                "value": 8.7,
+                "value": 18.2,
                 "target": 20.0,
-                "n": 23,
+                "n": 22,
                 "available": true,
                 "label": "CTE Units Attempted",
                 "note": "9+ CTE units, CTE Certificate students, AY1"
@@ -4600,7 +4602,7 @@
               "cte_units_completed": {
                 "value": null,
                 "target": 20.0,
-                "n": 23,
+                "n": 22,
                 "available": false,
                 "label": "CTE Units Completed",
                 "note": "9+ CTE units, CTE Certificate students, AY1",
@@ -4609,7 +4611,7 @@
               "any_award": {
                 "value": 0.1,
                 "target": null,
-                "n": 850,
+                "n": 844,
                 "available": true,
                 "label": "Any Award Earned (ever)",
                 "note": "Degree or certificate, as of this data pull"
@@ -4617,7 +4619,7 @@
               "units_60_plus": {
                 "value": 0.2,
                 "target": null,
-                "n": 850,
+                "n": 844,
                 "available": true,
                 "label": "Earned 60+ Units",
                 "note": "Total completed units, as of this data pull"
@@ -4625,7 +4627,7 @@
               "graduated": {
                 "value": 0.1,
                 "target": null,
-                "n": 850,
+                "n": 844,
                 "available": true,
                 "label": "Graduated",
                 "note": "As of this data pull"
@@ -4634,34 +4636,34 @@
             "by_year": {
               "1": {
                 "csep_dpp": {
-                  "value": 83.1,
+                  "value": 84.2,
                   "target": 80.0,
-                  "n": 850,
+                  "n": 844,
                   "available": true,
                   "label": "CSEP/DPP Finalized",
                   "note": "By end of this year"
                 },
                 "units_attempted": {
-                  "value": 45.8,
+                  "value": 50.7,
                   "target": null,
-                  "n": 826,
+                  "n": 821,
                   "available": true,
                   "label": "Units-Attempted Milestone",
                   "note": "15+ units attempted by end of Year 1 (includes summer before the start of the fall semester)"
                 },
                 "units_completed": {
-                  "value": 2.3,
+                  "value": 2.7,
                   "target": 80.0,
-                  "n": 826,
+                  "n": 821,
                   "available": true,
                   "label": "Units-Completed Milestone",
                   "note": "15+ units completed by end of Year 1 (includes summer before the start of the fall semester)"
                 },
                 "persistence_fs": {
-                  "value": null,
+                  "value": 29.3,
                   "target": null,
-                  "n": 850,
-                  "available": false,
+                  "n": 844,
+                  "available": true,
                   "label": "Persistence, Fall-to-Spring",
                   "note": "Year 1"
                 }
@@ -4669,28 +4671,28 @@
             }
           },
           "SBS": {
-            "n_students": 463,
+            "n_students": 452,
             "overall": {
               "english_attempted": {
-                "value": 77.3,
+                "value": 79.8,
                 "target": 85.0,
-                "n": 462,
+                "n": 451,
                 "available": true,
                 "label": "Transfer-Level English Attempted",
                 "note": "Ever attempted, as of this data pull -- Transfer/Degree-Seeking students"
               },
               "math_attempted": {
-                "value": 52.8,
+                "value": 58.3,
                 "target": 70.0,
-                "n": 462,
+                "n": 451,
                 "available": true,
                 "label": "Transfer-Level Math Attempted",
                 "note": "Ever attempted, as of this data pull -- Transfer/Degree-Seeking students"
               },
               "english_completed": {
-                "value": 9.7,
+                "value": 12.2,
                 "target": null,
-                "n": 462,
+                "n": 451,
                 "available": true,
                 "label": "Transfer-Level English Completed",
                 "note": "Ever completed -- Year 1 in progress"
@@ -4698,7 +4700,7 @@
               "math_completed": {
                 "value": 3.5,
                 "target": null,
-                "n": 462,
+                "n": 451,
                 "available": true,
                 "label": "Transfer-Level Math Completed",
                 "note": "Ever completed -- Year 1 in progress"
@@ -4724,7 +4726,7 @@
               "any_award": {
                 "value": 0.0,
                 "target": null,
-                "n": 463,
+                "n": 452,
                 "available": true,
                 "label": "Any Award Earned (ever)",
                 "note": "Degree or certificate, as of this data pull"
@@ -4732,7 +4734,7 @@
               "units_60_plus": {
                 "value": 0.0,
                 "target": null,
-                "n": 463,
+                "n": 452,
                 "available": true,
                 "label": "Earned 60+ Units",
                 "note": "Total completed units, as of this data pull"
@@ -4740,7 +4742,7 @@
               "graduated": {
                 "value": null,
                 "target": null,
-                "n": 463,
+                "n": 452,
                 "available": false,
                 "label": "Graduated",
                 "note": "As of this data pull"
@@ -4749,34 +4751,34 @@
             "by_year": {
               "1": {
                 "csep_dpp": {
-                  "value": 95.0,
+                  "value": 100.0,
                   "target": 80.0,
-                  "n": 463,
+                  "n": 452,
                   "available": true,
                   "label": "CSEP/DPP Finalized",
                   "note": "By end of this year"
                 },
                 "units_attempted": {
-                  "value": 49.8,
+                  "value": 54.3,
                   "target": null,
-                  "n": 462,
+                  "n": 451,
                   "available": true,
                   "label": "Units-Attempted Milestone",
                   "note": "15+ units attempted by end of Year 1 (includes summer before the start of the fall semester)"
                 },
                 "units_completed": {
-                  "value": 2.4,
+                  "value": 2.9,
                   "target": 80.0,
-                  "n": 462,
+                  "n": 451,
                   "available": true,
                   "label": "Units-Completed Milestone",
                   "note": "15+ units completed by end of Year 1 (includes summer before the start of the fall semester)"
                 },
                 "persistence_fs": {
-                  "value": null,
+                  "value": 30.1,
                   "target": null,
-                  "n": 463,
-                  "available": false,
+                  "n": 452,
+                  "available": true,
                   "label": "Persistence, Fall-to-Spring",
                   "note": "Year 1"
                 }
@@ -4784,36 +4786,36 @@
             }
           },
           "SEM": {
-            "n_students": 683,
+            "n_students": 672,
             "overall": {
               "english_attempted": {
-                "value": 84.9,
+                "value": 85.3,
                 "target": 85.0,
-                "n": 676,
+                "n": 666,
                 "available": true,
                 "label": "Transfer-Level English Attempted",
                 "note": "Ever attempted, as of this data pull -- Transfer/Degree-Seeking students"
               },
               "math_attempted": {
-                "value": 77.1,
+                "value": 79.9,
                 "target": 70.0,
-                "n": 676,
+                "n": 666,
                 "available": true,
                 "label": "Transfer-Level Math Attempted",
                 "note": "Ever attempted, as of this data pull -- Transfer/Degree-Seeking students"
               },
               "english_completed": {
-                "value": 14.6,
+                "value": 16.1,
                 "target": null,
-                "n": 676,
+                "n": 666,
                 "available": true,
                 "label": "Transfer-Level English Completed",
                 "note": "Ever completed -- Year 1 in progress"
               },
               "math_completed": {
-                "value": 9.5,
+                "value": 9.9,
                 "target": null,
-                "n": 676,
+                "n": 666,
                 "available": true,
                 "label": "Transfer-Level Math Completed",
                 "note": "Ever completed -- Year 1 in progress"
@@ -4821,7 +4823,7 @@
               "cte_units_attempted": {
                 "value": null,
                 "target": 20.0,
-                "n": 7,
+                "n": 6,
                 "available": false,
                 "label": "CTE Units Attempted",
                 "note": "9+ CTE units, CTE Certificate students, AY1",
@@ -4830,7 +4832,7 @@
               "cte_units_completed": {
                 "value": null,
                 "target": 20.0,
-                "n": 7,
+                "n": 6,
                 "available": false,
                 "label": "CTE Units Completed",
                 "note": "9+ CTE units, CTE Certificate students, AY1",
@@ -4839,7 +4841,7 @@
               "any_award": {
                 "value": 0.1,
                 "target": null,
-                "n": 683,
+                "n": 672,
                 "available": true,
                 "label": "Any Award Earned (ever)",
                 "note": "Degree or certificate, as of this data pull"
@@ -4847,7 +4849,7 @@
               "units_60_plus": {
                 "value": 0.0,
                 "target": null,
-                "n": 683,
+                "n": 672,
                 "available": true,
                 "label": "Earned 60+ Units",
                 "note": "Total completed units, as of this data pull"
@@ -4855,7 +4857,7 @@
               "graduated": {
                 "value": 0.1,
                 "target": null,
-                "n": 683,
+                "n": 672,
                 "available": true,
                 "label": "Graduated",
                 "note": "As of this data pull"
@@ -4864,17 +4866,17 @@
             "by_year": {
               "1": {
                 "csep_dpp": {
-                  "value": 83.3,
+                  "value": 84.7,
                   "target": 80.0,
-                  "n": 683,
+                  "n": 672,
                   "available": true,
                   "label": "CSEP/DPP Finalized",
                   "note": "By end of this year"
                 },
                 "units_attempted": {
-                  "value": 53.6,
+                  "value": 57.7,
                   "target": null,
-                  "n": 676,
+                  "n": 666,
                   "available": true,
                   "label": "Units-Attempted Milestone",
                   "note": "15+ units attempted by end of Year 1 (includes summer before the start of the fall semester)"
@@ -4882,16 +4884,16 @@
                 "units_completed": {
                   "value": 3.0,
                   "target": 80.0,
-                  "n": 676,
+                  "n": 666,
                   "available": true,
                   "label": "Units-Completed Milestone",
                   "note": "15+ units completed by end of Year 1 (includes summer before the start of the fall semester)"
                 },
                 "persistence_fs": {
-                  "value": null,
+                  "value": 31.8,
                   "target": null,
-                  "n": 683,
-                  "available": false,
+                  "n": 672,
+                  "available": true,
                   "label": "Persistence, Fall-to-Spring",
                   "note": "Year 1"
                 }
@@ -5019,7 +5021,7 @@
     }
   },
   "disclosure_control": {
-    "segment_cells_suppressed": 32,
+    "segment_cells_suppressed": 34,
     "segment_report": [
       {
         "where": "Fall 2024 | AHC",
@@ -5141,6 +5143,20 @@
         "rule": "EXTREME"
       },
       {
+        "where": "Fall 2025 | SBS",
+        "metric": "cte_units_attempted",
+        "n": 1,
+        "value": 0.0,
+        "rule": "PRIMARY"
+      },
+      {
+        "where": "Fall 2025 | SBS",
+        "metric": "cte_units_completed",
+        "n": 1,
+        "value": 0.0,
+        "rule": "PRIMARY"
+      },
+      {
         "where": "Fall 2025 | SEM",
         "metric": "cte_units_attempted",
         "n": 1,
@@ -5171,7 +5187,7 @@
       {
         "where": "Fall 2026 | ED",
         "metric": "math_completed",
-        "n": 28,
+        "n": 27,
         "value": 0.0,
         "rule": "EXTREME"
       },
@@ -5192,7 +5208,7 @@
       {
         "where": "Fall 2026 | HSW",
         "metric": "cte_units_completed",
-        "n": 23,
+        "n": 22,
         "value": 0.0,
         "rule": "EXTREME"
       },
@@ -5213,14 +5229,14 @@
       {
         "where": "Fall 2026 | SEM",
         "metric": "cte_units_attempted",
-        "n": 7,
+        "n": 6,
         "value": 0.0,
         "rule": "PRIMARY"
       },
       {
         "where": "Fall 2026 | SEM",
         "metric": "cte_units_completed",
-        "n": 7,
+        "n": 6,
         "value": 0.0,
         "rule": "PRIMARY"
       },
@@ -5657,8 +5673,8 @@
   },
   "reports_meta": {
     "source": "ai",
-    "approved_at": "2026-10-20T11:16:03",
+    "approved_at": "2026-11-02T12:40:47",
     "approved_by": "Frank Mixson",
-    "data_as_of": "2026-10-16"
+    "data_as_of": "2026-10-30"
   }
 }
