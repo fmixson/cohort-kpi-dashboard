@@ -151,8 +151,9 @@ def goal_section(snapshot: dict | None, scope: str | None = None, scope_name: st
     else:
         c1.markdown(_tile("5-year completion to date", f"{rate:.1%}", f"{k:,} of {n:,} · {who}",
                           RED if rate * 100 < base else NAVY,
-                          f"Students who started in Fall {fall} and have already earned a degree or certificate or "
-                          f"completed 60+ degree-applicable units. It keeps rising until spring {gy}."),
+                          f"Students who started in Fall {fall} and have already earned a degree, a certificate or a "
+                          f"GE pattern certification, or completed 60+ degree-applicable units. It keeps rising until "
+                          f"spring {gy}."),
                     unsafe_allow_html=True)
         c2.markdown(_tile(f"More completers needed for {goal:.0f}%", f"{needed(b, goal):,}", f"by spring {gy}"),
                     unsafe_allow_html=True)
@@ -213,8 +214,10 @@ def cohort_completed(snapshot: dict | None, cohort: str, scope: str | None = Non
     else:
         reach = f"Their five-year mark has passed. {'They reached the goal.' if not need else f'{need:,} short of the goal.'}"
     parts = [("degree", "earned a degree"), ("certificate", "earned a certificate (no degree)"),
+             ("ge_certificate", "earned a GE pattern certification (CSU GE / IGETC / Cal-GETC) only"),
              ("units_60", "completed 60+ units (no award yet)")]
-    how = " · ".join(f"{b[f]:,} {txt}" if b.get(f) is not None else f"{txt}: withheld" for f, txt in parts)
+    how = " · ".join(f"{b[f]:,} {txt}" if b.get(f) is not None else f"{txt}: withheld" for f, txt in parts
+                     if f in b)          # older snapshots have no ge_certificate count
     st.markdown(
         f"<div style='border:1px solid {BORDER};border-radius:10px;padding:1rem 1.2rem 0.9rem 1.2rem;"
         f"background:white;margin-bottom:1rem;'>"
