@@ -31,6 +31,14 @@ try:
 except ImportError:
     LCP_NAMES = {}
 
+# The Students First Framework completion goal panels (shared with the LCP
+# Student Success Dashboard). Like lcp_names.py, a missing file only hides
+# those panels rather than breaking the dashboard.
+try:
+    import completion_view
+except ImportError:
+    completion_view = None
+
 ALL_LCPS = "All LCPs"
 
 
@@ -192,7 +200,8 @@ if use_sample:
 
 _dc = snapshot.get("disclosure_control") or {}
 if _dc:
-    _n = _dc.get("segment_cells_suppressed", 0) + _dc.get("cells_suppressed", 0)
+    _n = (_dc.get("segment_cells_suppressed", 0) + _dc.get("cells_suppressed", 0)
+          + _dc.get("completion_cells_suppressed", 0))
     if _n:
         st.sidebar.caption(
             f"Disclosure control: {_n} figure(s) withheld where fewer than "
@@ -219,6 +228,12 @@ st.caption(
     "Computed from the student-level data, independent of the KPI Weekly Report workbook -- "
     "richer breakdowns, and a useful cross-check against the official figures."
 )
+
+# ---- Students First Framework goal (same panels as SFF at a Glance) -------
+# Whole college, Fall 2024 cohort. Draws nothing for a snapshot built before
+# student_data_tool started exporting completion counts.
+if completion_view is not None:
+    completion_view.goal_section(snapshot)
 
 st.subheader("Institutional Overview — All Cohorts")
 st.caption(
@@ -354,6 +369,13 @@ st.markdown(
     """,
     unsafe_allow_html=True,
 )
+
+# "X of the N students who started in Fall YYYY have completed so far" --
+# follows the cohort and LCP chosen above.
+if completion_view is not None:
+    completion_view.cohort_completed(snapshot, cohort_label,
+                                     None if scope == ALL_LCPS else scope,
+                                     None if scope == ALL_LCPS else lcp_label(scope))
 
 # Approved takeaways and actions for whatever is currently selected --
 # institution when the scope is All LCPs, that pathway's own when one is chosen.
